@@ -1,2 +1,2 @@
-# danielhj1998.studious.github.io
+# Studious
 My personal school (Mechatronic Engineering) notes
