@@ -1,1 +1,1 @@
-[Control de Sistemas Mecatrónicos](./Control\ de \ Sistemas \ Mecatrónicos/index.md)
+[Control de Sistemas Mecatrónicos](./CSM/index.md)
