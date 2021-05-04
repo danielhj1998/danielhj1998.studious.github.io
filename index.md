@@ -1,3 +1,6 @@
-This are my personal school (Mechatronic Engineering) notes and are written in spanish.
+---
+layout: default
+title: Semestres
+---
 
-[7 Semestre](./7mo_semestre/index.md)
+[7mo Semestre](./7mo_semestre/index.md)

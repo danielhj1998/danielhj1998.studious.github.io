@@ -1,0 +1,82 @@
+---
+---
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@charset "utf-8";
+
+/* Constants */
+$font-size-body: 16px;
+
+/* Colors */
+$dark: #36393b;
+$clear: white;
+$accent: #dab49b;
+$secondary: #634d55;
+
+html, body {
+    height: 90%;
+}
+
+body {
+    /* General styles */
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $dark;
+}
+
+// Default layout
+div.go-home {
+  margin: 10px 0 0 10px;
+  svg {
+    display: inline-block;
+    width: $font-size-body * 4;
+    height: $font-size-body * 4;
+    vertical-align: middle;
+  }
+}
+
+div.page-content {
+    padding: 20px 20px;
+    height: 100%;
+}
+
+// index.html
+div.home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    img.photo {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 3px solid;
+        margin-right: 40px;
+    }
+    div.main-container {
+        display: flex;
+        div.info-container {
+            max-width: 700px;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+    div.social-container {
+        a {
+            text-decoration: none;
+            :hover{
+                opacity: 0.8;
+            }
+        }
+
+        svg {
+            margin-right: 20px;
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
