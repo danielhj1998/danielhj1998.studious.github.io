@@ -23,6 +23,7 @@
           <a href="{{ site.url }}"> {% include icons/logo.svg %} </a>
         </div>
     <div class="page-content">
+        <h2>{% if page.title %}{{ page.title | escape }}{% endif %}</h2>
       {{ content }}
     </div>
   </body>
