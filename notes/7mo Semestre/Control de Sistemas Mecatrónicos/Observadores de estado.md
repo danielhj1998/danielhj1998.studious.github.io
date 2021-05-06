@@ -55,13 +55,11 @@ $$
 
 Se define el error de estimación como,
 
-$$(3)\quad e = x - \hat{x$$
-$
+$$(3)\quad e = x - \hat{x}$$
 
 Derivando (3)
 
-$$(4)\quad \dot{e} = \dot{x} - \dot{\hat{x}$$
-$
+$$(4)\quad \dot{e} = \dot{x} - \dot{\hat{x}}$$
 
 Sustituyendo (1) y (2) en (4),
 
@@ -145,13 +143,10 @@ $$
 # Forma canónica controlable
 
 $$\tilde{x} = $$
-$
 
 $$x = S\tilde{x} = S$$
-$
 
 $$\tilde{O} = O$$
-$
 
 Considere el sistema `SISO`
 
@@ -316,8 +311,7 @@ $$
 ## Procedimiento
 1. Determinar el polinomio característico del sistema (1), $p(s) =det(sI-A)$
 
-$$a_1,a_2,\ldots,a_$$
-$
+$$a_1,a_2,\ldots,a_n$$
 2. Obtener el polinomio característico con los polos del observador
 
 $$
@@ -335,8 +329,7 @@ $$
 eig(A-LC)
 ```
 
-$$\mu_1,\mu_2,\ldots,\mu_$$
-$
+$$\mu_1,\mu_2,\ldots,\mu_n$$
 
 # Fórmula de Ackerman
 Considere el sistema `SISO`
@@ -437,17 +430,13 @@ $$
 # Ecuación de Lyapunov
 Sea F una matriz con valores característicos iguales que la dinámica deseada del observador, entonces:
 
-$$A - LC = T^{-1}FT\quad,\quad T\text{ invertible$$
-$
+$$A - LC = T^{-1}FT\quad,\quad T\text{ invertible}$$
 
 $$TA - TLC = F$$
-$
 
 $$-FT + TA - \underbrace{TL}_{\bar{L}}C = $$
-$
 
-$$\boxed{-FT + TA - \bar{L}C = 0}\\\text{Ecuación de Lyapunov}
-$$
+$$\boxed{-FT + TA - \bar{L}C = 0}\\\text{Ecuación de Lyapunov}$$
 
 
 ## Procedimiento
