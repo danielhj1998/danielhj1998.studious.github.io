@@ -51,3 +51,8 @@ La matriz calculada es la siguiente:
 ![fee199dcac360eb7615910fa19ac8c16.png](../../img/bafaaccbe04142549991952ae39d536f.png)
 Por lo tanto:
 ![8e0e8d6f475982869ac8773fe5180dea.png](../../img/a5e3475513f741799cedbf90766b8727.png)
+# Principio de extensión
+
+$$
+R = \left\{(x,y,\mu_R(x,y))|: x \in X; y \in Y\right\}
+$$

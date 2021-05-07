@@ -10,7 +10,7 @@ $$
 Si el par $(A,C)$ no es observable, entonces no es posible asignar una dinámica estable a la matriz $(A-LC)$ de manera directa.
 
 $$
-    r = \text{rank}(\theta) < n    
+    r = \text{rank}(O_k) < n
 $$
 
 Donde $r$ es el número de vectores fila linealmente independientes de $O_k$

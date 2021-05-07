@@ -69,4 +69,60 @@ Va asociada a el funcionamiento del componente.
 * [McMaster-CARR](https://www.mcmaster.com/)
 
 # Selección de materiales
+Es de suma importancia en el diseño, pues una mala elección de estos pueden implicar `fallas` y `costos` innecesarios.
+
+* Incremento Costo de Manufactura
+* Incremento tiempo de Manufactura
+* Cambio de propiedades del material - cambio de procesos de manufactura
+* Afecciones en rendimiento
+
+La selección debe ir paralela al proceso de diseño.
+
+![trianguloDisManMat](../../img/trianguloDisenoManufacturaMateriales.png)
+
+Para esto debemos pasar de posibles materiales a un sólo material.
+
+## Procedimiento
+1. Definir las funciones para que cumpla el rendimiento
+    * Traducirlas en propiedades de los materiales
+    * Costo del Material y disponibilidad
+2. Definir los requerimientos de manufactura
+    * Parámetros como: cantidad de piezas, tamaño, complejidad, tolerancia, acabado. etc. 
+3. Comparar las características en Bases de Datos.
+    * Buscar propiedades que marquen un límite superior o inferior.
+    * Preguntar: Este material cumple las características del diseño?
+4. Investigar los candidatos
+    * Más detalles de los materiales, marcas, costos, fabricación, procesado.
+    * Verificar la disponibilidad en presentaciones, tamaño, ventas.
+    * Aplicar matrices de decisión.
+5. Pruebas y estándares
+    * En ocasiones es necesario validar el material definiendo ciertas pruebas
+    * Apoyarse en ATSM, ANSI, SAE y MIL
+
+## Proceso de sustitución para un producto o diseño existente:
+1. Definir las funciones para que cumpla el rendimiento
+2. Definir qué características son importantes para el funcionamiento
+    * `Características por mejorar`
+
+    
+## Importancia de los materiales de Ashvile
+
+![importanceMaterialsAsh](../../img/importanceMaterialsAsh.png)
+
+Materiales por función
+
+![relacionMaterialProcesosDiseño](../../img/relacionMaterialProcesosDiseño.png)
+
+Ashvile realizó una forma de elección de materiales, evaluando cada propiedad que obedece a una función:
+
+![graficaClasesMaterialesAshville.png](../../img/graficaClasesMaterialesAshville.png)
+
+![graficaClasesMaterialesAshville2.png](../../img/graficaClasesMaterialesAshville2.png)
+
+![graficaClasesMaterialesAshville3.png](../../img/graficaClasesMaterialesAshville3.png)
+
+![tablaIndicesMateriales.png](../../img/tablaIndicesMateriales.png)
+
+El clasifica los materiales por clases, subclases, etc, hasta llegar a sus atributos:
+
 # Selección de procesos
