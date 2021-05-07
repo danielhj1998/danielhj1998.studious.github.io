@@ -1,5 +1,3 @@
----
-layout: index
 title: Autómatas Industriales
 ---
 

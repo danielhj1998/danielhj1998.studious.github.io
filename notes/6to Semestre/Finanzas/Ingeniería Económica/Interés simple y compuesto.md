@@ -1,5 +1,3 @@
-Interés simple y compuesto
-
 # Interés
 El interés es la cantidad que debe pagar una persona por el uso del dinero tomado en **préstamo**.
 

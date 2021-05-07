@@ -1,5 +1,3 @@
-Conceptos contables
-
 * **Proveedor**: Quién proporciona bienes y servicios.
 * **Acreedor**: Personas a quienes se les debe dinero.
 * **Fideicomisos**: Es dinero que el gobierno asigna para un cierto rubro.

@@ -1,5 +1,3 @@
----
-layout: index
 title: Neumática e Hidráulica
 ---
 

@@ -1,5 +1,3 @@
-Info General
-
 # Contacto
 Profesora: REVILLA CUEVAS LAURA ADRIANA
 Correo: ladrirec@gmail.com

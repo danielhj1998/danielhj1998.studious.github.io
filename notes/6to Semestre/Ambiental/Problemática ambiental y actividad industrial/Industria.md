@@ -1,5 +1,3 @@
-Industria
-
 La industria es la `actividad económica` encargada  de `transformar` los `productos extraídos` de las  naturaleza en `material elaborado`. En dicho  proceso productivo se  combinan  los  distintos  `factores de producción` y se generan `residuos`.
 
 La industria emite cientos de `contaminantes`  `sólidos`, `líquidos` y `gaseosos`, que contribuyen a la  formación de smog, la acumulación de metales  pesados y la contaminación del agua por  sustancias orgánicas, constituyen desechos sólidos  peligrosos y `dañan` de muchas otras formas a las  `comunidades` y los `ecosistemas`.

@@ -1,5 +1,3 @@
----
-layout: index
 title: Control de Sistemas Mecatrónicos
 ---
 

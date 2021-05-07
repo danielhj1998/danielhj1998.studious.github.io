@@ -1,5 +1,3 @@
-Nomenclaturas
-
 # Binario
 B'{...}'
 b'{...}'

@@ -1,5 +1,3 @@
-Resumen 1er parcial
-
 1. ¿Qué representa el activo?
 Representa a los derechos y bienes de una persona moral o física.
 2. ¿Qué representa el pasivo?

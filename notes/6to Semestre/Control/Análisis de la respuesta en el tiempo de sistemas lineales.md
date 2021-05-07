@@ -1,5 +1,3 @@
-Análisis de la respuesta en el tiempo de sistemas lineales
-
 Se puede analizar para los dos estados de un sistema lineal:
 * Estado `transitorio`
 * Estado `estacionario`

@@ -1,3 +1,1 @@
-Notas
-
 Equipo 5

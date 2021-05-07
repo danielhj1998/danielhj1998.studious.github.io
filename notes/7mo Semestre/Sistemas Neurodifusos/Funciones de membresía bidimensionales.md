@@ -1,5 +1,3 @@
-Funciones de membresía bidimensionales
-
 Una función de membresía bidimensional, es un par que está definido en 2 espacios de discurso independientes.
 
 Las funciones membresía se vuelven el par ordenado siguiente:

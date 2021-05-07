@@ -1,5 +1,3 @@
----
-layout: index
 title: 6to Semestre
 ---
 

@@ -1,5 +1,3 @@
-Tabla de Ingresos y egresos
-
 | FECHA | CONCEPTO | INGRESOS | EGRESOS |
 | --- | --- | --- | --- |
 | 28/09/2020 | Saldo inicial | 200 |     |

@@ -1,5 +1,3 @@
-IVA
-
 Es el impuesto al valor agregado.
 
 Existen 3 tasas:

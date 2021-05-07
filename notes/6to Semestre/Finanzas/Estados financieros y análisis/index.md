@@ -1,5 +1,3 @@
----
-layout: index
 title: Estados financieros y análisis
 ---
 

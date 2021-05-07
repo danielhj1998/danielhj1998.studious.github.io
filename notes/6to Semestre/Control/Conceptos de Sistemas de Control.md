@@ -1,5 +1,3 @@
-Conceptos de Sistemas de Control
-
 Existen 2 tipos de sistemas de control, los sistemas de control de `lazo abierto` y `lazo cerrado`. Los sistemas de lazo cerrado funcionan con **retroalimentación**, lo que hace que se evalúe el error en la salida, usando luego esa información para realizar ajustes al control.
 
 # Diagrama general de un sistema de control en lazo cerrado

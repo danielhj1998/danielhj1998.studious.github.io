@@ -1,5 +1,3 @@
-Introducción a la lógica difusa
-
 # Conjuntos clásicos
 
 $$

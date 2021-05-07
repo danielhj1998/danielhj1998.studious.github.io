@@ -1,5 +1,3 @@
-Info General
-
 ## Contacto
 Profesor: Huitron Ramirez Erick
 Teléfono: 5548816431  

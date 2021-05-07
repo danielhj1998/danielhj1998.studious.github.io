@@ -1,5 +1,3 @@
-Definiciones
-
 # RAM
 Esta memoria es una memoria volátil donde se escriben los datos necesarios para correr un programa.
 # ROM

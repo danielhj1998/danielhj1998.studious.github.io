@@ -1,5 +1,3 @@
-LabView
-
 ## Shortcut Keys
 
   

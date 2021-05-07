@@ -1,5 +1,3 @@
-Interrupciones
-
 Las interrupciones pausan la ejecución del programa principal, llama a una `Rutina de Servicio de Interrupción` (`ISR`). Luego continua con la ejecución del programa donde lo dejó.
 
 Las `ISR` son escritas en una dirección de memoria llamada el `Vector de interrupción`. Dependiendo del microcontrolador puede haber varios vectores de interrupción.

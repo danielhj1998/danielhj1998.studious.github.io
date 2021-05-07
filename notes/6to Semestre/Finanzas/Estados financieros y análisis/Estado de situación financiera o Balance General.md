@@ -1,5 +1,3 @@
-Estado de situación financiera o Balance General
-
 # Fórmula del Balance General
 
 $$\text{Activo}=\text{Pasivo}+\text{Capital}$$

@@ -1,5 +1,3 @@
-Microcontroladores
-
 La función general de un microcontrolador es buscar y ejecutar instrucciones.
 
 Necesita por lo menos:

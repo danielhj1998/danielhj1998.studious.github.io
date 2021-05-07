@@ -1,5 +1,3 @@
-Solución de ecuaciones en espacio de estado
-
 Sea el sistema
 
 $$

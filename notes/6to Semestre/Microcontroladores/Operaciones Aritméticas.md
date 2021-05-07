@@ -1,5 +1,3 @@
-Operaciones Aritméticas
-
 # Suma en binario
 0+0=0
 0+1=1

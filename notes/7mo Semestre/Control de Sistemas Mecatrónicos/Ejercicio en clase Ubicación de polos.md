@@ -1,5 +1,3 @@
-Ejercicio en clase: Ubicación de polos
-
 # Ejercicio 1
 ## 1)
 

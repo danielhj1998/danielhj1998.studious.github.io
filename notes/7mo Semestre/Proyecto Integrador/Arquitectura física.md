@@ -1,5 +1,3 @@
-Arquitectura física
-
 Es una representación del sistema físico (representa conexiones físicas), agrupado en módulos y sistemas.
 
 Comúnmente se emplea un diagrama a bloques, sigue respetando el tipo de entrada-salida, es decir, energía, información y materia.

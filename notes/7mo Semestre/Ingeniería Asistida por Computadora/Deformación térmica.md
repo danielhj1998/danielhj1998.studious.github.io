@@ -1,5 +1,3 @@
-Deformación térmica
-
 
 $$
 \delta_T = \alpha \Delta T L_0

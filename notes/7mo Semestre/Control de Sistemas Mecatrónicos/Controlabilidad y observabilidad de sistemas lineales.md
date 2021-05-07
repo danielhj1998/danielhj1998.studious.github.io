@@ -1,5 +1,3 @@
-Controlabilidad y observabilidad de sistemas lineales
-
 En un sistema en representación de variables de estado:
 ![fe6201473e19dbbd8a8ecece07b62014.png](../../img/7924fe1efcd649618e47f854f9806a9c.png)
 Donde:

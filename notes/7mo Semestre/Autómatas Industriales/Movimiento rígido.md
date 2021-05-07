@@ -1,5 +1,3 @@
-Movimiento rígido
-
 ![03f2fa78604ec61177629ce392629a08.png](../../img/a400db66833047ce89e82f9b1378f655.png)
 ***
 ![d83063a9f801521771043d00b9bd48a7.png](../../img/9a26cf9ef35040ef8b55cfc4988d3102.png)

@@ -1,5 +1,3 @@
-comparador
-
 Comparador de 8 bits  
 
 ```

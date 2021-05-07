@@ -1,5 +1,3 @@
-Máscaras de Bits
-
 Son distintas secuencias de bits tales que combinadas en una operación binaria con cualquier otra secuencia, permiten modificar esta última, u obtener información sobre ella, a conveniencia del programador.  
   
 

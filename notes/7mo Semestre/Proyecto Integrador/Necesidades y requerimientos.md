@@ -1,5 +1,3 @@
-Necesidades y requerimientos
-
 # Necesidad
 Desde el punto de vista sistemas:
 La necesidad es el resultado de una `transformación formal` de uno o más conceptos de una entidad a una `expectativa`, de tal forma que, satisfaga con las `funcionalidades` o procesos para cumplir cierta `calidad`.

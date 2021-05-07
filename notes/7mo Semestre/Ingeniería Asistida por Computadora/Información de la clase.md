@@ -1,5 +1,3 @@
-Información de la clase
-
 ## Contacto
 
 Nombre: Silva Lomeli José de Jesús

@@ -1,5 +1,3 @@
-Subrutinas
-
 Son fragmentos de código que se mandan llamar repetidamente.
 
 Se llaman con la instrucción 

@@ -1,5 +1,3 @@
-Template para la clase
-
 ```MPASM
 				;INSTITUTO POLITECNICO NACIONAL
 				;UPIITA

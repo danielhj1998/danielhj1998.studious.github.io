@@ -1,5 +1,3 @@
-Rotación respecto a un marco fijo
-
 ![56895b6a0d34d8ca742e8d13ee0bc8a9.png](../../img/541c195aa03646888a27069cb2a97612.png)
 ***
 ![97850868d694e3fd45a15bca213c27fb.png](../../img/bbec837e7f8449268fe529ffc53648a4.png)

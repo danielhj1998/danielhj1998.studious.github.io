@@ -1,5 +1,3 @@
-Motores de inducción
-
 # Aplicaciones de los motores de inducción
 * **Compresores**.
 * **Bombas**:  elevadoras  de  agua,  para  el  sistema  cloacal, para agua con tanque presurizado, para piscinas,  de  desagote  portátiles,  de  desagote  fijas, de pozo profundo.

@@ -1,5 +1,3 @@
-divisor
-
 El divisor de señal se usa para dividir la señal de reloj y obtener frecuencias más bajas.  
 El siguiente es un bloque divisor con señal de reset:  
 

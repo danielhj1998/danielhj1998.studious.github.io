@@ -1,5 +1,3 @@
-Diseño RTL
-
 # Register Transfer Level
 
   

@@ -1,5 +1,3 @@
-Estabilización por retroalimentación de estado
-
 Sea el sistema `MIMO`:
 
 $$

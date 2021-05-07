@@ -1,5 +1,3 @@
-Generar el Datapath
-
 ![images\4-1.png](../../../img/6628dd5c653e419a98b147afed7f21eb.png)  
 Donde se identifican los siguientes bloques:  
 • tot Registro del total  

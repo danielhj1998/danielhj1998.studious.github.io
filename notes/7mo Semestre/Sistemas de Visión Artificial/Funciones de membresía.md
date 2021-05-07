@@ -1,5 +1,3 @@
-Funciones de membresía
-
 # Reglas
 * NUNCA cantidades pares.
 * Se deben traslapar y no dejar gaps

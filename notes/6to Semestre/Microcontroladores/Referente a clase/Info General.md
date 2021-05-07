@@ -1,5 +1,3 @@
-Info General
-
 ## Contacto
 Profesor: DAVID ARTURO GUTIÉRREZ BEGOVICH  
 Correo: begoupiita@gmail.com  

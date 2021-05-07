@@ -1,5 +1,3 @@
-21 Leyes irrefutables del liderazgo
-
 # 1 Ley del Tope
 Establece que el nivel de eficacia está limitado por la capacidad de liderazgo. Lo que significa que el trabajo invertido vale más o tiene mayor potencial cuando la persona tiene un nivel mayor de liderazgo.
 

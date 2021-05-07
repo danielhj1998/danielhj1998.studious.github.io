@@ -1,5 +1,3 @@
-Información de la clase
-
 ## Contacto
 
 Nombre: Peza Solis Juan Fernándo

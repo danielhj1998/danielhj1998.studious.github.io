@@ -1,5 +1,3 @@
----
-layout: index
 title: Problemática ambiental y actividad industrial
 ---
 

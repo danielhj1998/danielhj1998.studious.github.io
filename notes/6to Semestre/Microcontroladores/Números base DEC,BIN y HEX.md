@@ -1,5 +1,3 @@
-Números base DEC,BIN y HEX
-
 ### Para pasar de decimal a otra base (DEC → X):
 
   

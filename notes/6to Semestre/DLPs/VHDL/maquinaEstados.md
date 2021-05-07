@@ -1,5 +1,3 @@
-maquinaEstados
-
 Para describir una máquina de estados, es necesario apoyarse de dos cosas: El diagrama de estados y la tabla de estados. Estas se pueden describir siguiendo diferentes modos.  
   
 

@@ -1,5 +1,3 @@
-Desarrollar la máquina de estados del controlador
-
 Tomando en cuenta el diagrama del paso anterior:  
 ![images\6-1.png](../../../img/19eee844973940eba10230be0c478621.png)  
   

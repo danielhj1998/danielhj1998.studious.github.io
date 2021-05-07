@@ -1,5 +1,3 @@
-Normas y Co-Normas T
-
 # Norma T (intersección generalizada)
 Sean
 $A$ y $B$ conjuntos difusos

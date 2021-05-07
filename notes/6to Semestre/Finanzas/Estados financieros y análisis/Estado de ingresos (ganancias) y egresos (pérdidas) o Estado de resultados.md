@@ -1,5 +1,3 @@
-Estado de ingresos (ganancias) y egresos (pérdidas) o Estado de resultados
-
 Muestra detallada y ordenadamente (la forma en la que se ha obtenido) la utilidad o pérdida del ejercicio.
 
 **Ingresos:** Es el aumento del patrimonio.

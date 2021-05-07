@@ -1,5 +1,3 @@
-Coordenadas exponenciales
-
 ![96f35d0b7085c2f86d6c465301e0f37c.png](../../img/c875335eaa084152adfc4d73b6c719c9.png)
 ![d0ea43dbeed47a3afc49c80eacc25d71.png](../../img/86eaa40bbf6548109e985c74ec01d3af.png)
 ![3a9ca4d759dde82a4d30bccc80c24cbf.png](../../img/ad3d3ccc1ad0467a995c9fe989bbf800.png)

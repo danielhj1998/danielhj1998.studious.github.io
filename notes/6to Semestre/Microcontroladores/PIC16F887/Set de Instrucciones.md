@@ -1,5 +1,3 @@
-Set de Instrucciones
-
 # Parte del datasheet
 http://ww1.microchip.com/downloads/en/devicedoc/31029a.pdf
 

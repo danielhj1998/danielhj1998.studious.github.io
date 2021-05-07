@@ -1,5 +1,3 @@
-Transformaciones de similitud
-
 Considere el vector de estado
 
 $$

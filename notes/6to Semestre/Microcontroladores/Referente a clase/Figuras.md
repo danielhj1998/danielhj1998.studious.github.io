@@ -1,5 +1,3 @@
-Figuras
-
 • Deben haberse mencionado previamente en algún párrafo antes de aparecer.  
 • Deben tener un pie de figura.  
 • Si no las realizaron los autores del reporte, deben venir con la referencia del autor original.  

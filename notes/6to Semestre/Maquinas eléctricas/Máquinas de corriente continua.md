@@ -1,5 +1,3 @@
-Máquinas de corriente continua
-
 Compuesta por:
 * `Rotor`: Se encarga de realizar la **conversión** de energía **electromecánica**. También se le conoce como `Armadura` o `Inducido`.
 * `Estator`: Se utiliza para **generar** el **campo magnético**. También se le conoce como `Devanado de campo` o `Inductor`.

@@ -1,5 +1,3 @@
-Modos de direccionamiento
-
 # Modo inherente o implícito
 Son las instrucciones que no necesitan cambiar al contador de programa.
 

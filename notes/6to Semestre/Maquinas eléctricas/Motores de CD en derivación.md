@@ -1,5 +1,3 @@
-Motores de CD en derivación
-
 # Ejercicio 1
 Un motor tipo derivación de 250 V gira en vacío a 1000 rpm y absorbe una corriente de 5 A. La resistencia total del inducido es de 0.2 Ω y la del campo en derivación de 250 Ω. Calcular la velocidad cuando esté cargado y tome una corriente de 50 A, sabiendo que la reacción del inducido debilita el campo un 3 %.
 ![e237217b405a3b9c99300953eafa75ef.png](../../img/c0ec0586847c47df9e79d8499283eb92.png)

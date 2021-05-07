@@ -1,5 +1,3 @@
-Arquitectura funcional/lógica
-
 Representa con modelos (Arquitectura) las funciones, la relación entre ella y el comportamiento deseado.
 
 # Modelos

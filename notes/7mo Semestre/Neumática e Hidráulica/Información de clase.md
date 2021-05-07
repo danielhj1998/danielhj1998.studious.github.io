@@ -1,5 +1,3 @@
-Información de clase
-
 ## Contacto
 
 Nombre: Montes Campuzano Octavio

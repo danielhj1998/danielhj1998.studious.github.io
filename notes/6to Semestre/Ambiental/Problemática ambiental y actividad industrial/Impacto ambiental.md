@@ -1,5 +1,3 @@
-Impacto ambiental
-
 # Impacto ambiental
 El `impacto ambiental` es el efecto adverso causado por el desarrollo industrial, o proyectos de infraestructura o por la liberación de sustancias en el ambiente. Es la desintegración de la Tierra o el deterioro del ambiente a través del consumo de sus bienes, por ejemplo, agua, aire, suelos y la erradicacíon de las especies.
 

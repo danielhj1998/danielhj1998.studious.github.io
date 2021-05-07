@@ -1,5 +1,3 @@
-Organización de la memoria
-
 
 ||Bus datos|Bus direc.|
 |---|---|---|

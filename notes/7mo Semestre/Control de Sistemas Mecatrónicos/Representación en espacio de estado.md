@@ -1,5 +1,3 @@
-Representación en espacio de estado
-
 Sea un sistema de la forma:
 
 $$

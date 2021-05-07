@@ -1,5 +1,3 @@
-Cálculo de errores
-
 ## Error relativo
 
 $$

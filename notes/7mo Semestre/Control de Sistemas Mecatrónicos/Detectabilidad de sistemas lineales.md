@@ -1,4 +1,4 @@
-Sea el sistema:
+Sea el sistema
 
 $$
 (1)\begin{cases}

@@ -1,5 +1,3 @@
----
-layout: index
 title: Referente a clase
 ---
 

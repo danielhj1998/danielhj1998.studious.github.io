@@ -1,5 +1,3 @@
-Forma canónica observable
-
 ## Ejercicio
 Demostrar que la propiedad de observabilidad es invariante para cualquier transformación de similitud.
 

@@ -1,5 +1,3 @@
-Residuos Peligrosos Biológico-Infecciosos RPBI
-
 En `1995` se publicó en el `DOF` la primera norma para regular los `RPBI`. El objetivo de esta norma es la de proteger al personal del salud.
 
 Los `RPBI` obedecen las formalidades legales de los `RP`.

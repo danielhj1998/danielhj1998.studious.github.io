@@ -1,5 +1,3 @@
-Compensadores
-
 Los compensadores son usados para moldear el sistema y alcanzar los requisitos que el sistema debe cumplir.
 
 Los compensadores más comunes son los compensadores en `serie` (fig a) y en `paralelo` (fig b).

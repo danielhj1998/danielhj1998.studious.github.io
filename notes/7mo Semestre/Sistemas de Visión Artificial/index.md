@@ -1,5 +1,3 @@
----
-layout: index
 title: Sistemas de Visión Artificial
 ---
 

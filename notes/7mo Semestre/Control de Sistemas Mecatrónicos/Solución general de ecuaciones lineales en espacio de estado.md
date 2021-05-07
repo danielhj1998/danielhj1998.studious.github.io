@@ -1,5 +1,3 @@
-Solución general de ecuaciones lineales en espacio de estado
-
 ## Matriz exponencial
 sea:
 

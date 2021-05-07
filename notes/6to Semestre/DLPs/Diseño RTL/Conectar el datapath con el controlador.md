@@ -1,5 +1,3 @@
-Conectar el datapath con el controlador
-
 ![images\5-1.png](../../../img/6d8aa7529ae54bec99569173d5cd53d7.png)  
   
 Las señales de conexión entonces son `tot_ld`, `tot_clr` y `tot_lt_s`.  

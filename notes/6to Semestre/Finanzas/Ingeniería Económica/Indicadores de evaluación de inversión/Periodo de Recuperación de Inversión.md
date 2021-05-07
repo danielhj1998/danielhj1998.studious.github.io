@@ -1,5 +1,3 @@
-Periodo de Recuperación de Inversión
-
 # Hernández Jiménez Daniel - 3MM3
 # Periodo de Recuperación de Inversión PRI o PR
 Se define como el tiempo que le toma a una empresa recuperar su inversión inicial en un proyecto. Se estima a partir de las entradas de efectivo.

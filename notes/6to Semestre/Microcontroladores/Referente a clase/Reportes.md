@@ -1,5 +1,3 @@
-Reportes
-
 Los apartados deben ser explicitos y no implicitos dentro del reporte:  
   
 • Portada de la práctica  

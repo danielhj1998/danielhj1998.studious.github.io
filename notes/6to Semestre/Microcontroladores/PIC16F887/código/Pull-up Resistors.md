@@ -1,5 +1,3 @@
-Pull-up Resistors
-
 ![02c7e1c9e313298d888fbbaf21eebdad.png](../../../../img/6b3dd05a2c0c4f65a101ffe564aa7a8d.png)
 Las resistencias `pull-down` se utilizan para utilizar lógica positiva.
 

@@ -1,5 +1,3 @@
-Circuito de arranque
-
 Para que al arranque los picos de corriente no sean muy elevados, se utiliza un circuito que arranca el motor paulatinamente y no de golpe.
 
 # Diseño de arrancadores para motores de c.c.

@@ -1,5 +1,3 @@
-Estados financieros
-
 # Estados financieros
 Los documentos que emanan de los registros contables en los que se muestran diferentes aspectos de carácter financiero.
 

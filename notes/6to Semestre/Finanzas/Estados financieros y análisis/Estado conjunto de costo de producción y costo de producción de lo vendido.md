@@ -1,5 +1,3 @@
-Estado conjunto de costo de producción y costo de producción de lo vendido
-
 # Estado de costo de producción o Estado conjunto de costo de producción y costo de producción de lo vendido
 Este estado muestra lo que ha costado producir un artículo, así como el costo de producción de los artículos que se han vendido, en un periodo determinado.
 

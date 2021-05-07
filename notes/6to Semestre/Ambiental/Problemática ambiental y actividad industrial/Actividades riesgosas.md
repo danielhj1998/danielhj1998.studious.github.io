@@ -1,5 +1,3 @@
-Actividades riesgosas
-
 # Evaluaciones del riesgo
 Las evaluaciones del riesgo crean preguntas como: 
 * ¿Qué `problemas de salud` son  causados por las `sustancias` liberadas en el hogar, lugar de trabajo y medio ambiente?

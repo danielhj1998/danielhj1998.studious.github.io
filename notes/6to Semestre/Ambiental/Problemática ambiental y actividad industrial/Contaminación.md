@@ -1,5 +1,3 @@
-Contaminación
-
 # Contaminación
 Las dos clasificaciones principales son `origen` y `tipo de contaminante`.
 ```mermaid

@@ -1,5 +1,3 @@
-Relaciones y composiciones
-
 # Relaciones difusas binarias
 Es un tipo de conjunto difuso que relaciona dos tipos de espacios de discurso distintos.
 #### Ejemplo

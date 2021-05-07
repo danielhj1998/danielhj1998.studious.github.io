@@ -1,5 +1,3 @@
-Tipos de liderazgo
-
 # Autoritario
 ## Carácteristicas
 Controla, decide de manera unilateral, limita la participación, espera obediencia, ejerce influencia a través de castigos y recompensas.

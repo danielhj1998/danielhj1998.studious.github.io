@@ -1,5 +1,3 @@
-Información de clase
-
 ## Contacto
 
 Nombre: Diego Alonso Flores Hernández

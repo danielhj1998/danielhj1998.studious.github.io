@@ -1,5 +1,3 @@
-Primera revisión
-
 # Frase
 * Pequeño Cerdo Capitalista
 

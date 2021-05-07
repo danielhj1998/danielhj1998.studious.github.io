@@ -1,5 +1,3 @@
-Mecatrónica
-
 La mecatrónica es multidisciplinaria y tiene como disciplinas base la mecánica, electrónica, control y sistemas `MEIC`.
 
 # Historia

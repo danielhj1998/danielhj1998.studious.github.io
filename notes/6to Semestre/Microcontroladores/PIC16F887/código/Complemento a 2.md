@@ -1,5 +1,3 @@
-Complemento a 2
-
 El siguiente código saca el complemento a 2 de W
 ```
 SUBLW	0x00

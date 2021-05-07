@@ -1,5 +1,3 @@
-Plan de trabajo
-
 # Plan de trabajo
 * Antecedentes:
 	* Cómo surge la idea

@@ -1,5 +1,3 @@
-Análisis de sistemas en variables de estado
-
 # Sistemas lineales y no lineales
 Un `sistema lineal` sólo puede tener estos 3 comportamientos:
 ![1075047a4dd3901dbe9e177f4a79c055.png](../../img/45c83e6e9e0746bf89e72333f47a3e24.png)

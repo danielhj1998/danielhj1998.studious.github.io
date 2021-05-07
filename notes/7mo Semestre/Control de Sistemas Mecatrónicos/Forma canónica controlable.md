@@ -1,5 +1,3 @@
-Forma canónica controlable
-
 #### Ejercicio: Demostrar que la propiedad de controlabilidad es invariante para cualquier transformación de similitud.
 Se considera el sistema
 

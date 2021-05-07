@@ -1,5 +1,3 @@
-Delay
-
 # Subrutinas para hacer delay
 ## Subrutina nivel 1
 ```mpasm

@@ -1,5 +1,3 @@
-Información de la clase
-
 ## Contacto
 
 Nombre: Erick Huitrón Ramírez
