@@ -8,6 +8,7 @@
 $font-size-body: 1em;
 
 /* Colors */
+$initialDepthColor: hsl(320-45,36,72);
 $dark: #36393b;
 $clear: white;
 $accent: #dab49b;
@@ -55,6 +56,27 @@ div.page-content {
     }
 }
 
+// notes Layout
+ul.note-dir-menu {
+    min-width: 100px;
+    list-style: none;
+    counter-reset: depth;
+    @for $i from 1 through 8 {
+        li:nth-child(#{$i}) {
+        display: inline;
+        counter-increment: depth;
+            a {
+                padding: 10px;
+                background-color: adjust-hue($initialDepthColor,$i * 40);
+                color: $dark;
+                border-radius: 2px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// small screens
 @media (max-width: 800px) {
     div.page-content {
         max-width: 90vw;

@@ -3,6 +3,21 @@ layout: default
 ---
 
 <div>
+    <ul class="note-dir-menu">
+        {% assign depth = page.dir | split: "/" | size %}
+        {% if depth > 0%}
+            <li><span><a href={{ site.baseurl | append: '/' }}>Notas</a></span></li>
+        {% endif %}
+
+        {% assign parents = page.dir | remove_first: "/notes/" | split: "/" %}
+        {% assign current_dir = parents | last %}
+        {% assign parents = page.dir | remove_first: "/notes/" | remove: current_dir | split: "/" %}
+        {% assign parent_url = site.baseurl | append: "/notes"%}
+        {% for parent in parents %}
+            {% assign parent_url = parent_url | append: '/' | append: parent %}
+            <li><span><a href={{ parent_url }}>{{ parent | url_decode }}</a></span></li>
+        {% endfor %}
+    </ul>
     <h1>{{page.title}}</h1>
     {{content}}
 </div>
