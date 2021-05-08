@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ## Contacto
 
 Nombre: Montes Campuzano Octavio

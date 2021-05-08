@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Fórmula del Balance General
 
 $$\text{Activo}=\text{Pasivo}+\text{Capital}$$

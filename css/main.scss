@@ -5,7 +5,7 @@
 @charset "utf-8";
 
 /* Constants */
-$font-size-body: 16px;
+$font-size-body: 1em;
 
 /* Colors */
 $dark: #36393b;
@@ -26,6 +26,14 @@ body {
     color: $dark;
 }
 
+h1 {font-size: $font-size-body * 2.5;}
+h2 {font-size: $font-size-body * 2.1;}
+h3 {font-size: $font-size-body * 1.7;}
+h4 {font-size: $font-size-body * 1.5;}
+h5 {font-size: $font-size-body * 1.2;}
+h6 {font-size: $font-size-body;}
+p {font-size: $font-size-body;}
+
 // Default layout
 div.go-home {
   margin: 10px 0 0 10px;
@@ -42,10 +50,16 @@ div.page-content {
     height: 100%;
     max-width: 800px;
     margin: 0 auto;
+    img {
+        max-width: 800px;
+    }
 }
 
 @media (max-width: 800px) {
     div.page-content {
         max-width: 90vw;
+        img {
+            max-width: 90vw;
+        }
     }
 }

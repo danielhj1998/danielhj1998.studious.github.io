@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ![ba2360be893514424d1bf5f0d83b11b3.png](../../img/359190196658415aad9618e5449847e5.png)
 ![cf45651f604dc6e71824dd94e07db88c.png](../../img/028a880be05b467b87a0a76124d05d8e.png)
 ![04d4ed8b1adf30dd636418dcdd4a4935.png](../../img/4ba77ef60d3b47629ca0ac19399b0fdf.png)

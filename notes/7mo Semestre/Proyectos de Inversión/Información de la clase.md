@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ## Contacto
 
 Nombre: Chavez Espinoza Faride Adriana

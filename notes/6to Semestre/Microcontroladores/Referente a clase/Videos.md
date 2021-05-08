@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 • Los videos deben ser lo más cortos posibles, cortando los pasos que no son relevantes (ejemplo, mover un DIP Switch)  
   
 

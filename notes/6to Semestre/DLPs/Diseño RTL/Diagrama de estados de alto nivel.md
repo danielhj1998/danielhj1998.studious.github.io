@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ![images\3-1.png](../../../img/3a4dbb925bce4e0297ae256a18f2cda9.png)  
 El siguiente ejemplo es siguiendo el caso de una maquina despachadora de refrescos simplificada.  
   

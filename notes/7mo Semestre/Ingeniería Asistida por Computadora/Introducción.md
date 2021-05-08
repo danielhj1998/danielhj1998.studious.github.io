@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ![d0efebd325fd77a8c841dd25ca3eefda.png](../../img/425c86d1da8b4881a00e8ca64d42183d.png)
 ## Resistencia
 

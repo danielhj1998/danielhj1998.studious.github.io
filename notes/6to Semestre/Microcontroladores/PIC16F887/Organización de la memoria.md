@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 
 ||Bus datos|Bus direc.|
 |---|---|---|

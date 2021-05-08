@@ -1,3 +1,5 @@
+---
+layout: index
 title: Indicadores de evaluación de inversión
 ---
 

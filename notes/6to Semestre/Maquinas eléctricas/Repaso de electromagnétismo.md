@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 $M [\frac{A}{m}]$ es la magnetización y la intensidad de campo magnético $H [\frac{A\ vuelta}{m}]$.
 
 Se define $\chi_m$ como la suseptibilidad magnética:

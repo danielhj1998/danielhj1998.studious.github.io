@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Sea el sistema `MIMO`:
 
 $$

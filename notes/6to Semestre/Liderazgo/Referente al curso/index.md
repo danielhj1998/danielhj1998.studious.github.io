@@ -1,3 +1,5 @@
+---
+layout: index
 title: Referente al curso
 ---
 

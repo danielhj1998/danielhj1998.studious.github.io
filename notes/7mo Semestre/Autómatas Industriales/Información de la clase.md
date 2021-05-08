@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ## Contacto
 
 Nombre: Luviano Juarez Alberto

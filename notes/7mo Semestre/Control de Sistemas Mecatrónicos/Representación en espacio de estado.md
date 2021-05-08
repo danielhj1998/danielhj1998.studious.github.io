@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Sea un sistema de la forma:
 
 $$

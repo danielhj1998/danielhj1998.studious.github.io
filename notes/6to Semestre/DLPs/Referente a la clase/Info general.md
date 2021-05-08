@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 * Materia: Dispositivos Lógicos Programables
 * Profesor: Miguel Ángel Rodrigez Fuentes
 * Grupo: 2MM9

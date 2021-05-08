@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Existen muchas metodologías pero la que se estudiará es:
 # VDI - 2206
 Guía para el diseño de productos mecatrónicos. Fue publicada en 2004 y es un estándar alemán, caracterizado por los números $2206$ y es dada por la *Asociación de Ingenieros Alemanes*.

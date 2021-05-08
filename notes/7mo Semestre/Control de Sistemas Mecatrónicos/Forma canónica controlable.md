@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 #### Ejercicio: Demostrar que la propiedad de controlabilidad es invariante para cualquier transformación de similitud.
 Se considera el sistema
 

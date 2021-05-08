@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ## Contacto
 
 Nombre: Silva Lomeli José de Jesús

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Existen varios métodos, entre ellos:
 * Matrices ponderadas
 	* Matrices binarias

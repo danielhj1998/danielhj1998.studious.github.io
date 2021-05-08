@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Un `sistema` es lo que resulta cuando un grupo de "cosas" se agrupa de una forma específica por una razón partícular.
 
 ### Definición

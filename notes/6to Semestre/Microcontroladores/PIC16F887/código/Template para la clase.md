@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ```MPASM
 				;INSTITUTO POLITECNICO NACIONAL
 				;UPIITA

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Plan de trabajo
 * Antecedentes:
 	* Cómo surge la idea

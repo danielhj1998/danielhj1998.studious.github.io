@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Espira giratoria simple entre caras polares curvas
 ![bf716371d1f357f33cad292ae6634c27.png](../../img/2aaf55867f424471868234d2ce3522f6.png) ![fabfbda0ddb827b6b1aad961f7a68942.png](../../img/44450aca98d842b68aaa01b9fdf2e498.png)
 El flujo magnético fluye de la siguiente manera:

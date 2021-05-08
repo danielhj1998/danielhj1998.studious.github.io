@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ![94ada253c94f95a407868dd77fad2aae.png](../../img/9d4b5dc951914597b8a8e3b00e15ce32.png)
 Donde:
 $y$ es la salida disponible

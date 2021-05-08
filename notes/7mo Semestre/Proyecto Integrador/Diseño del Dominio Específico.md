@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ![8f117977af27f824e2b9021d6bfe511a.png](../../img/13a87149ed3e4bc2b647edf35200135a.png)
 # Se determinan los componentes
 ![50e817f9e96ecd3b37909ef4df8a0baf.png](../../img/e751f3f5e7ad42a7a2f852cd2d27f71a.png)

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # TIR
 La **Tasa Interna de Retorno** o **Tasa Interna de Rentabilidad** **TIR** se define como la tasa de descuento para la cual el **VPN** es **0**. Para calcularla se hacen las siguientes asumpciones.
 

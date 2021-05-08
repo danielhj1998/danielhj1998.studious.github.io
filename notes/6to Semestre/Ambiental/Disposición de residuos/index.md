@@ -1,3 +1,5 @@
+---
+layout: index
 title: Disposición de residuos
 ---
 

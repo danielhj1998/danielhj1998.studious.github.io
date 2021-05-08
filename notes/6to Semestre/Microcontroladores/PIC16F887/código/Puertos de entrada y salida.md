@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Configurar puertos como entrada/salida
 Para configurar los puertos PORTA, PORTB, ..., PORTE se utilizan los registros TRISA, TRISB, ..., TRISE respectivamente.
 

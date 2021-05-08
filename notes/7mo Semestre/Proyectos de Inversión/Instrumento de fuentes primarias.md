@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Qué información debe tener?
 * Título del producto
 * Breve introducción, presentación corta del producto.

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Legislación
 Los `Residuos de Manejo Especial` (`RME`) están definidos en la `Ley  General para la Prevención y Gestión Integral de Residuos` (`LGPGIR`)  como aquéllos generados en los procesos productivos que `NO` reúnen las `características` para ser considerados `residuos sólidos  urbanos` o `peligrosos`, o que son producidos por `grandes generadores`  de residuos sólidos urbanos (DOF, 20015).
 

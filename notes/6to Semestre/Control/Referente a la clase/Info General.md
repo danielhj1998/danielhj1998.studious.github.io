@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Contacto
 Profesor: Adolfo Rojas Pacheco
 Correo: rojaspachecoadolfo@gmail.com

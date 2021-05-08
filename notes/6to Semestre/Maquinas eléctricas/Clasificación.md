@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 **Definición 1**. Una máquina eléctrica es un dispositivo que convierte energía eléctrica en energía mecánica y viceversa. Funciona por medio de campos magnéticos.
 
 **Definición 2**. Una máquina eléctrica es un dispositivo que convierte un tipo de energía en otra, donde al menos una de ellas es eléctrica, y que funciona por medio de campos magnéticos.

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Costo Anual Uniforme Equivalente (CAUE)
 El CAUE es una herramienta que nos ayuda a evaluar alternativas de inversión cuando no existen ingresos, sino sólo costos (egresos). Esto ocurre por ejemplo, cuando se tiene que renovar el equipo de cómputo, cuando la ley exige hacer modificaciones, etc...Pero dichas inversiones no significan obtener un retorno económico, simplemente son necesarias.
 

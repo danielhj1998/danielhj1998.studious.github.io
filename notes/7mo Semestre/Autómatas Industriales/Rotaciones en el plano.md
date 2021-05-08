@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Clase 1
 ![93fbd07ddae7bda3db4854fe25a57c5c.png](../../img/93c8f4f46f094834987eca0a20c94176.png)
 ![fe727d1b3ff0ac3f9981070fa92759c7.png](../../img/1a4abe518f63428cb01e7ef0b4cce4fb.png)

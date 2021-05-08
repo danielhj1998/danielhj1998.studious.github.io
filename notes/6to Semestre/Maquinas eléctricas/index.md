@@ -1,3 +1,5 @@
+---
+layout: index
 title: Maquinas eléctricas
 ---
 

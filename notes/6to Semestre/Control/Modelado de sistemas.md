@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Sistemas lineales
 Para encontrar el modelo matemático de un sistema, se necesitan encontrar lo siguiente:
 1. Ecuación de movimiento de Euler-Lagrange.

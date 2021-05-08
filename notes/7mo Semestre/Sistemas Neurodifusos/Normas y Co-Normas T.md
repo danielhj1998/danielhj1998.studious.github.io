@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Norma T (intersección generalizada)
 Sean
 $A$ y $B$ conjuntos difusos

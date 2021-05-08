@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 El concepto solución NO es lo mismo que la `conceptualización` o el `diseño conceptual`.
 
 Es un `bosquejo` de la palpable solución a un problema en ingeniería. Esto significa que `no tiene detalle` y trata `generalidades`, busca el `Qué debe hacer?` y NO el `Con qué?`.

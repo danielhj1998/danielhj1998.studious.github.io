@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 La dirección de la corriente se conoce usando la convención de la mano derecha.
 ![3039197191b366c549cab5e2a8b62ec1.png](../../img/e91d7e6a9c1d4d28a84e67a3e7c8cf27.png)
 

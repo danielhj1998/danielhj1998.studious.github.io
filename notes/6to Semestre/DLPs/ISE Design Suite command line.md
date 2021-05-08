@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Windows
 To use the Xilinx ISE Design Suite command line we need to open the CMD and run the `settings64.bat` or `settings32.bat` from the ISE directory in Windows, the default is `C:\gXilinx\14.7\ISE_DS\`.
 

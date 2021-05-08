@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ## Última práctica
 ![c8983779222ddc18d9e652a01e691e25.png](../../img/13dd5ebd28bc4af7b9b7ff0f35a19c5f.png)
 Si la fuente no es muy buena, se puede regular con el siguiente circuito para que no varíe de forma que pueda afectar nuestras mediciones.

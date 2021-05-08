@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Formulación y parametrización
 ![8a5b8ad81f43e7465769d0abd9274f4c.png](../../img/560a0bab5d104fd89206d522c95b1e10.png)
 ## Soporte

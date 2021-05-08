@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Procesamiento de imágenes que nos permitirá fijar distancias
 
 ![540bd0b2a3c237a7442f1b4ebffac628.png](../../img/a45312ca232449f4b3eb57534bea2cba.png)

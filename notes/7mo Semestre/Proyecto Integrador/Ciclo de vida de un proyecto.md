@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Proyecto + Integración
 **Proyecto:** Un proyecto es un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único.
 

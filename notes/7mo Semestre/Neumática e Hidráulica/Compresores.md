@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 * **Commpresores:** Los compresores son máquinas que aumentan la presión de un volúmen de gas.
 	* De pistón: Funcionan con una etapa de `admisión` y `compresión`. En la admisión se permite la entrada de fluido nuevo. En la compresión se cierra la válvula y se comprime el fluido.
 	* De membrana: Contienen una membrana elástica que separa el gas con los mecanismos, lo que evita que el aire se ensucie con aceite.

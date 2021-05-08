@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Las **anualidades** son el conjunto de pagos iguales realizados en **intervalos regulares** de tiempo.
 
 No necesariamente se refiere a periodos anuales, se ha conservado el nombre de anualidad por costumbre en dichas operaciones.

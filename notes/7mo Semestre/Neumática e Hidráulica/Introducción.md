@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Presión
 Fuerza que ejerce un fluido en una superficie.
 

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 La ingeniería ambiental es la rama de la ingeniería que estudia los problemas del planeta de forma científica e integrada, teniendo en cuenta sus dimensiones científicas: químicas, físicas, ecológicas, biológicas, geológicas, sociales, económicas, tecnológicas y jurídicas con el objetivo de un **desarrollo más limpio**.
 
 Analizar los impactos ambientales de todo lo que hacemos, sirve para generar conciencia. Además hoy en día ya existen metodologías para saber cual es nuestro *impacto ambiental* como nuestra *huella de carbono* y nuestra *huella hídrica*.

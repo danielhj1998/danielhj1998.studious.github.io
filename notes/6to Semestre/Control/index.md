@@ -1,8 +1,10 @@
+---
+layout: index
 title: Control
 ---
 
-* [Referente a la clase](./Referente a la clase/index.md)
 * [Lugar Geométrico Raices](./Lugar Geométrico Raices/index.md)
+* [Referente a la clase](./Referente a la clase/index.md)
 
 ----------------------------------------------------------
 

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ![1b38ca36230b870437ac71994a768f31.png](../../../../img/c1b6bea05a88444bad2f522907988767.png)
 ![ac38d858b30fe9edce5a23e55cf62249.png](../../../../img/dcc01e4897d74e2e9dc97ce1fc74a394.png)
 ![ddc7912514f341ba6a1f57e34a6049ad.png](../../../../img/66183cba473b4960a4f86b9db015bceb.png)

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 La clasificación de un residuo como peligroso, se establecerá en las normas oficiales  mexicanas que especifiquen la `forma` de determinar sus `características`, que incluyan los `listados` de los mismos y  fijen los `límites de concentración` de las sustancias contenidas en ellos, con base en los conocimientos científicos y  las evidencias acerca de su peligrosidad y riesgo.
 
 Son aquellos que poseeen alguna característica `CRETI` (`C`orrosividad, `R`eactividad, `E`xplosividad, `T`oxicidad, `I`nflamabilidad) y sus recipientes, embalajes y suelos contaminados.

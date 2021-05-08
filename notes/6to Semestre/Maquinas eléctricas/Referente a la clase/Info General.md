@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ## Contacto
 Nombre: D. en C. Juan Luis Mata Machuca  
 Email: jmatam@ipn.mx  

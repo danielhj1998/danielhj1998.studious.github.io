@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Cuándo no se conoce o no se puede medir una variable de estado para en el sistema a controlar, se deben emplear métodos para calcular dichas señales.
 
 Para obtener un valor aproximado del vector de estado se utiliza una estructura denominada `Observador`.

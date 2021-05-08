@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Un bloque que elimina los *rebotes* mecánicos de un botón.
 
 ```

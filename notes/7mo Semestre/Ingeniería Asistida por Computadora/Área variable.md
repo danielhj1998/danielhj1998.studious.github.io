@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Problema
 ![6658538a7fb7fbae7eb7bae681367993.png](../../img/e388dd5643434f0e98c14e6ed0264130.png)
 # Análitico

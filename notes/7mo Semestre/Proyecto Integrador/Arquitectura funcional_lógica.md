@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Representa con modelos (Arquitectura) las funciones, la relación entre ella y el comportamiento deseado.
 
 # Modelos
@@ -113,7 +117,8 @@ Busca dividir las funciones generales en específicas hasta que se llega al domi
 				* Medir el tamaño de papel - I *
 				* Medir energía - I *
 				* Medir atascos - I *
-5) **Pensar en los componentes**: Cuando ya no hay más funciones se comienza a pensar en componentes. Al pensar en un componente, tratando de pensar en una función, implica que ahí hay que parar.
+
+6) **Pensar en los componentes**: Cuando ya no hay más funciones se comienza a pensar en componentes. Al pensar en un componente, tratando de pensar en una función, implica que ahí hay que parar.
 
 **Nota**: La función `general`, `NO` es la función `principal`. Porque para conocer la principal, necesitamos conocer todas las demás y evaluarlas.
 

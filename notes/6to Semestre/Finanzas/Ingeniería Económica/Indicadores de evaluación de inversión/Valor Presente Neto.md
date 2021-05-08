@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Daniel Hernández Jiménez - 3MM3
 # Valor Presente Neto (VPN)
 También llamado Valor Actual Neto (VAN), Valor Neto Descontado (VND), Beneficio Neto Anual (BNA) y en varías cálculadoras financieras como Net Present Value (NPV).

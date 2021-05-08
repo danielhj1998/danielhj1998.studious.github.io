@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Los residuos se definen en la `Ley General para la Prevención y Gestión  Integral de los Residuos` (`LGPGIR`) como aquellos materiales o `productos` cuyo  propietario o poseedor `desecha` y que se encuentra en estado `sólido` o  `semisólido`, `líquido` o `gas` contenido en recipientes o depósitos, y que puede  ser susceptible de ser `valorizado` o requiere sujetarse a `tratamiento` o  `disposición final` conforme a lo dispuesto en esta Ley y demás ordenamientos  que de ella deriven. (DOF 2015).
 
 Las normas que indican el correcto manejo y procesos de los residuos se establecen en las `Normas Oficiales Mexicanas` (`NOM`) que son de carácter **obligatorio** y las `Normas Mexicanas` (`NMX`) que son de aplicación **voluntaria**.

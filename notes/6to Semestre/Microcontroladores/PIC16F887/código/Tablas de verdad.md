@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Para hacer tablas lógicas, se pueden utilizar los registros `PCL` y `PCLATCH`, en conjunto con la instrucción `RETLW`.
 
 ```mpasm

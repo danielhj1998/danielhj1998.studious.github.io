@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Este es un algoritmo para decodificar de binario a decimal decodificado en binario.
 
 ```

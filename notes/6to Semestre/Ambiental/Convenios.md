@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Convenio  169  de  la  OIT sobre  Pueblos  Indígenas y  Tribales  en  Países Independientes
 Este convenio trata sobre los recursos naturales donde existen pueblos origianrios. Ellos son los únicos que puedan decidir si se pueden explotar o no los recursos naturales.
 

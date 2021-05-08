@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ### Para pasar de decimal a otra base (DEC → X):
 
   

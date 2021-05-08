@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Ley de control básica
 ![eff08d43ee4243574dd9ec77f179e92e.png](../../img/fce683d2ae6d494ea873639db68587d1.png)
 

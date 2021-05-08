@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Los paquetes son utilizados en VHDL para encapsular una serie de módulos para después utilizarlos en otros módulos  
   
 El package tiene la siguiente estructura:  

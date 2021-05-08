@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Las imagenes creadas por un algoritmo de computadora se llaman imagenes `procedurales`.
 
 # Transformaciones básicas

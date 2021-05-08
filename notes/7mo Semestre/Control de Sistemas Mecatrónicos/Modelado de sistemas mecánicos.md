@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Considere el sistema masa - resorte
 ![63c31a284f59960ff13d8c85870e4ea6.png](../../img/d556c3231ae54d7a8a681f47e48b0870.png)
 Se asume que no hay fricción entre los bloques y la superficie

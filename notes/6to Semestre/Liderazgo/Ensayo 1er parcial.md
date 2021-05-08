@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # 7 hábitos de la gente...
 ## Tipos de control
 * `Control directo` Se resuelven trabajando nuestros hábitos.

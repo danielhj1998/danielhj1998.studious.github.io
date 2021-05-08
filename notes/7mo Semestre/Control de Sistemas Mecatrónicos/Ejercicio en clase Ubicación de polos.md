@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Ejercicio 1
 ## 1)
 

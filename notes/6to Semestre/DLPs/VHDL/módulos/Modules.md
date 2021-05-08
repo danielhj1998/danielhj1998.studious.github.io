@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Los módulos VHDL se usan para encapsular bloques de hardware y trabajar de forma modular.  
   
 La estructura de un módulo VHDL usando Xilinx ISE design suite es la siguiente:  

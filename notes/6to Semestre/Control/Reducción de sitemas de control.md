@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Partiendo del diagrama más básico de un sistema de control:
 ![f3e96ce7bf49667cfd47295b5b877c59.png](../../img/4d667b0f7dcd47549e218a152f3555e9.png)
 El objetivo es encontrar una función de transferencia para el sistema total. Entoces hay que llevarlo a la forma:

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 En conjuntos difusos, para que un elemento pertenezca a un conjunto difuso, basta con que su `membresía` sea `mayor que 0`.
 ![9f97a1895533db19f3c2783545914938.png](../../img/54ac868bbf0348ce8d056d23b301f675.png)
 ![d2d618fe3d08ad9ef6f5903085a46d2b.png](../../img/b9b462745e624b9e84dc48a4ca62549b.png)

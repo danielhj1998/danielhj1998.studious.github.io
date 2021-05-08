@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Los generados en las `casas habitación`, que resultan de la  eliminación de los materiales que utilizan en sus actividades  domésticas, de los productos que consumen y de sus  envases, embalajes o empaques; los residuos que provienen  de cualquier otra actividad dentro de `establecimientos` o en la  `vía pública` que genere `residuos` con `características  domiciliarias`, y los resultantes de la limpieza de las vías y  lugares públicos, siempre que no sean considerados por esta  Ley como residuos de otra índole (DOF 2015).
 
 Es responsabilidad de `autoridades municipales`. Tienen las funciones de `recolección`, `traslado`, `tratamiento` y `disposición final`.

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Considere el vector de estado
 
 $$

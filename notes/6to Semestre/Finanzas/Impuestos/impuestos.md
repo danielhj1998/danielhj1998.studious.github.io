@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 La fiscalización es regulada por la `Secretaría de Haciendo y Crédito Publico` (`SHCP`), y así mismo, el `SAT` (`Sistema de Administración Tributaria`) es controlado por `SHCP`.
 
 Los impuestos son como lo dice su nombre "impuestos", lo que quiere decir que son obligatorios

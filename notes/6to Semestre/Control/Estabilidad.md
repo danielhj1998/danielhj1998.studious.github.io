@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Es una propiedad de los sistems dinámicos.
 
 NOTA: Un sistema está en equilibrio si su salida permanece en el mismo estado (cuado no tiene entradas aplicadas).

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Los indicadores de toma de desiciones son índices que nos ayudan a determinar si un proyecto es o no conveniente para el inversionista
 * Permiten jerarquizar los proyectos en una cartera de inversión.
 * Permiten optimizar diversas decisiones del proyecto (ubicación, tecnología, reemplazo de equipos, segmento de mercado a abordar, periodo óptimo de abandono del proyecto, etc...).

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Actuadores
 ## Actuador de efecto simple
 ![b901f5b9b69375ba992bbfe0f93e5558.png](../../img/72fadf5216b146759503ccc09ea068e9.png)

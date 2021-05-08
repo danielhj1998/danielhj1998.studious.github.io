@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Los ODS
 Los `Objetivos de Desarrollo Sostenible` (2015-2030) también conocidos por sus siglas ODS son una iniciativa  impulsada por la ONU para dar `continuidad` a la `agenda de desarrollo` tras los `Objetivos de Desarrollo del  Milenio` (`ODM`).
 

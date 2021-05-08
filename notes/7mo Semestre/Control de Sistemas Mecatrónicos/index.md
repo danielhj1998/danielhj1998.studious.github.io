@@ -1,3 +1,5 @@
+---
+layout: index
 title: Control de Sistemas Mecatrónicos
 ---
 
@@ -15,7 +17,7 @@ title: Control de Sistemas Mecatrónicos
 * [Solución general de ecuaciones lineales en espacio de estado](./Solución general de ecuaciones lineales en espacio de estado.md)
 * [Forma canónica observable](./Forma canónica observable.md)
 * [Ubicación de polos](./Ubicación de polos.md)
-* [Ejercicio en clase: Ubicación de polos](./Ejercicio en clase ubicación de polos.md)
+* [Ejercicio en clase Ubicación de polos](./Ejercicio en clase Ubicación de polos.md)
 * [Estabilización por retroalimentación de estado](./Estabilización por retroalimentación de estado.md)
 * [Observadores de estado](./Observadores de estado.md)
 * [Detectabilidad de sistemas lineales](./Detectabilidad de sistemas lineales.md)

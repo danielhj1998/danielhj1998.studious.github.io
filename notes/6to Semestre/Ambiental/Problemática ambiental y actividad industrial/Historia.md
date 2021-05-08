@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Cuándo surge la urgencia de acción contra el deterioro ambiental?
 Fue a partir del desastre en `Minamata, Japón` en `1956` cuando ocurrió un episodio de `intoxicación` por metales pesados (`mercurio`) donde se intoxicaron animales `acuáticos` y `terrestres` (incluidos `humanos`). Muchos países se integraron a la **ONU** y contribuyeron para poner en marcha un `movimiento internacional` de lucha contra la `contaminación industrial`.
 

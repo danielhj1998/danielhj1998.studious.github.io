@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 En la figura siguiente se muestra un transformador ideal, que se compone del devanado `primario` (alimentación) y el `secundario`.
 ![61292f89f420220fb5a9a5f024b67009.png](../../img/ef70ec094ecc43fcaf085e056810db36.png)
 

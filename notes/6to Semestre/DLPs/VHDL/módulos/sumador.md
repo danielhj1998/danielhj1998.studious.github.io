@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 El siguiente es un ejemplo de un bloque sumador de 8 bits  
 
 ```

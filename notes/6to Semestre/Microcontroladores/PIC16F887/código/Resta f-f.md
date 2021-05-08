@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 El siguiente código hace la resta de ($0x20 - $0x21) => $0x22
 ```
 MOVF 	0X21,W

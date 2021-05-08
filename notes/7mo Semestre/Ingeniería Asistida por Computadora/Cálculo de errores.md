@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 ## Error relativo
 
 $$

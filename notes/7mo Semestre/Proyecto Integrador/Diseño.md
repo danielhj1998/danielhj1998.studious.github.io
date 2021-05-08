@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Es una actividad creativa, dominio funcional, solución física, dominio físico.
 
 Actividad sistemática

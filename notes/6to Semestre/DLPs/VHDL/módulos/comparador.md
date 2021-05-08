@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 Comparador de 8 bits  
 
 ```

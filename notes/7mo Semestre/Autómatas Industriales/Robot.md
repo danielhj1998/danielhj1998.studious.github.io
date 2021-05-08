@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Definición
 Es un manipulador multifuncional reprogramable diseñado para mover materiales, herramientas o dispositivos especializados a través de movimientos programados para el desempeño de una variedad de tareas
 

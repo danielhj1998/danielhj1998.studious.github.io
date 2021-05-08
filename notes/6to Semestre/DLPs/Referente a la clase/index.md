@@ -1,3 +1,5 @@
+---
+layout: index
 title: Referente a la clase
 ---
 

@@ -1,3 +1,7 @@
+---
+layout: note
+---
+
 # Hernández Jiménez Daniel - 3MM3
 
 El análisis de equilibrio es una técnica de uso muy generalizado en la `planeación` de las utilidades, de las ventas y en consecuencia de la producción.
