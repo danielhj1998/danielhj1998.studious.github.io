@@ -204,7 +204,7 @@ Si no lo es entonces no se puede estabilizar por retroalimentación de estado y 
 
 Pero como sí es estable, continuamos.
 
-### 5. Calcular $\bar{k}_1$ a partir de $A_{11}$ y $B_1$
+### 5. Calcular $\bar k_1$ a partir de $A_{11}$ y $B_1$
 ```matlab
 A11 = QinvAQ(1:r,1:r);
 B1 = QinvB(1:r);
