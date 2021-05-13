@@ -54,7 +54,36 @@ La matriz calculada es la siguiente:
 Por lo tanto:
 ![8e0e8d6f475982869ac8773fe5180dea.png](../../img/a5e3475513f741799cedbf90766b8727.png)
 # Principio de extensión
+Teniendo los siguientes conjuntos difusos:
 
 $$
 R = \left\{(x,y,\mu_R(x,y))|: x \in X; y \in Y\right\}
 $$
+
+![Relación difusa binaria](../../img/relacionDifusaContinua.png)
+
+![Conjunto Difuso A](../../img/conjuntoDifusoAPrincipioExtensión.png)
+
+Podemos extener $A$ sobre $R$ por medio de una extensión cilindrica:
+
+![Extensión de A sobre R](../../img/extensionConjuntoAenR.png)
+
+Ahora para obtener $R\ o\ R_A$ aplicandole el mínimo:
+
+![Composición R o RA](../../img/composicionRoRA.png)
+
+Ahora, se aplica el máximo proyectando sobre $Y$:
+
+![Proyeccción R o RA en Y](../../img/proyeccionRoRAenY.png)
+
+Obteniendo entonces el conjutno difuso $B$
+
+![Conjunto difuso B](../../img/conjuntoDifusoBPrincipioExtensión.png)
+
+Así que básicamente, se obtuvo el conjunto difuso $B$ a partir de $A$, por medio de la relación de composición entre $X$ e $Y$, $R$.
+
+Ahora bien, se puede realizar la proyección de cualquier punto sobre el otro eje, por ejemplo:
+
+![Extensión punto en X en Y](../../img/proyeccionPuntoRoRA.png)
+
+Por lo tanto la composicion difusa transforma un **escalar** en **conjunto difuso**.
