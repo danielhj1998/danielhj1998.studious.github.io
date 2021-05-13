@@ -141,7 +141,7 @@ El diseño de un observador de estado cuando el par $(A,C)$ no es observable se 
 Para $\bar{L}$
 
 $$
-    \boxed{L = \begin{bmatrix}
+    \boxed{\bar{L} = \begin{bmatrix}
         \bar{L}_1\\0
     \end{bmatrix}}
 $$

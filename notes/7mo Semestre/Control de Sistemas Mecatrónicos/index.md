@@ -21,3 +21,4 @@ title: Control de Sistemas Mecatrónicos
 * [Estabilización por retroalimentación de estado](./Estabilización por retroalimentación de estado.md)
 * [Observadores de estado](./Observadores de estado.md)
 * [Detectabilidad de sistemas lineales](./Detectabilidad de sistemas lineales.md)
+* [Retroalimentación basada en observadores de estado](./Retroalimentación basada en observadores de estado.md)
