@@ -127,4 +127,35 @@ Ashvile realizó una forma de elección de materiales, evaluando cada propiedad 
 
 El clasifica los materiales por clases, subclases, etc, hasta llegar a sus atributos:
 
+## Caso de estudio
+
+![Caso de estudio remo de competición](../../img/casoEstudioMateriales.png)
+![Caso de estudio remo de competición indice del material](../../img/casoEstudioMateriales2.png)
+![Caso de estudio remo de competición indices del material 2](../../img/casoEstudioMateriales3.png)
+
+Se transforman las ecuaciones a propiedades de los materiales `M`, geométrico `G` y de funcionalidad `F`.
+
+![Caso de estudio remo de competición método de Ashville](../../img/casoEstudioMateriales4.png)
+
+La recta pendiente se debe desplazar hasta que quedan mínimo 2 materiales y máximo 5.
+
+Ahora con ayuda de `bases de datos` y herramientas de elección multicriterio, se seleccionan los materiales.
+
+## Páginas Web
+* [MatWeb](http://www.matweb.com/)
+
 # Selección de procesos
+
+![Proceso de selección de procesos](../../img/procesoDeEleccionDeProcesos.png)
+
+![Familia procesos Ashville](../../img/familiaProcesosAshville.png)
+
+* `Función`: Qué es lo que el proceso debe hacer? (Formar, unir, acabado)
+* `Restricciones`: Qué material, forma, tamaño, precisión, etc. Debe cumplir?
+* `Objetivos`: Qué es lo que se pretende maximizar o minimizar? (Tiempo, costo, calidad)
+* `Variables`: libres: Elección del proceso, secuencia del proceso.
+
+Finalmente, se toma la decisión en las tablas de Ashville:
+![Tabla de procesos Ashville](../../img/tablaDeProcesosAshville.png)
+![Tabla de procesos Ashville 2](../../img/tablaDeProcesosAshville2.png)
+![Tabla de procesos Ashville 3](../../img/tablaDeProcesosAshville3.png)
