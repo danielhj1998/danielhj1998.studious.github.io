@@ -168,8 +168,7 @@ $$
 
 Si el sistema (1) es observable, entonces puede ser transformado en la forma canónica observable, haciendo
 
-$$x = Sz\quad(2$$
-$
+$$x = Sz\quad(2)$$
 
 Sustituyendo (2) en (1): 
 

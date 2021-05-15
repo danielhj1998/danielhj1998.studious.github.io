@@ -28,11 +28,11 @@ Entonces el conjunto de vectores $\{\vec{x_1}, \vec{x_2},\ldots, \vec{x_n}\}$ se
 
 ## Ejercicio
 Cuáles de los siguientes vectores son l.d. o l.i.?
-a) $\vec{x_1}=\begin{bmatrix}1\\1\end{bmatrix}; \vec{x_2}=\begin{bmatrix}-3\\-3\end{bmatrix}$
+a) $\vec{x_1}=\begin{bmatrix}1\ \ 1\end{bmatrix}; \vec{x_2}=\begin{bmatrix}-3\ \ -3\end{bmatrix}$
 Es l.d.
-b) $\vec{x_1}=\begin{bmatrix}1\\1\end{bmatrix}; \vec{x_2}=\begin{bmatrix}-1\\1\end{bmatrix}$
+b) $\vec{x_1}=\begin{bmatrix}1\ \ 1\end{bmatrix}; \vec{x_2}=\begin{bmatrix}-1\ \ 1\end{bmatrix}$
 Es l.i.
-c) $\vec{x_1}=\begin{bmatrix}1\\3\end{bmatrix}; \vec{x_2}=\begin{bmatrix}0\\0\end{bmatrix}$
+c) $\vec{x_1}=\begin{bmatrix}1\ \ 3\end{bmatrix}; \vec{x_2}=\begin{bmatrix}0\ \ 0\end{bmatrix}$
 Es l.d.
 
 # Base
@@ -111,8 +111,7 @@ $$
 
 B. Demostrar que:
 
-$$\det(sI-\tilde{A}) = \det(sI-A$$
-$
+$$\det(sI-\tilde{A}) = \det(sI-A)$$
 
 # Variables de estado
 Para el sistema dinámico, $x = Q\tilde{x}$

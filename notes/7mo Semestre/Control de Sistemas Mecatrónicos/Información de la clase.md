@@ -9,6 +9,7 @@ Grupo: 4MM6
 Plataforma: Teams
 
 ## Evaluación
+
 |Periodo|Unidad|Procedimiento de evaluación|
 |-|-|-|
 |1|$I$|Ejercicios en clase y tareas: 25%|
