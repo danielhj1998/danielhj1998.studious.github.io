@@ -1,6 +1,6 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans&display=swap');
 
 @charset "utf-8";
 
@@ -27,12 +27,34 @@ body {
     color: $dark;
 }
 
-h1 {font-size: $font-size-body * 2.5;}
-h2 {font-size: $font-size-body * 2.1;}
-h3 {font-size: $font-size-body * 1.7;}
-h4 {font-size: $font-size-body * 1.5;}
-h5 {font-size: $font-size-body * 1.2;}
-h6 {font-size: $font-size-body;}
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: $font-size-body * 2.5;
+    font-family: 'Fira Sans', sans-serif;
+}
+h2 {
+    font-size: $font-size-body * 2.1;
+    font-family: 'Fira Sans', sans-serif;
+}
+h3 {
+    font-size: $font-size-body * 1.7;
+    font-family: 'Fira Sans', sans-serif;
+}
+h4 {
+    font-size: $font-size-body * 1.5;
+    font-family: 'Fira Sans', sans-serif;
+}
+h5 {
+    font-size: $font-size-body * 1.2;
+    font-family: 'Fira Sans', sans-serif;
+}
+h6 {
+    font-size: $font-size-body;
+    font-family: 'Fira Sans', sans-serif;
+}
 p {font-size: $font-size-body;}
 
 // Default layout
@@ -60,20 +82,22 @@ div.page-content {
 ul.note-dir-menu {
     min-width: 100px;
     list-style: none;
-    counter-reset: depth;
-    @for $i from 1 through 8 {
-        li:nth-child(#{$i}) {
-        display: inline;
-        counter-increment: depth;
-            a {
-                padding: 10px;
-                background-color: adjust-hue($initialDepthColor,$i * 40);
-                color: $dark;
-                border-radius: 2px;
-                text-decoration: none;
-            }
+    li {
+    display: inline;
+        a {
+            font-family: 'Fira Sans', sans-serif;
+            padding: 0 10px;
+            color: $dark;
+            border-left: 1px solid transparentize($dark, 1);
+            border-right: 1px solid transparentize($dark, 1);
+        }
+        a:hover {
+            border-left: 1px solid $dark;
+            border-right: 1px solid $dark;
         }
     }
+    border-bottom: 1px solid $dark;
+    padding-bottom: 2px;
 }
 
 // small screens
