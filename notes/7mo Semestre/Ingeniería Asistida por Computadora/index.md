@@ -14,3 +14,4 @@ title: Ingeniería Asistida por Computadora
 * [Materiales](./Materiales.md)
 * [Esfuerzo de fluencia](./Esfuerzo de fluencia.md)
 * [ANSYS APDL](./ANSYS APDL.md)
+* [Calculo de armónicos](./Cálculo de armónicos.md)
