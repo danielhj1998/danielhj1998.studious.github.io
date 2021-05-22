@@ -8,3 +8,5 @@ title: Notas
 
 ----------------------------------------------------------
 
+## Tips
+* Ahora las fórmulas se pueden copiar al portapapeles directamente como código $\LaTeX$ ($\KaTeX$)!
