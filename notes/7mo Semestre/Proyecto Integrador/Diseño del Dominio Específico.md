@@ -144,6 +144,9 @@ Ahora con ayuda de `bases de datos` y herramientas de elección multicriterio, s
 ## Páginas Web
 * [MatWeb](http://www.matweb.com/)
 
+## Software
+* [CES EduPack](https://www.ansys.com/products/materials/granta-edupack)
+
 # Selección de procesos
 
 ![Proceso de selección de procesos](../../img/procesoDeEleccionDeProcesos.png)
