@@ -23,3 +23,4 @@ title: Control de Sistemas Mecatrónicos
 * [Detectabilidad de sistemas lineales](./Detectabilidad de sistemas lineales.md)
 * [Retroalimentación basada en observadores de estado](./Retroalimentación basada en observadores de estado.md)
 * [Observador de orden reducido](./Observador de orden reducido.md)
+* [Regulación de sistemas lineales](./Regulación de sistemas lineales.md)
