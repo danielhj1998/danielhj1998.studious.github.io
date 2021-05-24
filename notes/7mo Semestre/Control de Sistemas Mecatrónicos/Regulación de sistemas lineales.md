@@ -142,6 +142,7 @@ $$
 $$
 
 1. Diseñar un sistema de regulación, es decir calcular las ganancias del controlador tales que los polos del sistema en lazo cerrado se ubiquen en $-2\pm 2j$ y $-10$.
+
 ```matlab
 clc; close all; clear all;
 
