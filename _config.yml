@@ -28,10 +28,13 @@ github_username:  danielhj1998
 
 # Build
 markdown: kramdown
+highlighter: rouge
+
 kramdown:
     input: GFM
     hard_wrap: true
     math_engine: katex
+    syntax_highlighter: rouge
     # The options can be found here: https://katex.org/docs/options.html
     #math_engine_opts:
         #fleqn: false
