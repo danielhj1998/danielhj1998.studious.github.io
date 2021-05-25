@@ -39,6 +39,10 @@ kramdown:
     #math_engine_opts:
         #fleqn: false
 
+# Plugins
+plugins:
+    - jemoji
+
 # Links
 link_to:
     github: https://github.com/danielhj1998/studious

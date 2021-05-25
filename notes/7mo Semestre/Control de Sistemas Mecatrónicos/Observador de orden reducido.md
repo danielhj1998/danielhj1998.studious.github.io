@@ -174,7 +174,7 @@ Ok = obsv(Abb,Aab);
 Sinv = Ot^-1*Ok;
 S = Sinv^-1
 
-Lb = fliplr(at)' - fliplr(a)';
+Lb = fliplr(at) - fliplr(a);
 L = S*Lb
 
 eig(Abb-L*Aab)
