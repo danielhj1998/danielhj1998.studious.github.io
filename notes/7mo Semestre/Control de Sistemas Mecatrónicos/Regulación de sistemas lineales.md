@@ -194,9 +194,7 @@ $$
 \dot{e} = (\overline{A} - \overline{B}\ \overline{K})e
 $$
 
-Por lo tanto, el diseño del controlador `PI` se resuelve como un problema de ubicación de polos para la matriz $\overline{A} - \overline{B}\ \overline{K}$, donde $\overline{K} = \begin{bmatrix}
-    K,-K_I
-\end{bmatrix}$.
+Por lo tanto, el diseño del controlador `PI` se resuelve como un problema de ubicación de polos para la matriz $\overline{A} - \overline{B}\ \overline{K}$, donde $\overline{K} = \begin{bmatrix}K,-K_I\end{bmatrix}$.
 
 ## Selección de polos
 El procedimiento para la selección de los polos del sistema $(1)$ a un sistema de segundo orden de la forma:
