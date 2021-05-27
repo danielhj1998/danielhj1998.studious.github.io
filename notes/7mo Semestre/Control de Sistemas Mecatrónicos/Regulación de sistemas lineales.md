@@ -359,7 +359,7 @@ $$
 MP = e^{\frac{\xi\pi}{\sqrt{1-\xi^2}}}
 $$
 
-El tiempo de establecimiento comoo:
+El tiempo de establecimiento como:
 
 $$
 T_s = \dfrac{4}{\xi\omega_n}
@@ -378,14 +378,14 @@ $$
 \end{cases}
 \begin{cases}
     \omega_n = \dfrac{8}{\xi}\\
-    \xi^2(\ln^2(0.12) + \pi^2) = 1
+    \xi^2(\ln^2(0.12) + \pi^2) = \ln^2(0.12)
 \end{cases}
 $$
 
 $$
 \begin{cases}
     \omega_n = \dfrac{8}{\xi}\\
-    \xi = \dfrac{1}{\sqrt{\ln^2(0.12) + \pi^2}}
+    \xi = \sqrt{\dfrac{\ln^2(0.12)}{\ln^2(0.12) + \pi^2}}
 \end{cases}
 \begin{cases}
     \omega_n = 14.3\\
