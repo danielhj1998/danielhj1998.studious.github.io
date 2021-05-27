@@ -40,10 +40,13 @@ $$
     \end{bmatrix}}_{K} \underbrace{\begin{bmatrix}
         x_1 \\ x_2\\\ldots \\ x_n
     \end{bmatrix}}_{x}\\
-    (2)\quad&= K_1 r - Kx
 \end{aligned}
 $$
 
+$$
+(2)\quady \boxed{u= K_1 r - Kx}
+$$
+    
 Sustituyendo (2) en (1)
 
 $$
