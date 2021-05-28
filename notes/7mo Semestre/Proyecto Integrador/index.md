@@ -19,3 +19,4 @@ title: Proyecto Integrador
 * [Toma de decisiones multicriterio](./Toma de decisiones multicriterio.md)
 * [Diseño del Dominio Específico](./Diseño del Dominio Específico.md)
 * [Integración](./Integración.md)
+* [Diseño para la manufactura y ensamble](./Diseño para la manufactura y ensamble.md)
