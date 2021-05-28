@@ -116,7 +116,7 @@ Considerando la jornada laboral:
 * $3$ personas por día = 24 horas
 * $6.88$ días de ahorro
 
-Sí el salario de un obrero es de $\$2,216$/semana el costo total por semana es de $\$6,650$/semana
+Sí el salario de un obrero es de \$$2,216$/semana el costo total por semana es de \$$6,650$/semana
 
 Por lo tanto:
 
