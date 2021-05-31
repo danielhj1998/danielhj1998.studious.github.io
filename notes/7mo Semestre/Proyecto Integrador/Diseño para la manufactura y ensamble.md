@@ -152,3 +152,59 @@ $$
 * Orientar al diseñador para simplificar el producto, reduciendo los costos de ensamble y de componentes.
 * La administración de la información a partir de los diseñadores experimentados,  permitirá  a  los  diseñadores  con  menor experiencia disminuir los errores de diseño.
 * Establecer una base de datos donde se consideren los tiempos desensamble y los factores que influyen en el costo de diversos diseños en diversas situaciones y condiciones de producción.
+
+### Directrices para el manejo de componentes
+#### Simetría lineal y/o rotacional
+Se debe diseñar componentes que de inicio a fin cuenten con simetría lineal y/o rotacional alrededor del eje de inserción. Máxima simetría. La razón de esto es porque es más rápido pues puede significar menos operaciones de reorientación.
+
+![simetría](../../img/directricesDFASimetria.jpg)
+
+Al diseñar componentes, en ocasiones no es posible que sea simétrico, pero se debe potencializar la simetría.
+
+![Potencializar simetría](../../img/directricesDFAMaxSimetria.jpg)
+
+#### Juego mecánico
+Se deben diseñar los componentes para que no exista juego mecánico al insertarlo.
+![juego mecánico](../../img/directricesDFAJuegoMecanico.jpg)
+
+#### Atascos entre componentes
+Se debe evitar atascos entre componentes cuando están acomodados por lote.
+
+![atascos](../../img/directricesDFAAtascos.jpg)
+
+#### Tamaño y textura de componentes
+Los componentes no pueden ser tan pequeños pues son difíciles de manipular y perjudican los tiempos de ensamble. Lo mismo pasa con los componentes resbalosos.
+
+No pueden ser tal filosos porque puede conllevar a lesiones y si son flexibles, su manejo tiene que ser con más de una mano, por lo que afecta los tiempos de igual forma.
+
+![tamaño y forma](../../img/directricesDFAtamañoForma.jpg)
+
+#### Resistencia a la inserción
+Se deben incrementar los chaflanes y redondeo de las partes. En ocasiones, es conveniente incrementar la holgura sin exceder las características de diseño.
+
+![Juego al insertar varilla](../../img/directricesDFAjuegoInsercion.jpg)
+
+![esquinas internas](../../img/directricesDFAAtascosEsquinas.jpg)
+
+![Atasco eje](../../img/directricesDFAAtascoEje.jpg)
+
+#### Métodos estándar
+Buscar siempre un ensamble **piramidal**, de forma que el ensamble sea progresivo sobre un eje de referencia.
+
+![Piramidal](../../img/directricesDFAProcesoPiramidal.jpg)
+
+Eliminar cuando sea posible, la necesidad de detener los componentes cuando están ensamblando o mantener cierta orientación que desgasten al ensamblador. Esto hace que no se necesiten operaciones de reorientación.
+
+![Self locating](../../img/directricesDFASelfLocating.jpg)
+
+Diseñar para que los componentes se orienten antes de liberarlos cuando se está ensamblando. Uno de los principales problemas de ensamble es orientar y acomodar los componentes durante el ensamble.
+
+![Self orienting](../../img/directricesDFASelfOrienting.jpg)
+
+Considerar el costo de acuerdo al tipo de unión que se utilice.
+
+![Costo ensamble](../../img/directricesDFAcosto.jpg)
+
+Eliminar la necesidad de reorientar o reposicionar parcialmente cuando el ensamble se encuentra concluyendo.
+
+![Reorientación](../../img/directricesDFAreorientacion.jpg)
