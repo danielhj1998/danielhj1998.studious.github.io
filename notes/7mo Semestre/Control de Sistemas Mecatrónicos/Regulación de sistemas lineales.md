@@ -102,7 +102,7 @@ Se utiliza un controlador Proporcional Integral `PI`:
 
 $$
 \text{PI}\begin{cases}
-    u = K_I\varepsilon = - Kx\\
+    u = K_I\varepsilon - Kx\\
     \dot{\varepsilon} = r - y = r - Cx
 \end{cases}
 $$
