@@ -372,24 +372,30 @@ Por lo tanto:
 
 $$
 \begin{cases}
-    \dfrac{4}{\xi\omega_n} = 0.5\\
-    0.12 = e^{\frac{\xi\pi}{\sqrt{1-\xi^2}}}
+    \dfrac{4}{\xi\omega_n} = T_s\\
+    MP = e^{\frac{\xi\pi}{\sqrt{1-\xi^2}}}
 \end{cases}
 \begin{cases}
-    \omega_n = \dfrac{8}{\xi}\\
-    \ln(0.12) = \frac{\xi\pi}{\sqrt{1-\xi^2}}
+    \omega_n = \dfrac{4}{T_s\xi}\\
+    \ln(MP) = \frac{\xi\pi}{\sqrt{1-\xi^2}}
 \end{cases}
 \begin{cases}
-    \omega_n = \dfrac{8}{\xi}\\
-    \xi^2(\ln^2(0.12) + \pi^2) = \ln^2(0.12)
+    \omega_n = \dfrac{4}{T_s\xi}\\
+    \xi^2(\ln^2(MP) + \pi^2) = \ln^2(MP)
 \end{cases}
 $$
 
 $$
 \begin{cases}
-    \omega_n = \dfrac{8}{\xi}\\
-    \xi = \sqrt{\dfrac{\ln^2(0.12)}{\ln^2(0.12) + \pi^2}}
+    \omega_n = \dfrac{4}{T_s\xi}\\
+    \\
+    \xi = \sqrt{\dfrac{\ln^2(MP)}{\ln^2(MP) + \pi^2}}
 \end{cases}
+$$
+
+Por lo tanto para $T_s = 0.5$ y $MP = 0.12$:
+
+$$
 \begin{cases}
     \omega_n = 14.3\\
     \xi = 0.55
