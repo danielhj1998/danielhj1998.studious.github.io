@@ -200,7 +200,7 @@ $$
 \end{aligned}
 $$
 
-Si existe una función $V(x)$ tal que,
+Si existe una función $V(x)$ tal que ,
 
 1. $V(x)>0$
 2. $\dot{V}(x)|_{(1)}<0$
