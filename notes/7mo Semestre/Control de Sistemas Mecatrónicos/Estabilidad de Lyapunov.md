@@ -203,6 +203,6 @@ $$
 Si existe una función $V(x)$ tal que ,
 
 1. $V(x)>0$
-2. $\dot{V}(x)|_{(1)}<0$
+2. $\dot{V}(x)\vert_{(1)}<0$
 
 Entonces el punto de equilibrio es **asintóticamente estable**.
