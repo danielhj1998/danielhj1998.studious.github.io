@@ -25,3 +25,4 @@ title: Control de Sistemas Mecatrónicos
 * [Observador de orden reducido](./Observador de orden reducido.md)
 * [Regulación de sistemas lineales](./Regulación de sistemas lineales.md)
 * [Estabilidad de Lyapunov](./Estabilidad de Lyapunov.md)
+* [Introducción a los sistemas en tiempo discreto](./Introducción a los sistemas en tiempo discreto.md)

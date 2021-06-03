@@ -206,3 +206,135 @@ Si existe una función $V(x)$ tal que ,
 2. $\dot{V}(x)\vert_{(1)}<0$
 
 Entonces el punto de equilibrio es **asintóticamente estable**.
+
+Sea el sistema lineal:
+
+$$
+\dot{x} = Ax
+$$
+
+$$
+\begin{aligned}
+    \dot{x}^{T} &= (Ax)^{T}\\
+    &= x^{T}A^{T}\\
+\end{aligned}
+$$
+
+Determinar la condición de estabilidad en el sentido de Lyapunov.
+
+Se propone:
+
+$$
+(2)\quad V(x) = x^{T} P x\quad,\quad P=P^{T}\quad, \quad P>0
+$$
+
+Derivando (2) con respecto al tiempo,
+
+$$
+\begin{aligned}
+    \dot{V}(x) \vert_{(1)} &= \dot{x}^{T} P x + x^{T} P \dot{x} = x^{T}A^{T}Px + x^{T}PAx\\
+    &= x^{T}(A^{T}P + PA)x\\
+\end{aligned}
+$$
+
+Para que $\dot{V}(x)$ sea negativo:
+
+$$
+\begin{aligned}
+    \dot{V}(x) = x^{T}\underbrace{(A^{T}P + PA)}_{-Q}x = -x^{T}Qx < 0\quad,\quad Q=Q^{T}\quad,\quad Q>0
+\end{aligned}
+$$
+
+Se define:
+
+$$
+\boxed{A^{T}P + PA = -Q}\quad\text{Ecuación de Lyapunov}
+$$
+
+$$
+\boxed{A^{T}P + PA + Q = 0}\quad\begin{cases}
+    P = P^{T} & P>0\\
+    Q = Q^{T} & Q>0\\
+\end{cases}
+$$
+
+Por lo general se selecciona $Q = I$.
+
+```matlab
+P = lyap(A',Q)
+```
+
+#### Ejercicios
+
+1. Sea el sistema:
+
+    $$
+    \dot{x} = \begin{bmatrix}
+        -1 & 0\\
+        -3 & 2
+    \end{bmatrix}x
+    $$
+    
+    ```matlab
+    A = [-1  0
+         -3  2];
+         
+    Q = eye(size(A,1));
+    
+    P = lyap(A',Q)
+    eig(P)
+    ```
+    
+    ##### Resultado
+    
+    $$
+    P = \begin{bmatrix}
+        2.75 & -0.75\\
+       -0.75 & -0.25
+    \end{bmatrix}
+    $$
+    
+    $$
+    \lambda(P) = \begin{bmatrix}
+        -0.4271\\2.9271
+    \end{bmatrix}
+    $$
+    
+    $P$ no es simétrica por lo que el sistema **no es estable**.
+    
+    
+2. Sea el sistema:
+
+    $$
+    \dot{x} = \begin{bmatrix}
+        -1 & 0\\
+        -3 &-2
+    \end{bmatrix}x
+    $$
+    
+    ```matlab
+    A = [-1  0
+         -3 -2];
+         
+    Q = eye(size(A,1));
+    
+    P = lyap(A',Q)
+    eig(P)
+    ```
+    
+    ##### Resultado
+    
+    $$
+    P = \begin{bmatrix}
+        1.25 & -0.25\\
+       -0.25 &  0.25
+    \end{bmatrix}
+    $$
+    
+    $$
+    \lambda(P) = \begin{bmatrix}
+        0.191\\1.309
+    \end{bmatrix}
+    $$
+    
+    $P$ es simétrica y positiva por lo que el sistema **es estable**.
