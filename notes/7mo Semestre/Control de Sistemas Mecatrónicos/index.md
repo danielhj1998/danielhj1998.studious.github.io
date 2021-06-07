@@ -26,3 +26,4 @@ title: Control de Sistemas Mecatrónicos
 * [Regulación de sistemas lineales](./Regulación de sistemas lineales.md)
 * [Estabilidad de Lyapunov](./Estabilidad de Lyapunov.md)
 * [Introducción a los sistemas en tiempo discreto](./Introducción a los sistemas en tiempo discreto.md)
+* [Representación en espacio de estado de sistemas en tiempo discreto](./Representación en espacio de estado de sistemas en tiempo discreto.md)
