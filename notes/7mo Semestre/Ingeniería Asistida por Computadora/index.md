@@ -15,3 +15,4 @@ title: Ingeniería Asistida por Computadora
 * [Esfuerzo de fluencia](./Esfuerzo de fluencia.md)
 * [ANSYS APDL](./ANSYS APDL.md)
 * [Calculo de armónicos](./Cálculo de armónicos.md)
+* [Esfuerzos de impacto](./Esfuerzo de impacto.md)
