@@ -118,97 +118,192 @@ $$
 $$
 
 #### Ejercicio
-Sea el sistema
-
-$$
-(2)\quad y(k) + y(k-1) + y(k-2) = u(k-1)
-$$
-
-donde, $y(0) = 1$, $y(1) = -2$, $u(k) = \sin(k)$
-
-1. Simular la ec. $(2)$. Graficar $y(k)$.
+1. Sea el sistema
 
     $$
-    \begin{aligned}
-        y(k) &= -y(k-1) - y(k-2) + u(k-1)\\
-        k = 0\quad\Rightarrow\quad y(0)&= -y(-1) - y(-2) + u(-1)\\
-    \end{aligned}
+    (2)\quad y(k) + y(k-1) + y(k-2) = u(k-1)
+    $$
+
+    donde, $y(0) = 1$, $y(1) = -2$, $u(k) = \sin(k)$
+
+    1. Simular la ec. $(2)$. Graficar $y(k)$.
+
+        $$
+        \begin{aligned}
+            y(k) &= -y(k-1) - y(k-2) + u(k-1)\\
+            k = 0\quad\Rightarrow\quad y(0)&= -y(-1) - y(-2) + u(-1)\\
+        \end{aligned}
+        $$
+        
+        dado que no conocemos los valores de $y$ para tiempos negativos:
+
+        $$
+        \rightarrow\quad y(k+2) = -y(k+1) - y(k) + u(k+1)
+        $$
+        
+        ![simulación entrada-salida](../../img/simSistemaTiempoDiscretoEntradaSalida1.png.jpg)
+
+        ```matlab
+        function yk2 = fcn(yk,yk1,k)
+        uk1 = sin(k+1);
+
+        yk2 = -yk1 - yk + uk1;
+        ```
+        
+        En los integradores se ponen las $c.i.$, en la configuración del modelo, se especifica un paso fijo unitario. El resultado es el siguiente:
+
+        ![resultado en 10s](../../img/resultadoSistemaTiempoDiscretoEntradaSalida1.png.jpg)
+        
+    2. Indicar si el sistema es estable
+
+        $$
+        Y(z) + z^{-1}Y(z) + z^{-2} Y(z) = z^{-1}U(z)
+        $$
+        
+        $$
+        \frac{Y(z)}{U(z)} = \frac{z^{-1}}{1 + z^{-1} + z^{-2}}\frac{z^2}{z^2} = \frac{z}{z^2 + z + 1}
+        $$
+        
+        $$
+        p(z) = z^2 + z + 1 = 0
+        $$
+        
+        $$
+        \Rightarrow \quad z_{1,2} = -\frac{1}{2} \pm \frac{\sqrt{3}}{2} j
+        $$
+        
+        $$
+        |z_1| = 1\quad;\quad|z_2| = 2
+        $$
+        
+        Por lo tanto el sistema **es estable**.
+
+    3. Obtener la forma canónica controlable
+        
+        $$
+        \begin{aligned}
+            x(k+1) &= \begin{bmatrix}
+                0 & 1\\
+                -1 & -1\\
+            \end{bmatrix}x(k) + \begin{bmatrix}
+                0\\1
+            \end{bmatrix}u(k)\\
+            y(k) &= \begin{bmatrix}
+                0 & 1
+            \end{bmatrix}x(k)
+        \end{aligned}
+        $$
+        
+    4. Simular el sistema del punto 3. Graficar $y(k) = Cx(k)$.
+        
+        Primero obtenemos las condiciones iniciales:
+        
+        Para $k = 0$:
+        $$
+        \begin{cases}
+            y(0) = x_2(0) = 1\\
+            x_1(1) = x_2(0) = 1\\
+            x_2(1) = - x_1(0) - x_2(0) + u(0) = -2\\
+            x_1(0) = -x_2(1) - x_2(0) + u(0) = 2 -1 + \sin(0) = 1
+        \end{cases}
+        $$
+        
+        ![simulación canónica controlable](../../img/simSistemaTiempoDiscretoCanonicaCtrb1.png.jpg)
+
+        ```matlab
+        function [xk1,yk] = fcn(xk,k)
+        A = [0  1
+            -1 -1];
+        B = [0 1]';
+        C = [0 1];
+
+        uk = sin(k);
+
+        xk1 = A*xk + B*uk;
+        yk = C*xk;
+        ```
+        
+        ![resultado canónica controlable](../../img/resultadoSistemaTiempoDiscretoCanonicaCtrb1.png.jpg)
+    $$
+    \square
+    $$
+
+2. Sea el sistema
+    
+    $$
+    y(k) + 4y(k-1) + 3y(k-2) = u(k-1)
     $$
     
-    dado que no conocemos los valores de $y$ para tiempos negativos:
+    $$
+    y(0) = 1\quad,\quad y(1) = 1\quad,\quad u(k) = k
+    $$
+    
+    1. Obtener la forma canónica controlable. Graficar y(k)
+        
+        $$
+        \begin{cases}
+            \begin{aligned}
+                x(k+1) &= \begin{bmatrix}
+                    0 & 1\\
+                    -3 & -4
+                \end{bmatrix}x(k) + \begin{bmatrix}
+                    0\\1
+                \end{bmatrix}u(k)\\
+                y &= \begin{bmatrix}
+                    0 & 1
+                \end{bmatrix}x(k)
+            \end{aligned}
+        \end{cases}
+        $$
+        
+        Para $k = 0$
+        
+        $$
+        \begin{cases}
+            x_2(0) = y(0) = 1\\
+            x_1(1) = x_2(0) = 1\\
+            x_2(1) = -3x_1(0) - 4x_2(0) + u(0) = y(1) = 1\\
+            x_1(0) = \frac{-4x_2(0) + u(0) - x_2(1)}{3} = -1\\
+        \end{cases}
+        $$
+        
+        
+    2. Indicar si el sistema es estable.
 
-    $$
-    \rightarrow\quad y(k+2) = -y(k+1) - y(k) + u(k+1)
-    $$
-    
-    ![simulación entrada-salida](../../img/simSistemaTiempoDiscretoEntradaSalida1.png.jpg)
+        $$
+        Y(z) + 4z^{-1}Y(z) + 3z^{-2} Y(z) = z^{-1}U(z)
+        $$
+        
+        $$
+        \frac{Y(z)}{U(z)} = \frac{z^{-1}}{1 + 4z^{-1} + 3z^{-2}}\frac{z^2}{z^2} = \frac{z}{z^2 + 4z + 3}
+        $$
+        
+        $$
+        p(z) = z^2 + 4z + 3 = 0
+        $$
+        
+        $$
+        \Rightarrow\quad\begin{aligned}
+            z_{1} &= -1\\
+            z_{2} &= -3\\
+        \end{aligned}
+        $$
+        
+        Por lo tanto el sistema **no es estable**.
 
-    ```matlab
-    function yk2 = fcn(yk,yk1,k)
-    uk1 = sin(k+1);
-
-    yk2 = -yk1 - yk + uk1;
-    ```
-    
-    En los integradores se ponen las $c.i.$, en la configuración del modelo, se especifica un paso fijo unitario. El resultado es el siguiente:
-
-    ![resultado en 10s](../../img/resultadoSistemaTiempoDiscretoEntradaSalida1.png.jpg)
-    
-2. Indicar si el sistema es estable
-
-    $$
-    Y(z) + z^{-1}Y(z) + z^{-2} Y(z) = z^{-1}U(z)
-    $$
+    3. Simular el sistema $(1)$. Graficar $y(k)$. Comparar con la gráfica del punto 1.
+        
+        $$
+        y(k+2) + 4y(k+1) + 3y(k) = u(k+1)
+        $$
+        
+        $$
+        y(k+2) = -4y(k+1) - 3y(k) + u(k+1)
+        $$
+        
+        ![Comparación](../../img/resultadoSistemaTiempoDiscretoCanonicaCtrb2.png.jpg)
+        
     
     $$
-    \frac{Y(z)}{U(z)} = \frac{z^{-1}}{1 + z^{-1} + z^{-2}}\frac{z^2}{z^2} = \frac{z}{z^2 + z + 1}
+    \square
     $$
-    
-    $$
-    p(z) = z^2 + z + 1 = 0
-    $$
-    
-    $$
-    \Rightarrow \quad z_{1,2} = -\frac{1}{2} \pm \frac{\sqrt{3}}{2} j
-    $$
-    
-    $$
-    |z_1| = 1\quad;\quad|z_2| = 2
-    $$
-    
-    Por lo tanto el sistema **es estable**.
-
-3. Obtener la forma canónica controlable
-    
-    $$
-    \begin{aligned}
-        x(k+1) &= \begin{bmatrix}
-            0 & 1\\
-            -1 & -1\\
-        \end{bmatrix}x(k) + \begin{bmatrix}
-            0\\1
-        \end{bmatrix}u(k)\\
-        y(k) &= \begin{bmatrix}
-            0 & 1
-        \end{bmatrix}x(k)
-    \end{aligned}
-    $$
-    
-4. Simular el sistema del punto 3. Graficar $y(k) = Cx(k)$.
-
-    ```matlab
-    function [xk1,yk] = fcn(xk,k)
-    A = [0  1
-        -1 -1];
-    B = [0 1]';
-    C = [0 1];
-
-    uk = sin(k);
-
-    xk1 = A*xk + B*uk;
-    yk = C*xk;
-    ```
-    
-$$
-\square
-$$
