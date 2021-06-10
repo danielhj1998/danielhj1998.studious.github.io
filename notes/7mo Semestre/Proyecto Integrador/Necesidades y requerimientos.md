@@ -63,6 +63,7 @@ Los requerimientos son **rangos**. Cuándo son límites que no están acotados d
 ![6534f1decfe17a0bb04d2f252f5a6459.png](../../img/dafa183031814cf7a9d450e832af2d8a.png)
 
 # Matriz de trazabilidad de requerimientos
+
 ||$R_1$|$R_2$|$R_3$|$R_4$|$R_5$|
 |-|-|-|-|-|-|
 |$N_1$|$\checkmark$|$\checkmark$||||

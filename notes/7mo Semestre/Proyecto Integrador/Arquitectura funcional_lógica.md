@@ -13,7 +13,8 @@ Representa con modelos (Arquitectura) las funciones, la relación entre ella y e
 Busca dividir las funciones generales en específicas hasta que se llega al dominio de componentes.
 
 ### Ejemplo: Impresora
-1) **Función general**: Imprimir documentos digitales. **Qué necesita hacer?**
+1. **Función general**: Imprimir documentos digitales. **Qué necesita hacer?**
+
 	* Interpretar información digital
 	* Transmitir/comunicar información
 	* Almacenar papel
@@ -30,7 +31,9 @@ Busca dividir las funciones generales en específicas hasta que se llega al domi
 	* Medir nivel de tinta
 	* Medir cantidad de impresiones
 	* Interactuar con el usuario
-2) **Definir la transformación en cuanto a tipo E/S**
+
+2. **Definir la transformación en cuanto a tipo E/S**
+
 	* Interpretar información digital - I
 	* Transmitir/comunicar información - I
 	* Almacenar papel - M
@@ -47,7 +50,9 @@ Busca dividir las funciones generales en específicas hasta que se llega al domi
 	* Medir nivel de tinta - I
 	* Medir cantidad de impresiones - I
 	* Interactuar con el usuario - I
-3) **Agrupar primero las funciones propias de la función general**
+
+3. **Agrupar primero las funciones propias de la función general**
+
 	* Almacenar papel - M
 	* Transportar papel - M
 	* Almacenar tinta - M
@@ -58,7 +63,8 @@ Busca dividir las funciones generales en específicas hasta que se llega al domi
 	* Controlar desplazamiento - I
 	* Medir nivel de tinta - I
 	* Medir cantidad de impresiones - I
-	***
+
+	****
 
 	* Interpretar información digital - I
 	* Transmitir/comunicar información - I
@@ -66,7 +72,9 @@ Busca dividir las funciones generales en específicas hasta que se llega al domi
 	* Suministrar energía - E
 	* Convertir energía - E
 	* Interactuar con el usuario - I
-4) **Agrupar las funciones propias en transformación de materia (física)**
+
+4. **Agrupar las funciones propias en transformación de materia (física)**
+
 	* Almacenar papel - M
 	* Transportar papel - M
 	* Almacenar tinta - M
@@ -74,12 +82,14 @@ Busca dividir las funciones generales en específicas hasta que se llega al domi
 	* Controlar impresión de la tinta - I/E
 	* Desplazar el inyector - M
 	* Alinear el papel - M
-	***
+
+	****
 
 	* Controlar desplazamiento - I
 	* Medir nivel de tinta - I
 	* Medir cantidad de impresiones - I
-	***
+
+	****
 
 	* Interpretar información digital - I
 	* Transmitir/comunicar información - I
@@ -87,7 +97,9 @@ Busca dividir las funciones generales en específicas hasta que se llega al domi
 	* Suministrar energía - E
 	* Convertir energía - E
 	* Interactuar con el usuario - I
-5) **Jerarquizar o dividir las funciones**: La división debe ser por más de 2 funciones, en 
+
+5. **Jerarquizar o dividir las funciones**: La división debe ser por más de 2 funciones, en 
+
 	* Imprimir documentos digitales
 		* Manejar el papel
 			* Almacenar papel - M
@@ -118,7 +130,7 @@ Busca dividir las funciones generales en específicas hasta que se llega al domi
 				* Medir energía - I *
 				* Medir atascos - I *
 
-6) **Pensar en los componentes**: Cuando ya no hay más funciones se comienza a pensar en componentes. Al pensar en un componente, tratando de pensar en una función, implica que ahí hay que parar.
+6. **Pensar en los componentes**: Cuando ya no hay más funciones se comienza a pensar en componentes. Al pensar en un componente, tratando de pensar en una función, implica que ahí hay que parar.
 
 **Nota**: La función `general`, `NO` es la función `principal`. Porque para conocer la principal, necesitamos conocer todas las demás y evaluarlas.
 
@@ -157,6 +169,7 @@ Aquí se enumeran las funciones.
 			* `f444` Medir el tamaño de papel - I *
 			* `f445` Medir energía - I *
 			* `f446` Medir atascos - I *
+
 ```mermaid
 graph TD;
     f-->f1;
@@ -194,13 +207,17 @@ graph TD;
 	f44-->f445;
 	f44-->f446;
 ```
+
 ![88507391afbb07d1ac0174c1f07a9a6f.png](../../img/8a3f9bec6e144507ae8a5dc23ec4e438.png)
+
 Esto acompañado de una explicación en la documentación es el modelo FBS
 
 Cada hilera es un `nivel` en el sistema. Donde `f` es `Nivel 1`
 
 # Relación funcional ($\text{IDEF-0}$)
+
 ![36e8250a1d8c38ed90f934d3db746c91.png](../../img/bdefd89c3e2541ca819ed26246195b78.png)
+
 ## Directrices
 1. Al menos una entrada de control por función.
 2. Cada nodo debe conformarse de 3 a 6 funciones.
@@ -234,6 +251,7 @@ Los diagramas se van detallando por niveles, la profundidad de estos niveles son
 
 ## Ejemplo (muy simplificado)
 Función general:
+
 * `f` Mantener la temperatura del café
 	* `f1` Medir la temperatura.
 	* `f2` Controlar la temperatura.
@@ -241,6 +259,7 @@ Función general:
 	* `f4` Contener el café.
 
 ### FBS
+
 ```mermaid
 graph TD;
 f-->f1
@@ -248,6 +267,7 @@ f-->f2
 f-->f3
 f-->f4
 ```
+
 ### IDEF-0
 ![357a7391bf3326891902c4d42ed038fb.png](../../img/add1dec15619476e986157000205d1e5.png)
 ![fbaa3aecd641ea4d1d0d2f6a1d2461ee.png](../../img/6ba98efa1bf34009b589365d7bc0b683.png)
