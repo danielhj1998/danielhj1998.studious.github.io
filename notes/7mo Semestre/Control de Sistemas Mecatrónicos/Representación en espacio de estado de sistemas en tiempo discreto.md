@@ -86,7 +86,7 @@ $$
     x_{n-1}(k+1) = x_n(k)\\
     x_{n}(k+1) = -a_nx_1(k) - a_{n-1}x_2(k) - \ldots - a_2 x_{n-1}(k) + a_1 x_n(k) + u(z)\\
     \\
-    y(k) = b_nx_1(k) - b_{n-1}x_2(k) - \ldots - b_2 x_{n-1} - b_1 x_n (k)
+    y(k) = b_nx_1(k) + b_{n-1}x_2(k) + \ldots + b_2 x_{n-1} + b_1 x_n (k)
 
 \end{cases}
 $$
@@ -112,7 +112,7 @@ $$
         0\\0\\\vdots\\0\\1
     \end{bmatrix}u(k)\right\}\text{ Forma canónica controlable}\\
     y(k) &= \begin{bmatrix}
-        -b_n & -b_{n-1} & \ldots &  -b_2 & -b_1
+        b_n & b_{n-1} & \ldots &  b_2 & b_1
     \end{bmatrix}x(k)
 \end{aligned}
 $$

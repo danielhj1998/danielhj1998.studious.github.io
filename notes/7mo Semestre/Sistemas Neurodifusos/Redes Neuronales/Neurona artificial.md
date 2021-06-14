@@ -49,3 +49,29 @@ f(a-\phi) = \begin{cases}
 \end{cases}
 $$
 
+##### Signo
+
+$$
+f(a - \phi) = \begin{cases}
+     1 & a \geq \phi\\
+    -1 & a < \phi
+\end{cases}
+$$
+
+##### Lineal
+
+$$
+f(a - \phi) = a -\phi
+$$
+
+##### Sigmoide
+
+$$
+f(a - \phi) = \frac{1}{1+e^{\phi-a}}
+$$
+
+##### Gaussiana
+
+$$
+f(a - \phi) = \frac{1}{1+e^{\phi-a}}
+$$

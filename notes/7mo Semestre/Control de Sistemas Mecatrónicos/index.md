@@ -29,3 +29,4 @@ title: Control de Sistemas Mecatrónicos
 * [Representación en espacio de estado de sistemas en tiempo discreto](./Representación en espacio de estado de sistemas en tiempo discreto.md)
 * [Forma canónica observable en tiempo discreto](./Forma canónica observable en tiempo discreto.md)
 * [Solución de ecuaciones de estado en tiempo discreto](./Solución de ecuaciones de estado en tiempo discreto.md)
+* [Discretización de ecuaciones en espacio de estado](./Discretización de ecuaciones en espacio de estado.md)

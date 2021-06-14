@@ -94,5 +94,70 @@ y(k) + 5y(k-1) + 6y(k-2) = u(k-1) + u(k-2)
 $$
 
 1. Simular el sistema, $y(0) = 2$, $y(1) = -3$, $u(k) = \cos(k)$. Graficar $y(k)$
+    
+    $$
+    y(k+2) + 5y(k+1) + 6y(k) = u(k+1) + u(k)
+    $$
+    
+    $$
+    y(k+2) = - 5y(k+1) - 6y(k) + u(k+1) + u(k)
+    $$
+    
+    ```matlab
+    function yk2 = fcn(yk,yk1,k)
+    uk1 = cos(k+1);
+    uk = cos(k+2);
 
+    yk2 = -5*yk1 - 6*yk + uk1 + uk;
+    ```
+    
 2. Obtener la forma canónica observable. Graficar $y(k)$ y comparar con el punto 1.
+    
+    $$
+    \begin{aligned}
+    x(k+1) &= \begin{bmatrix}
+        0 & -6\\
+        1 & -5\\
+    \end{bmatrix}x(k) + \begin{bmatrix}
+        1\\1
+    \end{bmatrix}u(k)\\
+    y(k) &= \begin{bmatrix}
+        0 & 1
+    \end{bmatrix}x(k)
+    \end{aligned}
+    $$
+    
+    Para $k = 0$:
+    
+    $$
+    \begin{cases}
+        x_2(0) = y(0) = 2\\
+        x_2(1) = x_1(0) -5 x_2(0) + u(0) = x_1(0) -10 + 1 = y(1) = -3\\
+        x_1(0) = 9-3 = 6
+    \end{cases}
+    $$
+    
+    ```matlab
+    function [xk1,yk] = fcn(xk,k)
+    A = [0 -6
+         1 -5];
+    B = [1 1]';
+    C = [0 1];
+
+    uk = cos(k);
+
+    xk1 = A*xk + B*uk;
+    yk = C*xk;
+    ```
+    
+    Simulando ambos sistemas:
+    
+    ![Simulación](../../img/simSistemaTiempoDiscretoCanonicaObsv.png.jpg)
+
+    Se realiza la comparación de las salidas $y(k)$:
+
+    ![Comparación](../../img/resultadoSistemaTiempoDiscretoCanonicaObsv.png.jpg)
+    
+    $$
+    \square
+    $$
