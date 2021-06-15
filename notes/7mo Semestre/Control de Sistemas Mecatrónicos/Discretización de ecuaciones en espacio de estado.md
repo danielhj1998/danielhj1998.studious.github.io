@@ -144,3 +144,86 @@ $$
 \end{aligned}
 }
 $$
+
+#### Ejercicio
+1. Sea el sistema `SISO`,
+
+    $$
+    \tag{1}\begin{cases}
+        \dot{x}(t) = -2x(t) + 3u(t)\\
+        y(t) = x(t)
+    \end{cases}
+    $$
+
+    Discretizar el sistema $(1)$ para:
+
+    1. $u(t) = 1$
+    2. $u(t) = \sin(t)$
+
+    $$
+    \overline{A}(T) = e^{AT} = e^{-2T}
+    $$
+
+    $$
+    \overline{B}(T) = \left(\int_0^T e^{A\lambda}d\lambda\right)B = \left(\int_0^T e^{-2\lambda}d\lambda\right)3 = -\frac{3}{2}e^{-2\lambda}\vert_0^T = -\frac{3}{2}e^{-2T} + \frac{3}{2}
+    $$
+
+    Por lo tanto:
+
+    $$
+    \tag{2}\begin{cases}
+        x((k+1)T) = e^{-2T}x(kT) + \frac{3}{2}(1 - e^{-2T})u(kT)\\
+        y(kT) = x(kT)
+    \end{cases}
+    $$
+
+    Simulando los sistemas $(1)$ y $(2)$ para $u(t) = 1$,$T=0.2$ y $u(t) = \sin(t)$,$T = 0.02$ respectivamente, se obtiene el siguiente resultado:
+
+    ![resultado u=1](../../img/resultadoDiscretizacion1_1.jpg)
+
+    ![resultado u=sin(t)](../../img/resultadoDiscretizacion1.jpg)
+    
+
+2. Discretizar el sistema
+
+    $$
+    \tag{1}\begin{cases}
+        \dot{x}(t) = \begin{bmatrix}
+            0 & 1\\
+            -25 & -4
+        \end{bmatrix}x(t) + \begin{bmatrix}
+            0\\1
+        \end{bmatrix}u(t)\\
+        y(t) = \begin{bmatrix}
+            1 & -1
+        \end{bmatrix}x(t)
+    \end{cases}
+    $$
+
+    Discretizar el sistema $(1)$ para:
+
+    1. $u(t) = 10$
+    2. $u(t) = t$
+    3. $u(t) = \sin(t)$
+
+    Los valores de $\overline{A}$ y $\overline{B}$ se estiman con el comando de matlab `[Ab,Bb] = c2d(A,B,T)`:
+
+    ```matlab
+    A = [0   1
+        -25 -4];
+    B = [0
+         1];
+         
+    T = 0.1; % este valor cambia por cada entrada
+         
+    [Ab,Bb] = c2d(A,B,T)
+    ```
+
+    Simulando los sistemas $(1)$ y $(2)$ para $u(t) = 10$,$T=0.1$ y $u(t) =\sin(t),u(t) = t$,$T = 0.01$ , se obtiene el siguiente resultado:
+
+    ![resultado u=10](../../img/resultadoDiscretizacion2_1.jpg)
+
+    ![resultado u=10](../../img/resultadoDiscretizacion2_2.jpg)
+    
+    ![resultado u=10](../../img/resultadoDiscretizacion2_3.jpg)
+    
