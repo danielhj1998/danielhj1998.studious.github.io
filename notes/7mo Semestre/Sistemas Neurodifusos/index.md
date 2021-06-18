@@ -14,4 +14,3 @@ title: Sistemas Neurodifusos
 * [Funciones de membresía bidimensionales](./Funciones de membresía bidimensionales.md)
 * [Normas y Co-Normas T](./Normas y Co-Normas T.md)
 * [Relaciones y composiciones](./Relaciones y composiciones.md)
-* [Razonamiento difuso](./Razonamiento difuso.md)

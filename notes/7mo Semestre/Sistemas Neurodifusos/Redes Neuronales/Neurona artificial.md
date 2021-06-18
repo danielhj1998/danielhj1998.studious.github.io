@@ -75,3 +75,55 @@ $$
 $$
 f(a - \phi) = \frac{1}{1+e^{\phi-a}}
 $$
+
+### Comportamiento con diferentes pesos sinápticos
+El comportamiento de una neurona depende de los pesos sinápticos, por ejemplo considerando una neurona con una función de activación escalón unitario.
+
+$$
+f(a-\phi) = \begin{cases}
+    1 & a \geq \phi\\
+    0 & a < \phi\\
+\end{cases}
+$$
+
+Los pesos sinápticos se pueden adaptar para que siga el comportamiento de una compuerta lógica `AND` o una compuerta `OR`.
+
+$$
+y = AND(x_1,x_2)
+$$
+
+| $x_1$ | $x_2$ | $y$ |
+| -     | -     | -   |
+| $0$   | $0$   | $0$ |
+| $0$   | $1$   | $0$ |
+| $1$   | $0$   | $0$ |
+| $1$   | $1$   | $1$ |
+
+Para simular dicho comportamiento, se necesitan 3 pesos sinápticos, 2 para las entradas y el valor del umbral.
+
+$$
+a = \omega_0 + \omega_1 x_1 + \omega_2 x_2
+$$
+
+Haciendo $\omega_0 = -1.5$, $\omega_1 = \omega_2 = 1$, se cumple la tabla de verdad para la compuerta `AND`.
+
+$$
+a_{AND} = -1.5 + x_1 + x_2
+$$
+
+Por otro lado, haciendo $\omega_0 = -0.5$ la neurona seguiría el comportamiento de la compuerta `OR`.
+
+$$
+y = OR(x_1,x_2)
+$$
+
+$$
+a_{OR} = -0.5 + x_1 + x_2
+$$
+
+| $x_1$ | $x_2$ | $y$ |
+| -     | -     | -   |
+| $0$   | $0$   | $0$ |
+| $0$   | $1$   | $1$ |
+| $1$   | $0$   | $1$ |
+| $1$   | $1$   | $1$ |
