@@ -46,3 +46,12 @@ x_2 = -x_1 + 1.5
 $$
 
 ![img espacioEntradasANDMcCullochPitts jpg](../../../img/espacioEntradasANDMcCullochPitts.jpg)
+
+En general la línea trazada representa la **Frontera de desisición**. Los valores por encima representan las combinaciones de las entradas que activan la neurona y los valores por debajo los que no logran activarla.
+
+La analogía que entre las demás partes de la neurona artificial es la siguiente:
+
+$$
+\underbrace{\omega_i}_\text{Codificación del conocimiento}:\underbrace{\Sigma}_\text{Integración de la información}:\underbrace{f}_\text{Desición}
+$$
+
