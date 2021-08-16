@@ -42,7 +42,6 @@ kramdown:
 # Plugins
 plugins:
     - jemoji
-    - jekyll-target-blank
 
 # Links
 link_to:
