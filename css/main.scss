@@ -4,9 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 @import 'code.css';
-code {
+pre code {
     background-color: #F8F8F8;
-    font-family: 'Fira Code', monospace
+    font-family: 'Fira Code', monospace;
+    white-space: pre;
+    overflow-x: auto;
 }
 
 @charset "utf-8";
@@ -20,6 +22,7 @@ $dark: #36393b;
 $clear: white;
 $accent: #dab49b;
 $secondary: #634d55;
+$deepblue: #22224C;
 
 html, body {
     height: 90%;
@@ -35,7 +38,30 @@ body {
 }
 
 a {
+    position: relative;
+    display: inline-block;
+    color: $dark;
     text-decoration: none;
+    transition-delay: 1s;
+    transition: opacity .2s ease, transform .3s ease;
+    &:before{
+        content: "";
+        position: absolute;
+        background: $dark;
+        width: 15px;
+        height: 1px;
+        bottom: 0;
+        transform: translate(0%, 0%);
+        transition: all .3s ease;
+        z-index: -1;
+    }
+    &:hover{
+        //color: #ab7e0e;
+        color: #f255c0;
+        &:before{
+            width: 100%;
+        }
+    }
 }
 
 h1 {
@@ -63,6 +89,21 @@ h6 {
     font-family: 'Fira Sans', sans-serif;
 }
 p {font-size: $font-size-body;}
+
+blockquote {
+  background: #fAfAff;
+  border-left: 3px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+blockquote p {
+  display: inline-block;
+}
+
+ul {
+    list-style-position: outside;
+    margin-left: 1em;
+}
 
 // Default layout
 div.go-home {
