@@ -4,7 +4,9 @@ layout: note
 
 ## Información del profesor
 Nombre: Germán Escoto Mora
+
 [Email](mailto:escotomora@gmail.com)
+
 Clase: [Classroom](https://classroom.google.com/c/MzgwMzA5MDQ2MzI0)
 
 La clase será grabada los martes y jueves con videoconferencia los miércoles.
