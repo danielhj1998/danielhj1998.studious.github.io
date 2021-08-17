@@ -29,4 +29,4 @@ Pero para ser más flexible este ajuste se hace:
 
 > Mandar preguntas en [Dudas al profesor](http://www.virtual.upiita.ipn.mx/mod/forum/view.php?id=19625) > *Todos los participantes*
 
-Las clases en videoconferencia son los lunes y se pueden agendar espacios de 15 min. para dudas los miércoles. Estas se agendan en [Calendairo de sesiones síncronas](http://www.virtual.upiita.ipn.mx/mod/scheduler/view.php?id=26795)
+Las clases en videoconferencia son los lunes y se pueden agendar espacios de 15 min. para dudas los miércoles. Estas se agendan en [Calendario de sesiones síncronas](http://www.virtual.upiita.ipn.mx/mod/scheduler/view.php?id=26795)
