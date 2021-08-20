@@ -21,9 +21,13 @@ Las actividades se desarrollarán cada semana pero en caso de no poder hacerla, 
 * FluidSim
 
 
-## Formáto de las prácticas
+## Formáto de reporte de prácticas
+En un archivo .pdf que contenga:
+
 * Carátula
 * Índice
 * Objetivo de la práctica
-* Diagrama (resultado)
+* Enunciado del problema
+* Material
+* Diagrama solución (diagrama eléctrico)
 * Conclusiones

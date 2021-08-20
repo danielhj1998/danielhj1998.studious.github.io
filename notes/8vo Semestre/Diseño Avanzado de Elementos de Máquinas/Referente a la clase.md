@@ -2,6 +2,10 @@
 layout: note
 ---
 
+## Información
+Profesor: Brito Martínez Emilio Nicéforo
+La clase será en [Zoom](https://us04web.zoom.us/j/79562698531?pwd=L1NwVW9OYXlOb0VmY1d5emRSMzdPZz09#success)
+
 ## Evaluación
 
 | Concepto     | Valor  |

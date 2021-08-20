@@ -1,9 +1,8 @@
 ---
 layout: index
-title: Autómatas Industriales
+title: Sistemas Operativos en Tiempo Real
 ---
 
 * [Referente a la clase](Referente a la clase.md)
-* [Fundamentos de automatización](Fundamentos de automatización.md)
 
 -------------------------------------------
