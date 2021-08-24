@@ -3,7 +3,7 @@ layout: index
 title: 8vo Semestre
 ---
 
-* [Autómatas Industriales](../8vo Semestre/Autómatas Industriales/index.md) 
+* [Automatización Industrial](../8vo Semestre/Automatización Industrial/index.md) 
 * [Control de Máquinas Eléctricas](../8vo Semestre/Control de Máquinas Eléctricas/index.md) 
 * [Diseño Avanzado de Elementos de Máquinas](../8vo Semestre/Diseño Avanzado de Elementos de Máquinas/index.md) 
 * [Procesador Digital de Señales](../8vo Semestre/Procesador Digital de Señales/index.md) 
