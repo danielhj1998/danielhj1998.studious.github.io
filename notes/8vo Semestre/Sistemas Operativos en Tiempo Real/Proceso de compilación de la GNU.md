@@ -4,7 +4,7 @@ layout: note
 
 Al compilar un programa en c, normalmente correríamos este comando:
 
-```c
+```bash
 gcc hello.c -o h1.xtn
 ```
 
@@ -17,7 +17,7 @@ Sin embargo en realidad es un proceso que consta de 4 pasos:
 
 Pongamos como ejemplo un programa muy sencillo en C y lo guardamos en `hello.c`.
 
-```
+```c
 #include <stdio.h>
 
 #define NUM 0
@@ -31,7 +31,7 @@ int main(void) {
 > C es uno de los lenguajes de alto nivel más antiguos y por convención se ponen nombran con la extensión `.c`, sin embargo, no es necesario nombrarlo así.
 
 ## Preprocesado
-```
+```bash
 cpp hello.c > hello.i
 ```
 El preprocesador busca comandos que inicien con `#`, estas se conocen como *directivas del preprocesador*, luego los ejecuta realizando las siguientes acciones:
@@ -76,7 +76,7 @@ El preprocesador busca comandos que inicien con `#`, estas se conocen como *dire
     Al realizar el preprocesado, el archivo queda mucho más corto. Esto tiene la ventaja de que hace el programa más portable, es decir menos pesado. Pero por otro lado el programa principal se hace menos legible a medida que se van agregando muchas de estas declaraciones y por lo tanto se hace más difícil de mantener.
     
 ## Compilación
-```c
+```bash
 gcc -Wall -S hello.i -o hello.s
 ```
 > La opción `-Wall` Sólo está para imprimir todos los Warnings, pero no es necesario
@@ -86,7 +86,7 @@ En esta etapa se toma la salida del preprocesador y se genera lenguaje ensamblad
 Podría decirse que es la etapa principal de el compilador, traduce el código c a lenguaje ensamblador, pero también busca la optimization y también hacer más seguro el código.
 
 ## Ensamblado
-```c
+```bash
 as hello.s -o hello.o
 ```
 
@@ -105,7 +105,7 @@ Con el comando `nm` se listan los símbolos del archivo objeto. Para el caso de 
 Las `U` (undefined) significan que están definidas en otro lugar, mientras que la `T` indica que `main` está definido dentro de la sección de código del archivo.
 
 ## Enlazado (linking)
-```c
+```bash
 gcc hello.o -o h1.xtn
 ```
 
