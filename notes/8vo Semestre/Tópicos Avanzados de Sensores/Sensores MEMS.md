@@ -43,3 +43,19 @@ Así, luego de ser expuesto, el resist expuesto a radiación termina teniendo un
 El proceso consiste en atacar una película de sacrificio para general un molde donde luego se hará la deposición de material para obtener el resultado deseado. Esto se puede hacer por capas sucesivas aplicando el mismo método.
 
 ![proceso de micromaquinado de superficie](../../img/micromaquinadoSuperficie.png)
+
+## Revistas especializadas en Tecnología MEMS
+
+* IEEE/SME Journal of Microelectromechanical Systems (JMEMS)
+* Journal of Micromechatronics
+* Journal of Micromechanics and Microengineering
+* Measurement, Science and Technology
+* Journal of Microlithography, Microfabrication, and Microsystems
+* Sensors and Actuators (A-Physical, B-Chemical)
+* Nanotechnology
+* Microelectronic Engineering
+* Journal of Micromechatronics
+* Smart Materials and Structures
+* Smart Materials ans Structures
+* IEEE Sensors Journal
+* Sensors and Materials
