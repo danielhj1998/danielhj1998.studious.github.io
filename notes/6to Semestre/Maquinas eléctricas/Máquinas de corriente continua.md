@@ -31,7 +31,7 @@ $$
 
 # Regulación de la velocidad (RV):
 
-$$RV=\dfrac{n_{vacío}-n_{pc}}{n_{pc}}\times100\$$
+$$RV=\dfrac{n_{vacío}-n_{pc}}{n_{pc}}\times 100$$
 
 # Tipos de máquinas de C.C.
 
