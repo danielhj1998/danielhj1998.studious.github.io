@@ -7,5 +7,6 @@ title: Automatización Industrial
 * [Fundamentos de automatización](Fundamentos de automatización.md)
 * [Simbología Eléctrica](Simbología Eléctrica.md)
 * [Fase, neutro y tierra](Fase, neutro y tierra.md)
+* [Lógica cableada](Lógica cableada.md)
 
 -------------------------------------------
