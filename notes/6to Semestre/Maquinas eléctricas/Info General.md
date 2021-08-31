@@ -19,6 +19,7 @@ Grupo: 2MM9
   
 
 ## Evaluación
+
 |Evaluación|Valor|
 |---|---|
 |Tareas* y ejercicios resueltos en clase|30%|
