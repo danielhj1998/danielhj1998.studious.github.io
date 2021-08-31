@@ -3,10 +3,7 @@ layout: index
 title: Maquinas eléctricas
 ---
 
-* [Referente a la clase](./Referente a la clase/index.md)
-
-----------------------------------------------------------
-
+* [Referente a la clase](./Info General.md)
 * [Clasificación](./Clasificación.md)
 * [Circuitos magnéticos](./Circuitos magnéticos.md)
 * [Repaso de electromagnétismo](./Repaso de electromagnétismo.md)
@@ -17,3 +14,5 @@ title: Maquinas eléctricas
 * [Circuito de arranque](./Circuito de arranque.md)
 * [Transformadores](./Transformadores.md)
 * [Motores de inducción](./Motores de inducción.md)
+
+----------------------------------------------------------

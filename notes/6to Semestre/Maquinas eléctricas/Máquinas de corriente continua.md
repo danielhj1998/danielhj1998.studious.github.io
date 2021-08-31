@@ -9,6 +9,7 @@ Compuesta por:
 ![d023b901e9d033701ae7b1f85eccb266.png](../../img/0ad4d38496ff450480ee260b2f7ebf09.png)
 
 # Modelo (circuito eléctrico equivalente)
+
 |Estator|Rotor|
 |---------|---------|
 |![a496f0a27852dc7e7b8024494c39dbc8.png](../../img/540c773ddcdc4e0cbd1e6e79bf7260ee.png)|![288ce5d57ceb6553b610f6eb136ac8dc.png](../../img/7abeb52cf888496eb786a169b8744de6.png)|
@@ -21,7 +22,7 @@ Compuesta por:
 
 Las pérdidas en el núcleo se determinan a partir de la prueba en vacío (sin carga).
 
-La conversión de energíá electromecánica:
+La conversión de energía electromecánica:
 
 $$
 E_{ind}\ i_a=T_{ind}\ \omega
@@ -31,11 +32,13 @@ $$
 # Regulación de la velocidad (RV):
 
 $$RV=\dfrac{n_{vacío}-n_{pc}}{n_{pc}}\times100\$$
-$
 
 # Tipos de máquinas de C.C.
+
 * Nota: Las variables en estado estacionario se muestran en mayúsculas y las del estado transitorio en minúsculas.
+
 ## Excitación `separada`.
+
 ![2f515bdd82dcb1215ba683a733952618.png](../../img/4dcebf13ffb04e6c91f214424bc42caa.png)
 
 $$
@@ -70,6 +73,7 @@ Se puede:
 * Control por `demanda de par`: Variando el valor de la corriente de armadura $I_a$
 
 ## Exitación en `derivación` (`paralelo`, `shunt`).
+
 ![0914476ce7245ebf4478a33271321a4e.png](../../img/2abc6ee3b07a40708684b3ee5d47e81e.png)
 
 $$
@@ -80,6 +84,7 @@ V_a&=V
 $$
 
 ## Exitación en `serie`.
+
 ![8ba9360dbca96bffc9a82d3d86e68a6d.png](../../img/8d6c6a48f9c149f7912435234d3e3eb8.png)
 
 $$
@@ -127,17 +132,21 @@ $$
 ![88471e880b88fdf1e15c8d754bbb7d1b.png](../../img/9858ff1de06944828ee2f77ab4dcdf3e.png)
 
 ## Exitación de `imanes permanentes`.
+
 ![53dfb9b68a66b734a284282390145398.png](../../img/3bfe87b8bb864d33ab86d1d1077947f1.png)
 
 # Ejercicios
 Los ejercicios 1 al 5 se refieren al motor conectado en derivación con las siguientes características.
+
 |||
 |-|-|
 |$P_{\text{nominal}}=15\ hp$|$I_{L\text{nominal}}=55 A$|
 |$V_T=240V$|$n_\text{nominal}=1200\ rpm$|
 |$100 \leq R_\text{ajustable} \leq 400 \Omega$|
+
 ![7cccaa54004a202cd52ac142b36f0a3a.png](../../img/8db9b29c930d4c2d816f00adab9e0fc9.png)
 ![62347005abc03b79b851a1da9d395e0e.png](../../img/4c0cac7c1b48456899e9c690a6f314cc.png)
+
 ## Ejercicio 1
 Si $R_{\text{ajustable}}= 175\Omega$, ¿cuál es la velocidad de rotación del motor en condiciones de vacío $n_{\text{vacío}}$?
 
@@ -161,11 +170,13 @@ $$
 
 En vacio:
 
-$$\boxed{I_a=0$$
-$
+$$
+\boxed{I_a=0}
+$$
 
-$$\boxed{E_\text{vacío}=V_T=240V$$
-$
+$$
+\boxed{E_\text{vacío}=V_T=240V}
+$$
 
 $$
 \boxed{\dfrac{E_{ind}}{E_\text{vacío}}=\dfrac{\cancel{\bar{K}\Phi}\ n}{\cancel{\bar{K}\Phi}\ n_\text{vacío}}}
@@ -185,27 +196,28 @@ $$
  Si no existe reacción del inducido, ¿cuál es la velocidad del motor a plena carga? ¿cuál es la regulació́n de velocidad del motor? ¿cuál es la curva de velocidad - par del motor?
  
 
-$$\dfrac{E_{ind}}{E_{pc}}=\dfrac{\bar{K}\phi n}{\bar{K}\phi n_{pc}}=\dfrac{n}{n_{pc}}\ldots($$
+$$
+\tag{1}
+\dfrac{E_{ind}}{E_{pc}}=\dfrac{\bar{K}\phi n}{\bar{K}\phi n_{pc}}=\dfrac{n}{n_{pc}}
 $$
  
- ![f73df91cd07cd894250c42c80a325027.png](../../img/7276c3ab34b94bbe9ef9dba1fa2661e3.png)
- 
- 
+![f73df91cd07cd894250c42c80a325027.png](../../img/7276c3ab34b94bbe9ef9dba1fa2661e3.png)
 
 $$I_L = I_A + I_F\quad\Rightarrow\quad I_A = 54.1$$
-$$
  
 
-$$\boxed{\begin{matrix}I_L\approx I_F\\I_A\approx0\end{matrix}\quad \text{vacío$$
 $$
- 
+\boxed{\begin{matrix}I_L\approx I_F\\I_A\approx0\end{matrix}\quad \text{vacío}}
+$$ 
 
-$$\boxed{
- \begin{matrix}
- I_L\approx I_A\\
- I_F \ll I_A
- \end{matrix}\quad \text{plena carga}
- }$$
+$$
+\boxed{
+\begin{matrix}
+I_L\approx I_A\\
+I_F \ll I_A
+\end{matrix}\quad \text{plena carga}
+}
+$$
 
  
  Aplicando LVK:
@@ -253,8 +265,8 @@ $$
 $$\tau_{ind}=K\phi I_A$$
 
 
-$$I_A=\dfrac{\tau_{ind}}{K\phi I_A}\ldots(3$$
-$
+$$I_A=\dfrac{\tau_{ind}}{K\phi I_A}\ldots(3)$$
+
 Sustituyendo (3) en (2):
 
 $$
@@ -265,14 +277,14 @@ $$
 
 ## Ejercicio 3
 Si el motor está operando a plena carga y su resistencia variable se aumenta a 250 Ω?, ¿cuál es la nueva velocidad del motor, RV, $n_{vacío}$?
+
 ![7478a41a2d59dfba97410909073a55ab.png](../../img/a117adc9c4f848a09c4237fd23496b4a.png)
+
 En el vacio:
 
-$$\boxed{\begin{matrix}I_L\approx I_F\\I_A\approx0\end{matrix}\quad \text{vacío}$$
-$
+$$\boxed{\begin{matrix}I_L\approx I_F\\I_A\approx0\end{matrix}\quad \text{vacío}}$$
 
 $$I_F=\dfrac{240}{250+100}=0.68$$
-$
 
 $$
 I_F = 0.68A \xRightarrow{curva}\begin{cases}
@@ -284,8 +296,7 @@ $$
 $$V_T=E_{vacío}=240V$$
 
 
-$$\dfrac{E_{ind}}{E_{vacío}}=\dfrac{n}{n_{vacío}$$
-$
+$$\dfrac{E_{ind}}{E_{vacío}}=\dfrac{n}{n_{vacío}}$$
 
 $$
 \newcommand{\result}[1]{\underline{#1/}}
@@ -321,11 +332,9 @@ Si la resistencia variable puede ser ajustada de 100 a 400 Ω?, ¿cuáles son l
 ### Con $R_{ajustable}= 400Ω$
 En el vacio:
 
-$$\boxed{\begin{matrix}I_L\approx I_F\\I_A\approx0\end{matrix}\quad \text{vacío}$$
-$
+$$\boxed{\begin{matrix}I_L\approx I_F\\I_A\approx0\end{matrix}\quad \text{vacío}}$$
 
 $$I_F=\dfrac{240}{400+100}=0.48$$
-$
 
 $$
 I_F = 0.48A \xRightarrow{curva}\begin{cases}
@@ -366,11 +375,9 @@ $$
 ### Con $R_{ajustable}= 100Ω$
 En el vacio:
 
-$$\boxed{\begin{matrix}I_L\approx I_F\\I_A\approx0\end{matrix}\quad \text{vacío}$$
-$
+$$\boxed{\begin{matrix}I_L\approx I_F\\I_A\approx0\end{matrix}\quad \text{vacío}}$$
 
 $$I_F=\dfrac{240}{100+100}=1.2$$
-$
 
 $$
 I_F = 1.2A \xRightarrow{curva}\begin{cases}
@@ -381,12 +388,10 @@ $$
 
 $$V_T=E_{vacío}=240V$$
 
-
 $$
 \newcommand{\result}[1]{\underline{#1/}}
 n_{vacío}=\dfrac{E_{vacío}n}{E_{ind}}=\result{1000\ rpm}
 $$
-
 
 Con plena carga:
 
@@ -410,6 +415,7 @@ $$
 
 ## Ejercicio 5
 ¿Cuál es la corriente de arranque de esta máquina, si arranca conectándola directamente a VT. Comparar esta corriente de arranque con la corriente nominal del motor.
+
 ![05892d7c63963ac9c4677d0f72eac017.png](../../img/1bbaa76e5b29498795a2e04f79559922.png)
 
 $$

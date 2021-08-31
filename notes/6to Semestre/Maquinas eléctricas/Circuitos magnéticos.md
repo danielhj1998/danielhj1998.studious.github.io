@@ -16,9 +16,9 @@ Para aplicaciones magnéticas, en donde se requiere generar fuerzas de carácter
 ## Fuerza magnetomotriz ($f_m$)($\mathcal{F}$)
 
 $$\mathcal{F}=NI=\oint H\cdot d$$
-$
 
 ## Semejanzas circuitos eléctricos - circuitos magnéticos
+
 |Eléctrico|Magnético|
 |---|---|
 |$\sigma$ Conductividad|$\mu$ Permeabilidad $\left[\dfrac{H}{m}\right]$|
