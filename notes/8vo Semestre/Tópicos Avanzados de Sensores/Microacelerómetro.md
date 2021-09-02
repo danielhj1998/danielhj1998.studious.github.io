@@ -8,11 +8,11 @@ Tomando en cuenta el sistema mása resorte amortiguador:
 
 Para medir el desplazamiento de $m$ se utiliza un circuito de capacitores diferenciales
 
-![Fig placas paralelas](../../img/capacitorDiferencial.png){:width="400px"}
+![Fig placas paralelas](../../img/capacitorDiferencial.png){:max-width="400px"}
 
 Su circuito equivalente es el siguiente:
 
-![Fig circuito equivalente](../../img/capacitorDiferencialCEquivalente.png.jpg){height="350px"}
+![Fig circuito equivalente](../../img/capacitorDiferencialCEquivalente.png.jpg){:max-height="350px"}
 
 $$
 V_o = V_s - V_{C1}
@@ -96,7 +96,7 @@ $$
 $$
 
 #### Método del trapecio
-![funcion a(t) metodo trapecio](../../img/metodoTrapecio_a_t.png)
+![funcion a(t) método trapecio](../../img/metodoTrapecio_a_t.png){:max-width="600px"}
 
 $$
 a(t)= a(t_1) + \frac{a(t_2) - a(t_1)}{t_2 - t_1}(t - t_1)
