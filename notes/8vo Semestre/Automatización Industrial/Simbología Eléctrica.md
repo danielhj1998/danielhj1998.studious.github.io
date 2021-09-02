@@ -10,7 +10,7 @@ En los diagramas de ambas normas, se sigue una disposición en el diagrama confo
 
 ## DIN
 
-En la norma DIN, se posiciona de arriba a abajo
+En la norma DIN, se posiciona de arriba a abajo.
 
 > Los símbolos en DIN son verticales, para ser usados de arriba a abajo.
 
@@ -23,7 +23,7 @@ En la norma DIN, se posiciona de arriba a abajo
 
 ## ANSI
 
-En la norma ANSI, se posiciona de izquierda a derecha, pero son los mismos elementos
+En la norma ANSI, se posiciona de izquierda a derecha, pero son los mismos elementos. La norma que rige esto símbolos es la [IEC-61131-3](https://plcopen.org/iec-61131-3).
 
 > Los símbolos en ANSI son verticales, para ser usados de arriba a abajo.
 
