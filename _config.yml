@@ -41,6 +41,7 @@ kramdown:
 
 # Plugins
 plugins:
+    - jekyll-feed
     - jemoji
     - jekyll-relative-links
 

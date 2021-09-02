@@ -4,3 +4,4 @@ _site
 .jekyll-metadata
 vendor
 *.py
+_config_dev.yml

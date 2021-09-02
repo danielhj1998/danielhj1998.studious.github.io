@@ -17,11 +17,13 @@ gem "github-pages", group: :jekyll_plugins
 #################
 #### Plugins ####
 #################
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+group :jekyll_plugins do # Plugins in this gruop will load even if not set in the config file
   gem "jemoji"
   gem 'jekyll-relative-links'
 end
+
+# This gems will load just if they are set on the config file
+gem "jekyll-feed", "~> 0.12"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
