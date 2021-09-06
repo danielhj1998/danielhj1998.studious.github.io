@@ -8,5 +8,6 @@ title: Automatización Industrial
 * [Simbología Eléctrica](Simbología Eléctrica.md)
 * [Fase, neutro y tierra](Fase, neutro y tierra.md)
 * [Lógica cableada](Lógica cableada.md)
+* [Enclavamiento](Enclavamiento.md)
 
 -------------------------------------------

@@ -27,5 +27,7 @@ En la norma ANSI, se posiciona de izquierda a derecha, pero son los mismos eleme
 
 > Los símbolos en ANSI son verticales, para ser usados de arriba a abajo.
 
+
 | Potencial de alimentación más alto | Protección | Elementos de mando | carga o cargas | Potencial de alimentación más bajo |
 | -                                  | -          | -                  | -              | -                                  |
+
