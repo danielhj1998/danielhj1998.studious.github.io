@@ -89,8 +89,8 @@ $$
 $$
 
 Donde:
-$K^*_{\normalsize\tau} = K_{\normalsize\tau} I_f$
-$K^*_v = K_v I_f$
+$K^\star_{\normalsize\tau} = K_{\normalsize\tau} I_f$
+$K^\star_v = K_v I_f$
 
 Así, será posible diseñar controladores para este modelo.
 

@@ -17,4 +17,4 @@ La forma en que se **mide el esfuerzo** es **calculando la fuerza** sobre la **s
 ### Unidades
 Las unidades son los $\frac{N}{m^2} = \text{Pa}$ en el **Sistema Internacional** (**SI**) y los $\frac{lbf}{in^2} = \text{psi}$ en el **Sistema Imperial**.
 
-Sin embargo, las cantidades más utilizadas son de ordenes muy grandes y por lo tanto se utilizan comunmente los $\text{MPa y GPa}$ en el **SI** y los $\text{ksi}$ en el **sistema inglés**.
+Sin embargo, las cantidades más utilizadas son de ordenes muy grandes y por lo tanto se utilizan comúnmente los $\text{MPa y GPa}$ en el **SI** y los $\text{ksi}$ en el **sistema inglés**.

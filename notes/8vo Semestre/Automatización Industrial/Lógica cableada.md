@@ -56,6 +56,7 @@ Como se puede observar, se utilizó un relevador para resolver el problema de ot
 1. Acoplamiento a diferentes niveles de tensión eléctrica.
 2. Realizar operaciones matemáticas (booleanas o de lógica cableada).
 3. Multiplicar salidas.
+4. Enclavamiento.
 
 
 ---------------------------------------
