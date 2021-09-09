@@ -94,6 +94,33 @@ $K^\star_v = K_v I_f$
 
 Así, será posible diseñar controladores para este modelo.
 
+Aplicando la transformada de Laplace.
+
+$$
+\begin{aligned}
+    sL_aI_a + R_aI_a &= V_a - K_v^* \Omega\\
+    sJ\Omega + B\Omega &= K^*_{\normalsize\tau} I_a
+\end{aligned}
+$$
+
+Sustituyendo $I_a$ y desarrollando:
+
+$$
+\begin{aligned}
+    sJ\Omega + B\Omega &= K^*_{\normalsize\tau} \frac{V_a-K^*_v\Omega}{R_a + sL_a}\\
+    \Omega(sJ + B) (R_a + sL_a) &= V_a K^*_{\normalsize\tau} -K^*_{\normalsize\tau} K^*_v\Omega\\
+    \Omega\left[(sJ + B) (R_a + sL_a) + K^*_{\normalsize\tau} K^*_v\right] &= V_a K^*_{\normalsize\tau}\\
+\end{aligned}
+$$
+
+Por lo tanto la función de transferencia de un motor de CD, con entrada de tensión y salida en velocidad angular, sería la siguiente:
+
+$$
+\frac{\Omega}{V_a} = \frac{K^*_{\normalsize\tau}}{(sJ + B) (R_a + sL_a) + K^*_{\normalsize\tau} K^*_v}
+$$
+
+
+
 ## Modelo en régimen permanente
 En este modelo se asumen que no hay más cambios en la corriente de armadura ni en la velocidad angular del rotor. Entonces las variables en las ecuaciones diferenciales se vuelven constantes.
 
