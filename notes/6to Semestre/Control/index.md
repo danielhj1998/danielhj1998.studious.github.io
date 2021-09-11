@@ -3,11 +3,7 @@ layout: index
 title: Control
 ---
 
-* [Lugar Geométrico Raices](./Lugar Geométrico Raices/index.md)
-* [Referente a la clase](./Referente a la clase/index.md)
-
-----------------------------------------------------------
-
+* [Referente a la clase](./Info General.md)
 * [Conceptos de Sistemas de Control](./Conceptos de Sistemas de Control.md)
 * [Notas](./Notas.md)
 * [Reducción de sitemas de control](./Reducción de sitemas de control.md)
@@ -15,3 +11,5 @@ title: Control
 * [Estabilidad](./Estabilidad.md)
 * [Análisis de la respuesta en el tiempo de sistemas lineales](./Análisis de la respuesta en el tiempo de sistemas lineales.md)
 * [Control PID](./Control PID.md)
+* [Lugar Geométrico de las raíces](./Lugar Geométrico de las raíces.md)
+* [Compensadores](Compensadores.md)

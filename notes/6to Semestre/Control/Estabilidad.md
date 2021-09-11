@@ -14,11 +14,12 @@ Un sistema será `inestable` si su salida crece sin límite alejándose de su es
 
 
 # Estabilidad en Sistemas Lineales
-|Condición|Valor de las raíces (polos)$\\s_i=\sigma_i+j\omega_i$|
-|-|-|
-|`Asintóticamente estable`$\\$`Estable`|Todas las raíces están en el semiplano izquierdo del plano $s\\\sigma_i<0$ para todo $i$| 
-|`Merginalmente estable`$\\$`Merginalmente inestable`|Una raíz simple y ninguna raíz múltiple sobre el eje imaginario $(j\omega)$.$\\\sigma_i<0$ para cualquier $i$| 
-|`Intestable`|Por lo menos una raíz en el semiplano derecho del plano $s$.$\\\sigma_i<0$ para cualquier $i\\$Por lo menos una raíz múltiple sobre el eje imaginario $(j\omega)$.$\\\sigma_i=0$ para cualquier $i\\$|
+
+| Condición                                            | Valor de las raíces (polos)$\\s_i=\sigma_i+j\omega_i$                                                                                                                                                 |
+| -                                                    | -                                                                                                                                                                                                     |
+| `Asintóticamente estable`$\\$`Estable`               | Todas las raíces están en el semiplano izquierdo del plano $s\\\sigma_i<0$ para todo $i$                                                                                                              |
+| `Merginalmente estable`$\\$`Merginalmente inestable` | Una raíz simple y ninguna raíz múltiple sobre el eje imaginario $(j\omega)$.$\\\sigma_i<0$ para cualquier $i$                                                                                         |
+| `Intestable`                                         | Por lo menos una raíz en el semiplano derecho del plano $s$.$\\\sigma_i<0$ para cualquier $i\\$Por lo menos una raíz múltiple sobre el eje imaginario $(j\omega)$.$\\\sigma_i=0$ para cualquier $i\\$ |
 
 ## Impulso unitario
 Para conocer la estabilidad de los sistemas se deben analizar teniendo como entrada un impulso unitario.
@@ -70,8 +71,10 @@ Se limita a los polinomios con un número finito de términos. Cuando se aplica 
 ## Procedimiento
 ### 1. Escribir el polinomio en la forma:
 
-$$a_0s^n+a_1s{n-1}+\ldots+a_{n-1}s+a_n=$$
-$
+$$
+a_0s^n+a_1s{n-1}+\ldots+a_{n-1}s+a_n= 0
+$$
+
 
 Con $a_n\neq0$, es decir no se consideran las raices en 0 (deben ser removidas).
 
@@ -139,6 +142,8 @@ En este caso se continua con los calculos de la fila utilizando la derivada el p
 ### Analisis de estabilidad relativa
 Para esto, se sigue el criterio de Routh pero sustituyendo:
 
-$$s=\hat{s}-\sigma\quad\quad(\sigma = \text{constant}$$
-$
+$$
+s=\hat{s}-\sigma\quad\quad(\sigma = \text{constante})
+$$
+
 Y se escribe el polinomio en términos de $\hat{s}$

@@ -213,11 +213,12 @@ Esta constante describe la capacidad de un sistema con retroalimentación para r
 ### Relación del TIPO de sistema y los errores
 Esto se puede ver, analizando el error para los diferentes tipos de sistema:
 
-||Error de posición|Error de velocidad|Error de aceleración|
-|-|----------------|------------------|--------------------|
-|Sistema TIPO **0**|$\dfrac{1}{1+K}$|$\infty$|$\infty$|
-|Sistema TIPO **1**|0|$\dfrac{1}{K}$|$\infty$|
-|Sistema TIPO **2**|0|0|$\dfrac{1}{K}$|
+|                    | Error de posición | Error de velocidad | Error de aceleración |
+| -                  | ----------------  | ------------------ | -------------------- |
+| Sistema TIPO **0** | $\dfrac{1}{1+K}$  | $\infty$           | $\infty$             |
+| Sistema TIPO **1** | 0                 | $\dfrac{1}{K}$     | $\infty$             |
+| Sistema TIPO **2** | 0                 | 0                  | $\dfrac{1}{K}$       |
+
 Por lo general sólo se analiza hasta sistemas de tipo 3, porque la estabilidad suele ser muy mala para sistemas de tipo mayor.
 
 ### Incremento del TIPO de sistema

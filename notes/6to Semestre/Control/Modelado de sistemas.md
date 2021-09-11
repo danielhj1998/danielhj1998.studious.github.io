@@ -6,7 +6,7 @@ layout: note
 Para encontrar el modelo matemático de un sistema, se necesitan encontrar lo siguiente:
 1. Ecuación de movimiento de Euler-Lagrange.
 2. Ecuación de movimiento usando variables de estado.
-3. Función de transferencia Y(s)/U(s).
+3. Función de transferencia $Y(s)/U(s)$.
 
 ## Ecuación de movimiento de Euler-Lagrange
 
@@ -231,7 +231,8 @@ y&=C\Delta x
 $$
 
 Donde:
-$
+
+$$
 \newcommand{\dpartial}[2]{\dfrac{\partial#1}{\partial#2}}
 A=\begin{bmatrix}
 	\dpartial{f_1}{x_1}&\dpartial{f_1}{x_2}&\ldots\\
@@ -239,22 +240,25 @@ A=\begin{bmatrix}
 	\dpartial{f_1}{x_1}&\dpartial{f_2}{x_2}&\ldots\\
 	\vdots&\vdots
 \end{bmatrix}_{\large{x_0}}
-$
+$$
 
-$
+$$
 B=\left.g(x)\right|_{x_0}
-$
+$$
 
-$
+$$
 \newcommand{\dpartial}[2]{\dfrac{\partial#1}{\partial#2}}
 C=\begin{bmatrix}
 	\dpartial{h}{x_1}&\dpartial{h}{x_2}&\ldots
 \end{bmatrix}_{\large{x_0}}
-$
+$$
+
 Esto se hace primeramente mediante un cambio de variable:
 
-$$\Delta x=x-x_$$
-$
+$$
+\Delta x=x-x_0
+$$
+
 Donde:
 $\Delta x$= La nueva variable linealizada.
 $x$= La nueva variable anterior.

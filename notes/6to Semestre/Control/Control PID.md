@@ -15,18 +15,23 @@ $$
 # Proporcional (P)
 ![2f14a508dc402f2d62fda6674c47bdc3.png](../../img/5776c2bb1c7f4f66a72f7cab695ce7c0.png)
 
-$$u(t) = Ke(t$$
-$
+$$
+u(t) = Ke(t)
+$$
 
-$$\dfrac{U(s)}{E(s)}=$$
-$
+$$
+\dfrac{U(s)}{E(s)}=K
+$$
+
 ## Ejemplo
 ![417a8bbf9eba36702afe85eb78291dfe.png](../../img/a7e86f507a87425086c1a530cc97a9cb.png)
 ### Estacionario
 Para analizar el estado estacionario, se analiza la función de transferencia de lazo abierto:
 
-$$G(s)=\dfrac{K}{Ts + 1}=\dfrac{K/T}{s + 1/T$$
-$
+$$
+G(s)=\dfrac{K}{Ts + 1}=\dfrac{K/T}{s + 1/T}
+$$
+
 Se puede concluir:
 * TIPO cero
 * $K_p=\lim_{s\rightarrow0}G(s) = K$
@@ -35,8 +40,10 @@ Se puede concluir:
 ### Transitorio
 Se analiza entonces la función de transferencia en lazo cerrado para estudiar el transitorio:
 
-$$\dfrac{C(s)}{R(s)}=\dfrac{K/T}{s+\dfrac{1}{T}+\dfrac{K}{T}}=\dfrac{K/T}{s+\dfrac{K+1}{T}$$
-$
+$$
+\dfrac{C(s)}{R(s)}=\dfrac{K/T}{s+\dfrac{1}{T}+\dfrac{K}{T}}=\dfrac{K/T}{s+\dfrac{K+1}{T}}
+$$
+
 Y se concluye lo siguiente:
 * Primer orden
 * Respuesta exponencial
@@ -45,18 +52,24 @@ Y se concluye lo siguiente:
 # Proporcional Integral (PI)
 ![c2ad491b4c1c278734d6642e76122031.png](../../img/7f84908d08f440b78c3c8474482be48f.png)
 
-$$u(t)=Ke(t)+K_i\int e(t)d$$
-$
+$$
+u(t)=Ke(t)+K_i\int e(t)d
+$$
 
-$$\dfrac{U(s)}{E(s)}=K + \dfrac{K_i}{s} = \dfrac{Ks+K_i}{s$$
-$
+$$
+\dfrac{U(s)}{E(s)}=K + \dfrac{K_i}{s} = \dfrac{Ks+K_i}{s}
+$$
+
 ## Ejemplo
 ![b673d37d8bacc3b0acccdef6359d963e.png](../../img/c001b709c2f4432b8a6de668dc78fe01.png)
+
 ### Estacionario
 Para analizar el estado estacionario, se analiza la función de transferencia de lazo abierto:
 
-$$G(s)=\dfrac{Ks + K_i}{s(Ts + 1)$$
-$
+$$
+G(s)=\dfrac{Ks + K_i}{s(Ts + 1)}
+$$
+
 Se puede concluir:
 * TIPO uno
 * $K_p=\infty$
@@ -64,36 +77,47 @@ Se puede concluir:
 ### Transitorio
 Se analiza ahora el transitorio:
 
-$$\dfrac{C(s)}{R(s)}=\dfrac{\dfrac{1}{T}(Ks+K_i)}{s^2+\dfrac{K+1}{T}s+\dfrac{K_i}{T}$$
-$
+$$
+\dfrac{C(s)}{R(s)}=\dfrac{\dfrac{1}{T}(Ks+K_i)}{s^2+\dfrac{K+1}{T}s+\dfrac{K_i}{T}
+$$
 
 Por lo que la parte integral `disminuyó el error` y `aumentó la exactitud`.
 
 El problema que tiene este sistema es que ahora el sistema puede llegar a oscilar.
+
 # Proporcional Derivativo (PD)
 ![2f504624ac4168648a8ce45b4e3f8841.png](../../img/5dfbf5fc8c8244bc9a6a02487f355424.png)
 
-$$u(t)=Ke(t)+K_d\dfrac{de(t)}{dt$$
-$
+$$
+u(t)=Ke(t)+K_d\dfrac{de(t)}{dt}
+$$
 
-$$\dfrac{U(s)}{E(s)}=K + K_d $$
-$
+$$
+\dfrac{U(s)}{E(s)}=K + K_d
+$$
+
 ## Ejemplo
 ![1be9c744608d1417ae0cc305711d79ac.png](../../img/059d20d2541e444a9a01cc301cc59ce8.png)
 Para este mismo sistema en el transitorio, si se tuviera sólo un control proporcional, una función de lazo cerrado de la siguiente forma:
 
-$$\dfrac{C(s)}{R(s)}=\dfrac{K}{s^2+K$$
-$
+$$
+\dfrac{C(s)}{R(s)}=\dfrac{K}{s^2+K}
+$$
+
 Lo que tendría una respuesta oscilatoria, pues no hay término disipativo.
 ### Estacionario
 
-$$G(s)=\dfrac{K+K_d s}{s^2$$
-$
+$$
+G(s)=\dfrac{K+K_d s}{s^2}
+$$
+
 ### Transitorio
 Para el estado transitorio
 
-$$\dfrac{C(s)}{R(s)}=\dfrac{K+K_d s}{s^2+K_d s +K$$
-$
+$$
+\dfrac{C(s)}{R(s)}=\dfrac{K+K_d s}{s^2+K_d s +K}
+$$
+
 Se agrega entonces el término `disipativo` al sistema, o sea `amortiguamiento`.
 # Proporcional Integral Derivativo (PID)
 ![eff08d43ee4243574dd9ec77f179e92e.png](../../img/fce683d2ae6d494ea873639db68587d1.png)
@@ -102,7 +126,9 @@ $$
 u(t)=Ke(t)+K_i\int e(t)dt + K_d\dfrac{de(t)}{dt}\\
 $$
 
-$$\dfrac{U(s)}{E(s)}=K + \dfrac{K_i}{s} + K_d s = \dfrac{K_ds^2+Ks+K_i}{s}$$
+$$
+\dfrac{U(s)}{E(s)}=K + \dfrac{K_i}{s} + K_d s = \dfrac{K_ds^2+Ks+K_i}{s}
+$$
 
 
 No siempre es necesario utilizar el control PID, depende de cada sistema y sus requerimientos.
@@ -192,7 +218,7 @@ Consiste en llevar a cabo los siguientes pasos:
 | $PI$ | $0.9\dfrac{T}{L}$ | $\dfrac{L}{0.3}$  | 0    |
 | $PID$| $1.2\dfrac{T}{L}$ | $2L$     | $0.5L$ |
 
-Estos valroes resultan de aproximar el valor de la función de transferencia como la de un sistema de primer órden con retraso de transporte:
+Estos valores resultan de aproximar el valor de la función de transferencia como la de un sistema de primer órden con retraso de transporte:
 
 $$
 \dfrac{C(s)}{U(s)} = \dfrac{K e^{-Ls}}{Ts+1}
@@ -217,3 +243,4 @@ $$
 | $P$      | $0.5K_{cr}$  | $\infty$ | 0    |
 | $PI$ | $0.45K_{cr}$ | $\dfrac{1}{1.2}P_{cr}$  | 0    |
 | $PID$| $0.6K_{cr}$ | $0.5P_{cr}$     | $0.125P_{cr}$ |
+

@@ -71,20 +71,28 @@ Es necesario llevar a cabo los siguientes pasos:
 Ejemplo:
 ![33d78273e4d6d73cb8e458e3a180d6ef.png](../../img/ac4b26a3115b4005942e25009ae7cd71.png)
 
-$$\Downarro$$
-$
+$$
+\Downarrow
+$$
+
 ![147e33f3e9bdf1234dff38a4bc06aa9c.png](../../img/ddf76884f0a34dc194b10f9148c0f8f0.png)
 
-$$\Downarro$$
-$
+$$
+\Downarrow
+$$
+
 ![cd6ad459e269b383cebbe15c8bdae3c4.png](../../img/7ee7a0f1de12412db9eaf23812366582.png)
 
-$$\Downarro$$
-$
+$$
+\Downarrow
+$$
+
 ![db2284dd5a32afd3245787278710a71d.png](../../img/80d62161e3e2482891764bdd62dd7f91.png)
 
-$$\Downarro$$
-$
+$$
+\Downarrow
+$$
+
 ![7c7a261f08a1ac6cc447ab997dd18311.png](../../img/b6edbb57922948f497965f90ba30c2ad.png)
 Al hacer esta conversión se obtiene un bloque con una función de transferencia que es necesario desarrollar:
 
@@ -94,7 +102,9 @@ $$
 \end{aligned}
 $$
 
-$$\Downarrow$$
+$$
+\Downarrow
+$$
 
 ![c4c84d16798c2ec7679e1a086472d710.png](../../img/9f7b1336fc274e20967339c4427d8ca5.png)
 Se desarrolla la expresión final:
