@@ -23,12 +23,16 @@ $$
 ### Análisis de la respuesta al impulso
 * Los polos del sistema son: 
 
-$$s_{1,2}=-\xi\omega_n\pm\omega_n\sqrt{\xi^2-1$$
-$
+$$
+s_{1,2}=-\xi\omega_n\pm\omega_n\sqrt{\xi^2-1}
+$$
+
 ![e59c84f02c90df48c146b9c11705a9ef.png](../../img/1583c3405a03400c8377f1d35c11f64d.png)
 
-$$\cos\beta=\xi\\\beta=\arccos{\xi$$
-$
+$$
+\cos\beta=\xi\\\beta=\arccos{\xi}
+$$
+
 * La forma de la respuesta depende de $\xi$
 
 |Caso|Amortiguamiento|Polos|Respuesta|
@@ -43,16 +47,21 @@ Nos centramos en el caso donde $0\lt\xi\lt1$:
 Se definen:
 * El tiempo pico $t_p$
 
-$$tp=\dfrac{\pi}{\omega_n\sqrt{1-\xi^2}$$
-$
+$$
+tp=\dfrac{\pi}{\omega_n\sqrt{1-\xi^2}}
+$$
+
 * El máximo sobre impulso $M_p$
 
-$$M_p=\dfrac{c(t_p)-c(\infty)}{c(\infty)}100\%\quad\quad M_p=e^{-\dfrac{\pi\xi}{\sqrt{1-\xi^2}}}100\$$
-$
+$$
+M_p=\dfrac{c(t_p)-c(\infty)}{c(\infty)}100\%\quad\quad M_p=e^{-\frac{\pi\xi}{\sqrt{1-\xi^2}}}\ 100\%
+$$
+
 * El tiempo de establecimiento $t_s$
 
-$$t_s=\dfrac{4}{\xi\omega_n$$
-$
+$$
+t_s=\dfrac{4}{\xi\omega_n}
+$$
 
 ![ab40cc23947e8e7366b051db2faa3692.png](../../img/8faa8da59e7c4910aa0dfe8dd66bb24d.png)
 
@@ -73,11 +82,14 @@ $$
 ## Error en el estado estacionario
 ![1dd09f31cb5d796b8eb717ec68e2ecdf.png](../../img/14a4fa685bff432db55f2d9227b0fb94.png)
 
-$$E(s)=\dfrac{1}{1+G(s)}R(s$$
-$
+$$
+E(s)=\dfrac{1}{1+G(s)}R(s)
+$$
 
-$$e_{ss}=\lim_{t\rightarrow\infty}e(t)\stackrel{\text{t. valor final}}{=}\lim_{t\rightarrow\infty}sE(t)=\lim_{s\rightarrow 0}{\dfrac{sR(s)}{1+G(s)}$$
-$
+$$
+e_{ss}=\lim_{t\rightarrow\infty}e(t)\stackrel{\text{t. valor final}}{=}\lim_{t\rightarrow\infty}sE(t)=\lim_{s\rightarrow 0}{\dfrac{sR(s)}{1+G(s)}}
+$$
+
 El error $E(s)$ depende de:
 * Entrada $R(s)$
 * TIPO del sistema $G(s)$: 
@@ -200,6 +212,7 @@ $$
 Esta constante describe la capacidad de un sistema con retroalimentación para reducir o eliminar el error de aceleración en el estado estable.
 ### Relación del TIPO de sistema y los errores
 Esto se puede ver, analizando el error para los diferentes tipos de sistema:
+
 ||Error de posición|Error de velocidad|Error de aceleración|
 |-|----------------|------------------|--------------------|
 |Sistema TIPO **0**|$\dfrac{1}{1+K}$|$\infty$|$\infty$|
