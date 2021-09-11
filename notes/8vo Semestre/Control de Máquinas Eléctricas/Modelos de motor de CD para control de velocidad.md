@@ -116,9 +116,14 @@ $$
 Por lo tanto la función de transferencia de un motor de CD, con entrada de tensión y salida en velocidad angular, sería la siguiente:
 
 $$
-\frac{\Omega}{V_a} = \frac{K^*_{\normalsize\tau}}{(sJ + B) (R_a + sL_a) + K^*_{\normalsize\tau} K^*_v}
+\boxed{\frac{\Omega}{V_a} = \frac{K^*_{\normalsize\tau}}{(sJ + B) (R_a + sL_a) + K^*_{\normalsize\tau} K^*_v}}
 $$
 
+Para obtener la constante del motor $K_{cd}$, se con la velocidad angular en estado estacionario y la tensión de la armadura aplicada: 
+
+$$
+K_{cd} = \frac{\omega}{V_a}
+$$
 
 
 ## Modelo en régimen permanente
