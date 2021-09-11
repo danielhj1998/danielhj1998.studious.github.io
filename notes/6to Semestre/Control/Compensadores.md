@@ -5,7 +5,7 @@ layout: note
 Los compensadores son usados para moldear el sistema y alcanzar los requisitos que el sistema debe cumplir.
 
 Los compensadores más comunes son los compensadores en `serie` (fig a) y en `paralelo` (fig b).
-![697a77286af1fc5407830a4a8f4922b6.png](../../../img/293e5cc9f8dd4fbb8f90f4ac3e2126f2.png)![fea766563d2ae782df3dd941cb669140.png](../../../img/723a8eda13ea42179ec81090af08b345.png)
+![697a77286af1fc5407830a4a8f4922b6.png](../../img/293e5cc9f8dd4fbb8f90f4ac3e2126f2.png)![fea766563d2ae782df3dd941cb669140.png](../../img/723a8eda13ea42179ec81090af08b345.png)
 
 Los compensadores serie son los más fáciles de diseñar, sin embargo, son los que requieren más componentes y por lo tanto son más costosos. Por lo que los compensadores en paralelo también son muy usados.
 
@@ -13,11 +13,11 @@ En la práctica, compensar el sistema se trata de diseñar un conjunto de compen
 
 # Efectos de la adición de polos
 La adición de un polo a la función de transferencia de lazo abierto, tiene el efecto de jalar el `LGR` a la derecha, tendiendo a `disminuir` la `estabilidad` relativa del sistema y `hacer más lento` el asentamiento de la `respuesta`.
-![5d3d35be931fa5a1ecf8fbffe0d71a92.png](../../../img/5e719b385623445c96319fba247d2b89.png)
+![5d3d35be931fa5a1ecf8fbffe0d71a92.png](../../img/5e719b385623445c96319fba247d2b89.png)
 
 # Efectos de la adición de ceros
 La adición de un cero a la función de transferencia de lazo cerrado, tiene el efecto de jalar el `LGR` a la izquierda, tendiendo a `aumentar` la `estabilidad` relativa del sistema y `acelerar` el establecimiento de la `respuesta`.
-![48edfe434e65cf60d94d782885b20616.png](../../../img/c0e26e6c79c944ecbe05b4e2d61826e7.png)
+![48edfe434e65cf60d94d782885b20616.png](../../img/c0e26e6c79c944ecbe05b4e2d61826e7.png)
 
 Físicamente, la adición de un cero en la función de transferencia de lazo abierto, significa la adición de control derivativo al sistema.
 
@@ -30,7 +30,7 @@ $$
 $$
 
 
-![eb24ecc891d87819d8731797ce070f9f.png](../../../img/df82a1cabe3446a2973c85fb8e66ed45.png)
+![eb24ecc891d87819d8731797ce070f9f.png](../../img/df82a1cabe3446a2973c85fb8e66ed45.png)
 ## Compensador de adelanto
 Se utilizan cuándo el sistema presenta características de `respuesta en el estado estacionario` no satisfactorias.
 
@@ -71,7 +71,7 @@ $$
 $$
 
 Se dibuja el `LGR`.
-![611e61d076ab691ef62dcf4c11cf2bdd.png](../../../img/ff88791b91c64190afb2a22e9e39399d.png)
+![611e61d076ab691ef62dcf4c11cf2bdd.png](../../img/ff88791b91c64190afb2a22e9e39399d.png)
 #### 1. Localización de polos
 Los polos de lazo cerrado están localizados en:
 
@@ -95,7 +95,7 @@ $$
 
 #### 2. Ángulo de deficiencia $\phi$
 Se calcula el ángulo de deficiencia $\phi$.
-![780db89cc90eade2b2952b3c6979972f.png](../../../img/a588ed0996434818aa8f54bbc833263a.png)
+![780db89cc90eade2b2952b3c6979972f.png](../../img/a588ed0996434818aa8f54bbc833263a.png)
 El ángulo del polo de lazo abierto en el origen ($s=0$) a el polo de lazo cerrado deseado es de $120\degree$ y el ángulo del polo en $s=1$ a el polo de lazo cerrado deseado es de $100.894\degree$. Por lo tanto, el ángulo de deficiencia $\phi$, es:
 
 $$
@@ -120,7 +120,7 @@ Hay muchas formas de determinar un polo y zero que cumplan con el ángulo de def
 El primer método es el que busca la $\alpha$ máxima y por lo tanto la que implica mayor $K_v$.
 
 Implica dibujar una línea horizontal cruzando por el polo deseado $P$ y una línea de $P$ al origen. Luego el polo y cero se encontrarán a $\frac{\phi}{2}$ de la bisección entre estás dós líenas, como se muestra a continuación:
-![615b1220decfb49b2428d0bcc82cf763.png](../../../img/b2ba49acbd6344afbc3014484e85e73e.png)
+![615b1220decfb49b2428d0bcc82cf763.png](../../img/b2ba49acbd6344afbc3014484e85e73e.png)
 Siguiendo este método, se tiene que la bisección está a $60\degree$ comenzando del segmento $PA$ y por lo tanto, el zero y polo están a $60º \pm 40.984º$ respectivamente. Por lo tanto:
 
 $$
@@ -159,7 +159,7 @@ $$
 
 
 A continuación se realiza una comparación de ambos métodos:
-![28d601c8740335325205710f0889bb53.png](../../../img/030cf885ecc34118b2e7ff9b24aa3c2a.png)
+![28d601c8740335325205710f0889bb53.png](../../img/030cf885ecc34118b2e7ff9b24aa3c2a.png)
 
 ## Compensador de retraso
 Se utilizan cuándo el sistema presenta características de `respuesta en el estado estacionario` no satisfactorias. Este compensador busca no cambiar mucho la respuesta en transitorio pero sí `aumentar la ganancia` tanto como se pueda. Para esto, el ángulo de contribución del compensador de retraso no debe ser mayor a 5º por ejemplo (depende de la aplicación). Esto se logra posicionando el polo y zero del compensador muy cercanos entré si y cercanos al origen.
@@ -186,7 +186,7 @@ G(s) = \dfrac{1.06}{s(s+1)(s+2)}
 $$
 
 #### 1. Localización de polos
-![fa9d2fe921b146820cc37bb69a4ba24b.png](../../../img/20beeb343153403793e3e73ca700f0ca.png)
+![fa9d2fe921b146820cc37bb69a4ba24b.png](../../img/20beeb343153403793e3e73ca700f0ca.png)
 
 Su función de transferencia de lazo cerrado:
 
@@ -226,7 +226,7 @@ $$
 
 
 Es menor a $4\degree$.
-![9bacebc25d295a10d2023de1d3456c27.png](../../../img/7c30f9db99d24c64a4d579e557b0ea4f.png)
+![9bacebc25d295a10d2023de1d3456c27.png](../../img/7c30f9db99d24c64a4d579e557b0ea4f.png)
 
 ##### 7. Calcular $K_c$ con condición de magnitud
 Ahora se calcula $K_c$, considerando el nuevo coeficiente de amortiguamiento:
@@ -244,9 +244,9 @@ $$
 
 
 Se observa el error estático:
-![47787dcddb192fb334da8ed4258d812a.png](../../../img/5ee9a97e1dce48a4b0e0da9db281d056.png)
+![47787dcddb192fb334da8ed4258d812a.png](../../img/5ee9a97e1dce48a4b0e0da9db281d056.png)
 Se obtiene la siguiente respuesta:
-![45320d297f225fb41d5f45596dddf65e.png](../../../img/a7047d44fa8942fe9e46e568d2a05646.png)
+![45320d297f225fb41d5f45596dddf65e.png](../../img/a7047d44fa8942fe9e46e568d2a05646.png)
 
 ## Compensador de retraso-adelanto
 El compensador de retraso-adelanto, acelera la respuesta e incrementa la estabilidad del sistema.

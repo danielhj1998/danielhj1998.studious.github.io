@@ -56,4 +56,4 @@ EL promedio de todas las prácticas (aprox. **12**).
 
 # Bibliografía
 El Ogata Inge.. es el que usará mucho el profe.
-![f293b34fa60bbfd7ccc33419633e4f09.png](../../../img/03b9ba9b83a7403898e597679f4438e6.png)
+![f293b34fa60bbfd7ccc33419633e4f09.png](../../img/03b9ba9b83a7403898e597679f4438e6.png)
