@@ -5,7 +5,6 @@ title: Control
 
 * [Referente a la clase](./Info General.md)
 * [Conceptos de Sistemas de Control](./Conceptos de Sistemas de Control.md)
-* [Notas](./Notas.md)
 * [Reducción de sitemas de control](./Reducción de sitemas de control.md)
 * [Modelado de sistemas](./Modelado de sistemas.md)
 * [Estabilidad](./Estabilidad.md)

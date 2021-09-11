@@ -74,11 +74,12 @@ Se puede concluir:
 * TIPO uno
 * $K_p=\infty$
 * $e_{ss}=0$
+
 ### Transitorio
 Se analiza ahora el transitorio:
 
 $$
-\dfrac{C(s)}{R(s)}=\dfrac{\dfrac{1}{T}(Ks+K_i)}{s^2+\dfrac{K+1}{T}s+\dfrac{K_i}{T}
+\dfrac{C(s)}{R(s)}=\dfrac{\dfrac{1}{T}(Ks+K_i)}{s^2+\dfrac{K+1}{T}s+\dfrac{K_i}{T}}
 $$
 
 Por lo que la parte integral `disminuyó el error` y `aumentó la exactitud`.

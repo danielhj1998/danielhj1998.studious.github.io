@@ -15,11 +15,11 @@ Un sistema será `inestable` si su salida crece sin límite alejándose de su es
 
 # Estabilidad en Sistemas Lineales
 
-| Condición                                            | Valor de las raíces (polos)$\\s_i=\sigma_i+j\omega_i$                                                                                                                                                 |
-| -                                                    | -                                                                                                                                                                                                     |
-| `Asintóticamente estable`$\\$`Estable`               | Todas las raíces están en el semiplano izquierdo del plano $s\\\sigma_i<0$ para todo $i$                                                                                                              |
-| `Merginalmente estable`$\\$`Merginalmente inestable` | Una raíz simple y ninguna raíz múltiple sobre el eje imaginario $(j\omega)$.$\\\sigma_i<0$ para cualquier $i$                                                                                         |
-| `Intestable`                                         | Por lo menos una raíz en el semiplano derecho del plano $s$.$\\\sigma_i<0$ para cualquier $i\\$Por lo menos una raíz múltiple sobre el eje imaginario $(j\omega)$.$\\\sigma_i=0$ para cualquier $i\\$ |
+| Condición                                              | Valor de las raíces (polos)$$\\s_i=\sigma_i+j\omega_i$$                                                                                                                                                       |
+| -                                                      | -                                                                                                                                                                                                             |
+| `Asintóticamente estable`$$\\$$`Estable`               | Todas las raíces están en el semiplano izquierdo del plano $$s\\\sigma_i<0$$ para todo $i$                                                                                                                    |
+| `Marginalmente estable`$$\\$$`Marginalmente inestable` | Una raíz simple y ninguna raíz múltiple sobre el eje imaginario $(j\omega)$.$$\\\sigma_i<0$$ para cualquier $i$                                                                                               |
+| `Intestable`                                           | Por lo menos una raíz en el semiplano derecho del plano $s$.$$\\\sigma_i<0$$ para cualquier $$i\\$$Por lo menos una raíz múltiple sobre el eje imaginario $(j\omega)$.$$\\\sigma_i=0$$ para cualquier $$i\\$$ |
 
 ## Impulso unitario
 Para conocer la estabilidad de los sistemas se deben analizar teniendo como entrada un impulso unitario.
