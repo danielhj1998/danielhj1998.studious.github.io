@@ -9,5 +9,6 @@ title: Automatización Industrial
 * [Fase, neutro y tierra](Fase, neutro y tierra.md)
 * [Lógica cableada](Lógica cableada.md)
 * [Enclavamiento](Enclavamiento.md)
+* [Introducción a los PLCs](Introducción a los PLCs.md)
 
 -------------------------------------------
