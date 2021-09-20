@@ -7,5 +7,6 @@ layout: index
 * [Procesamiento paralelo en ARM Cortex-A53](Procesamiento paralelo en ARM Cortex-A53.md)
 * [Ensamblador para el ARM Cortex-A53](Ensamblador para el ARM Cortex-A53.md)
 * [Depuración con gdb](Depuración con gdb.md)
+* [Llamadas al sistema en Linux](Llamadas al sistema en Linux.md)
 
 ---------------------------------------

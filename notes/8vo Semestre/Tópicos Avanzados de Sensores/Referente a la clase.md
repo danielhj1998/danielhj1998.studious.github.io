@@ -53,9 +53,9 @@ El proyecto debe tener las siguientes características:
 | Magnetómetro `LSM3030LHC`                     | 4        | 23 SEP |
 | Sensor de corriente `ACS712`                  | 5        | 30 SEP |
 | Sensor de corriente AC `SCT-013`              | 6        | 07 OCT |
-| Sensor de corriente AC `ZMPT101B`             | 7        | 14 OCT |
+| Sensor de tensión AC `ZMPT101B`               | 7        | 14 OCT |
 | Barómetro `BMP180`                            | 8        | 21 OCT |
-| Sensor de posición manométrica `25MPP-02`     | 9        | 28 OCT |
+| Sensor de presión manométrica `25MPP-02`      | 9        | 28 OCT |
 | Sensor de caudal `YFS201`                     | 10       | 04 NOV |
 | Sensor de alcohol `MQ-3`                      | 11       | 11 NOV |
 | Sensor de humo `ARD-352`                      | 12       | 18 NOV |

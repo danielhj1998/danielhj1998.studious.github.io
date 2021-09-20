@@ -35,10 +35,10 @@ $$
 \end{aligned}
 $$
 
-Hoy en día existen diferentes software para realizar estos diagramas, que facilitan la tarea, sin embargo, este tipo de lenguaje se vuelve difícil de mantener para múltiples entradas y salids, para lo cual un lenguaje de programación secuencial es mejor.
+Hoy en día existen diferentes software para realizar estos diagramas, que facilitan la tarea, sin embargo, este tipo de lenguaje se vuelve difícil de mantener para múltiples entradas y salidas, para lo cual un lenguaje de programación secuencial es mejor.
 
 # Clasificación
-La clasficación más común de PLCs es la que clasifica por su número de entradas y salidas principalmente:
+La clasificación más común de PLCs es la que clasifica por su número de entradas y salidas principalmente:
 
 * PLC Nano (entradas $< 100$)
 * PLC Compacto ($100 <$ entradas $< 500$)
