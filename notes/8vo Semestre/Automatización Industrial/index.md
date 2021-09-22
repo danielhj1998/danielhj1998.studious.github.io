@@ -11,5 +11,6 @@ title: Automatización Industrial
 * [Enclavamiento](Enclavamiento.md)
 * [Introducción a los PLCs](Introducción a los PLCs.md)
 * [Salidas y entradas de los PLCs](Salidas y entradas de los PLCs.md)
+* [PLC vs MCU](PLC vs MCU.md)
 
 -------------------------------------------
