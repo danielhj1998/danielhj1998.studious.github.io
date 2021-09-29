@@ -7,5 +7,6 @@ title: Tópicos Avanzados de Sensores
 * [Sensores MEMS](Sensores MEMS.md)
 * [Microacelerómetro](Microacelerómetro.md)
 * [Giroscopio](Giroscopio.md)
+* [Diseño y simulación de un acelerómetro MEMS](Diseño y simulación de un acelerómetro MEMS.md)
 
 -------------------------------------
