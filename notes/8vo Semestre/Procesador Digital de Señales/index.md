@@ -8,5 +8,6 @@ layout: index
 * [Ensamblador para el ARM Cortex-A53](Ensamblador para el ARM Cortex-A53.md)
 * [Depuración con gdb](Depuración con gdb.md)
 * [Llamadas al sistema en Linux](Llamadas al sistema en Linux.md)
+* [Periféricos del BCM2837](Periféricos del BCM2837.md)
 
 ---------------------------------------

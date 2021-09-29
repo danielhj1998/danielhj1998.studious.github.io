@@ -8,5 +8,6 @@ title: Diseño Avanzado de Elementos de Máquina
 * [Módulo de elasticidad](Módulo de elasticidad.md)
 * [Gráficas de Ashby](Gráficas de Ashby.md)
 * [Consideraciones de la Temperatura en el diseño](Consideraciones de la Temperatura en el diseño.md)
+* [Formulario](Formulario.md)
 
 ------------------------------------
