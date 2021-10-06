@@ -122,8 +122,10 @@ $$
 Para obtener la constante del motor $K_{cd}$, se con la velocidad angular en estado estacionario y la tensión de la armadura aplicada: 
 
 $$
-K_{cd} = \frac{\omega}{V_a}
+K_{cd} = \frac{\omega_n}{V_a}
 $$
+
+$\omega_n$ es la velocidad angular medida, al aplicar una tensión de armadura constante $V_a$.
 
 
 ## Modelo en régimen permanente
