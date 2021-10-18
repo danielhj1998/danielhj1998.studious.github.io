@@ -12,5 +12,6 @@ title: Automatización Industrial
 * [Introducción a los PLCs](Introducción a los PLCs.md)
 * [Salidas y entradas de los PLCs](Salidas y entradas de los PLCs.md)
 * [PLC vs MCU](PLC vs MCU.md)
+* [Mapa de memoria del PLC](Mapa de memoria del PLC.md)
 
 -------------------------------------------
