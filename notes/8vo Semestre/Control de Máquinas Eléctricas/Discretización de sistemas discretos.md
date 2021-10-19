@@ -26,17 +26,20 @@ Donde $T$ es el tiempo de muestreo.
 
 Implementar la equivalencia exacta para pasar de la función de transferencia continua a la función de transferencia discreta, sería demasiado tortuoso. Por eso se usan las aproximaciones siguientes.
 
-* [Transformación bilineal o de Tustin](https://ghsalazar.github.io/2021/03/07/transformaci%C3%B3n-bilineal.html).
+* [Transformación bilineal o de Tustin](https://ghsalazar.github.io/2021/03/07/transformaci%C3%B3n-bilineal.html)
 
     $$
     s \approx \dfrac{2(z-1)}{T(z-1)}
     $$
 
-* Aproximación hacia adelante de Euler. 
+* Aproximación hacia adelante de Euler
+
     $$
     s \approx \dfrac{(z-1)}{T}
     $$
-* Aproximación hacia atrás de Euler. 
+    
+* Aproximación hacia atrás de Euler
+
     $$
     s \approx \dfrac{(z-1)}{Tz}
     $$
@@ -45,14 +48,14 @@ Sin embargo, la transformación que se usará en el curso es la **bilineal**, pu
 
 ## Procedimiento
 
-* Obtener la función de transferencia del sistema.
-* Calcular $T$ a partir de $f_s > 2B$
-* Sustituir:
+1. Obtener la función de transferencia del sistema.
+2. Calcular $T$ a partir de $f_s > 2B$
+3. Sustituir:
     
     $$
     s = \dfrac{2(z-1)}{T(z-1)}
     $$
     
-* Desarrollar
+4. Desarrollar
 
 En matlab se puede utilizar el comando `c2d(H,T,'Tustin')` para obtener $H(z)$, donde `H`, es la función de transferencia en tiempo continuo $H(s)$ y $T$ el tiempo de muestreo.
