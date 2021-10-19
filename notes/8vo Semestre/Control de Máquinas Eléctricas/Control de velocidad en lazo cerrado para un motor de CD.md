@@ -2,14 +2,14 @@
 layout: note
 ---
 
-Como se vio en el curso de control, el [controlador pid](../../8vo Semestre/Control/Control PID.html#proporcional-integral-derivativo-pid) tiene la siguiente forma:
+Como se vio en el curso de control, el [controlador pid](../../6to Semestre/Control/Control PID.html#proporcional-integral-derivativo-pid) tiene la siguiente forma:
 
 $$
 \tag{1}
 C(s) = K_p + \frac{K_i}{s} + K_d s
 $$
 
-Sin embargo, esta función de transferencia **no es propia** y su implementación en físico se **complica**, además el término **derivador amplifica** altas frecuencias, pues es un filtro pasa altas con polo en el infinito. Por ende esto puede **incrementar el ruido**, para ello se [implementa con un filtro pasa-bajas](../../8vo Semestre/Control/Control PID.html#implementación). Quedando la función de transferencia de la siguiente forma:
+Sin embargo, esta función de transferencia **no es propia** y su implementación en físico se **complica**, además el término **derivador amplifica** altas frecuencias, pues es un filtro pasa altas con polo en el infinito. Por ende esto puede **incrementar el ruido**, para ello se [implementa con un filtro pasa-bajas](../../6to Semestre/Control/Control PID.html#implementación). Quedando la función de transferencia de la siguiente forma:
 
 $$
 \tag{2}
