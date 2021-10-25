@@ -96,5 +96,7 @@ $$
 C_d(s) = \frac{1.041z^2 - 2.02z + 0.9784}{z^2 - 2z + 0.9997}
 $$
 
+> $h$ es el valor que se debe utilizar como tiempo de muestreo en los bloques PWM y el primer retenedor de orden 0, en realidad el segundo retenedor no es necesario pero está como representación de un convertidor DAC.
+
 # Resultado
 ![Gráfica de velocidad y referencia](../../img/control-discreto-velocidad-lazo-cerrado.svg)
