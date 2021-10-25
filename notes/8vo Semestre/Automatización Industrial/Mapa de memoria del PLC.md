@@ -15,7 +15,7 @@ Las entradas `X` y las salidas `Y` son de 1 bit y se cuentan con 37 puertos de 8
 | `Y`     | Salidas internas  | `Y0` - `Y377` (octal) |
 
 # Relés auxiliares
-Estos se ocupan para almacenar datos estados (tipo booleano) en un programa, su etiqueta es `M` y existen de 3 tipos:
+Estos se ocupan para almacenar datos estados (tipo booleano) en un programa, su marca es `M` y existen de 3 tipos:
 
 | Tipo      | Rango             |
 | -         | -                 |
@@ -27,5 +27,8 @@ Estos se ocupan para almacenar datos estados (tipo booleano) en un programa, su 
 | Especial  | `M1000` - `M1999` |
 
 Los de uso general son los que el usuario puede cambiar dependiendo de sus necesidades. Los enclavados son sólamente de lectura y los especiales (de los cuales algunos son sólamente de lectura) sirven al usuario para tener conocimiento sobre el estado del procesador, detectar errores, etc.
+
+# Temporizadores
+Se cuentan con temporizadores de hasta $100$, $10$ y $1 ms$, los cuales son accesibles a través de las marcas `T`. En bobinas se lee su valor y con el bloque `TMR` se inicia y configura el temporizador. Además, algunos de los temporizadores de $100$ y de $10 ms$ son convertibles a $10$ y $1 ms$ si se activan ciertos relés virtuales (`M1028` y `M1038` respectivamente).
 
 > Todas las etiquetas que se muestran en el documentos, son reconocidas por el software ISPSoft.
