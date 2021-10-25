@@ -10,6 +10,8 @@ title: Diseño Avanzado de Elementos de Máquina
 * [Consideraciones de la Temperatura en el diseño](Consideraciones de la Temperatura en el diseño.md)
 * [Materiales dúctiles y frágiles](Materiales dúctiles y frágiles.md)
 * [Factor de concentración de esfuerzo](Factor de concentración de esfuerzo.md)
+* [Teorías de falla estática](Teorías de falla estática.md)
+* [Teoría de Coulomb Mohr para materiales frágiles](Teoría de Coulomb Mohr para materiales frágiles.md)
 * [Formulario](Formulario.md)
 
 ------------------------------------

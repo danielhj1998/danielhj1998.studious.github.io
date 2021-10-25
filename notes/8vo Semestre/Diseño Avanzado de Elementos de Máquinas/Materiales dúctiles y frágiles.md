@@ -22,3 +22,11 @@ Si se hacen varios test de energía de impacto, a diferentes temperaturas, se ob
 La **temperatura de transición de dúctil a frágil**, es el rango de temperaturas donde la energía de impacto cambia rápidamente. En este caso, donde la pendiente es muy obvia.
 
 Las gráficas obtenidas para diferentes materiales, depende de su tratamiento también.
+
+# Comparación
+| Dúctil                                | Frágil                                             |
+| -                                     | -                                                  |
+| Es claro dónde comienza la cedencia   | No es claro donde comienza la deformación plástica |
+| La enlongación última es considerable | La enlongación última es pequeña                   |
+| $\varepsilon_f \geq 0.05$             | $\varepsilon_f < 0.05$                             |
+| Falla: cedencia                       | Falla: fractura                                    |
