@@ -10,5 +10,6 @@ title: Control de Máquinas Eléctricas
 * [Control de velocidad en lazo abierto para un motor de CD](Control de velocidad en lazo abierto para un motor de CD.md)
 * [Control de velocidad en lazo cerrado para un motor de CD](Control de velocidad en lazo cerrado para un motor de CD.md)
 * [Control discreto de velocidad en lazo cerrado para un motor de CD](Control discreto de velocidad en lazo cerrado para un motor de CD.md)
+* [Control de par en lazo cerrado para motores de CD](Control de par en lazo cerrado para motores de CD.md)
 
 --------------------------------------
