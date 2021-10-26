@@ -24,6 +24,7 @@ La **temperatura de transición de dúctil a frágil**, es el rango de temperatu
 Las gráficas obtenidas para diferentes materiales, depende de su tratamiento también.
 
 # Comparación
+
 | Dúctil                                | Frágil                                             |
 | -                                     | -                                                  |
 | Es claro dónde comienza la cedencia   | No es claro donde comienza la deformación plástica |
