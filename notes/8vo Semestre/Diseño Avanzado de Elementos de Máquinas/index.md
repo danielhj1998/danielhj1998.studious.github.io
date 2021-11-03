@@ -12,6 +12,7 @@ title: Diseño Avanzado de Elementos de Máquina
 * [Factor de concentración de esfuerzo](Factor de concentración de esfuerzo.md)
 * [Teorías de falla estática](Teorías de falla estática.md)
 * [Teoría de Coulomb Mohr para materiales frágiles](Teoría de Coulomb Mohr para materiales frágiles.md)
+* [Falla por fatiga](Falla por fatiga.md)
 * [Formulario](Formulario.md)
 
 ------------------------------------
