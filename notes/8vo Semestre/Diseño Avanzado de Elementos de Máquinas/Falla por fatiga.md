@@ -78,28 +78,57 @@ $S_e'$ es el límite de esfuerzo en fatiga de un espécimen de laboratorio.
 
 # Ejercicios
 1. Para una espécimen de viga pulida, que rota en flexión pura, hecha de acero 4130 con un límite de resistencia a la fatiga $S_e$ de $42\text{ ksi}$, $f = 0.77$ y $S_{ut} = 95\text{ ksi}$. Determine:
-* La resistencia a la fatiga del espécimen a $N = 10^{5}$ ciclos.
-* El tiempo de vida esperado bajo carga completamente reversible de $60\text{ ksi}$.
+    * La resistencia a la fatiga del espécimen a $N = 10^{5}$ ciclos.
+    * El tiempo de vida esperado bajo carga completamente reversible de $60\text{ ksi}$.
 
-$$
-S_f = aN^{b}
-$$
+    $$
+    S_f = aN^{b}
+    $$
 
-$$
-a = \frac{[(0.77)(95)]^2}{42} = 127.4\text{ ksi}
-$$
+    $$
+    a = \frac{[(0.77)(95)]^2}{42} = 127.4\text{ ksi}
+    $$
 
-$$
-b = -\frac{1}{3}\log\left[\frac{0.77(94)}{42}\right] = -0.08
-$$
+    $$
+    b = -\frac{1}{3}\log\left[\frac{0.77(94)}{42}\right] = -0.08
+    $$
 
-$$
-S_f = 127.4(10^{5(0.08)}) = 50.7\text{ ksi}
-$$
+    $$
+    S_f = 127.4(10^{5(0.08)}) = 50.7\text{ ksi}
+    $$
 
-Cómo los valores de $a$ y $b$ no cambian, puesto que sólo cambia la carga:
+    Cómo los valores de $a$ y $b$ no cambian, puesto que sólo cambia la carga:
 
-$$
-N_f = \left[\frac{60}{127.4}\right]^{-\frac{1}{0.08}} = 11790\text{ ciclos}
-$$
+    $$
+    N_f = \left[\frac{60}{127.4}\right]^{-\frac{1}{0.08}} = \boxed{11790\text{ ciclos}}
+    $$
 
+2. Una barra de acero 1025 se somete a una carga axial totalmente reversible $P$ de $-55000$ a $55000\text{ lbf}$. $S_{ut} = 55\text{ ksi}$, la fracción de resistencia a la fatiga es $f = 0.9$, $S_e = 25\text{ ksi}$. Determine el tiempo de vida esperado para este componente:
+
+    ![barra rectangular con carga de fatiga](../../img/ejercicio-fatiga-2.svg)
+    
+    $$
+    N_f = \left(\frac{\sigma_\text{rev}}{a}\right)^{\frac{1}{b}}
+    $$
+    
+    Primero se calcula $\sigma_{rev}$:
+    
+    $$
+    \sigma_{rev} = \frac{P}{A} = \frac{55000}{(2)(1)} = 27.5\text{ ksi}
+    $$
+    
+    Luego se calculan $a$ y $b$:
+    
+    $$
+    a = \frac{(fS_{ut})^2}{S_e} = \frac{((0.9)(55))^2}{25} = 98.01\text{ ksi}
+    $$
+
+    $$
+    b = -\frac{1}{3}\log\left(\frac{fS_{ut}}{S_e}\right) = -\frac{1}{3}\log\left(\frac{(0.9)(55)}{25}\right) = -0.099
+    $$
+    
+    Por lo tanto:
+    
+    $$
+    N_f = \left(\frac{27.5}{98.01}\right)^{\frac{1}{-0.099}} = \boxed{375948\text{ ciclos}}
+    $$

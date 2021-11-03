@@ -13,6 +13,7 @@ title: Diseño Avanzado de Elementos de Máquina
 * [Teorías de falla estática](Teorías de falla estática.md)
 * [Teoría de Coulomb Mohr para materiales frágiles](Teoría de Coulomb Mohr para materiales frágiles.md)
 * [Falla por fatiga](Falla por fatiga.md)
+* [Estimación del límite de fatiga](Estimación del límite de fatiga.md)
 * [Formulario](Formulario.md)
 
 ------------------------------------
