@@ -32,3 +32,23 @@ Los de uso general son los que el usuario puede cambiar dependiendo de sus neces
 Se cuentan con temporizadores de hasta $100$, $10$ y $1 ms$, los cuales son accesibles a través de las marcas `T`. En bobinas se lee su valor y con el bloque `TMR` se inicia y configura el temporizador. Además, algunos de los temporizadores de $100$ y de $10 ms$ son convertibles a $10$ y $1 ms$ si se activan ciertos relés virtuales (`M1028` y `M1038` respectivamente).
 
 > Todas las etiquetas que se muestran en el documentos, son reconocidas por el software ISPSoft.
+
+# Comparadores
+Se pueden realizar comparaciones por medio del bloque de *comparison contact*. Algunas de las operaciones de comparación más importantes son:
+
+| Símbolo | Descripción |
+| :-:     | -           |
+| `&`     | AND         |
+| `|`     | OR          |
+| `^`   | XOR                          |
+| `INV` | NOT                          |
+| `=`   | Igual que                    |
+| `>`   | Mayor que                    |
+| `<`   | Menor que                    |
+| `<>`  | Diferente de                 |
+| `>=`  | Mayor o igual que            |
+| `<=`  | Menor o igual que            |
+| `DX`  | Para datos de 32 bit         |
+| `FX`  | Para datos de punto flotante |
+
+
