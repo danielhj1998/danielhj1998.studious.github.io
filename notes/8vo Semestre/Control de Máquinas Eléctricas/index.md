@@ -12,5 +12,6 @@ title: Control de Máquinas Eléctricas
 * [Control discreto de velocidad en lazo cerrado para un motor de CD](Control discreto de velocidad en lazo cerrado para un motor de CD.md)
 * [Control de par en lazo cerrado para motores de CD](Control de par en lazo cerrado para motores de CD.md)
 * [Driver y brake para motor cd CD](Driver y brake para motor cd CD.md)
+* [Medio puente H](Medio puente H.md)
 
 --------------------------------------
