@@ -55,6 +55,81 @@ Para determinar $k_a$:
 * Johnson, R. C. (1973). SPECIFYING A SURFACE FINISH THAT WONT FAIL IN FATIGUE. Machine Design, 45(11), 108-109.
 * Datos propios
 
+## Factor de tamaño $k_b$
+Para esfuerzos de **torsión** y **flexión**, donde la distribución de esfuerzos **no** es **uniforme**. Esto ocasiona que existan **esfuerzos mayores** mientras las **piezas** sean **más grandes** y por lo tanto, hay un **descenso de la resistencia** a la fatiga conforme las piezas son más grandes.
+
+Por ejemplo, para cilindros rotatorios, se tienen los siguientes valores para el $k_b$:
+
+$$
+k_b = \begin{cases}
+    0.879d^{-0.107} & 0.11 \leq d \leq 2 \text{ in}\\
+    0.91d^{-0.157} & 2 \leq d \leq 10 \text{ in}\\
+    1.24d^{-0.107} & 2.79 \leq d \leq 51 \text{ mm}\\
+    1.51d^{-0.157} & 51 \leq d \leq 254 \text{ mm}\\
+\end{cases}
+$$
+
+En el caso de los esfuerzos axiales, esto no pasa porque los esfuerzos se distribuyen uniformemente.
+
+## Factor de carga $k_c$
+Este factor está porque para las pruebas para obtener el $S_e'$, generalmente se realizan bajo esfuerzo de flexión y en la operación, no necesariamente la carga será de este tipo. Sin embargo, importante saber bajo qué carga se hicieron las pruebas para saber qué valores son válidos.
+
+En el caso de la carga por flexión en pruebas:
+
+$$
+k_c = \begin{cases}
+    1 & \text{Flexión}\\
+    0.7 - 0.9 & \text{Axial}\\
+    0.58 & \text{Axial}\\
+\end{cases}
+$$
+
+## Factor de temperatura $k_d$
+Este factor contempla el hecho de que la resistencia a la fatiga, baja conforme la temperatura incrementa.
+
+Para obtener este factor, se puede realizar lo siguiente:
+* Datos propios
+* Prueba de resistencia a la tensión a temperatura de operación y sacar la relación con la resistencia a la tensión del material:
+    
+    $$
+    k_d = \frac{S_{y@T}}{S_y}
+    $$
+
+* Si el material es un acero, se puede utilizar la siguiente ecuación para obtener un valor aproximado:
+    
+    $$
+    k_b = 0.975 + (0.432\times10^{-3})(T) - (0.115\times10^{-5})(T^2) + (0.104\times10^{-8})(T^3) - (0.595\times10^{-12})(T^{4})
+    $$
+    
+## Factor de confiabilidad $k_e$
+Este factor toma en cuenta la confiabilidad del material que se está buscando, y reduce la resistencia a la fatiga mientras más confiabilidad se necesita.
+
+| Confiabilidad | $k_d$ |
+| :-:           | :-:   |
+| 50            | 1     |
+| 90            | 0.897 |
+| 95            | 0.868 |
+| 99            | 0.814 |
+| 99.9          | 0.753 |
+| 99.99         | 0.702 |
+| 99.999        | 0.659 |
+| 99.9999       | 0.62  |
+
+## Factor de efectos varios $k_f$
+Otras cosas a considerar son:
+
+* Esfuerzos residuales
+* Corrosión
+* Enchapado
+
+Las compañías por lo general incluyen en este factor otros efectos que puedan tener, por lo general por datos propios.
+
 # Procedimiento
 1. Obtener la resistencia a la fatiga de un espécimen de laboratorio en prueba de barra rotativa $S_e'$.
-2. Encontrar los valores de Marin
+2. Encontrar los factores de Marin
+3. Aplicar la ecuación de Marin
+    
+    $$
+    S_e = k_a k_b k_c k_d k_e k_f S_e'
+    $$
+    
