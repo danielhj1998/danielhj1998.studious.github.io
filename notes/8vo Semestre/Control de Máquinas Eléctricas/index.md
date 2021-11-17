@@ -13,5 +13,6 @@ title: Control de Máquinas Eléctricas
 * [Control de par en lazo cerrado para motores de CD](Control de par en lazo cerrado para motores de CD.md)
 * [Driver y brake para motor cd CD](Driver y brake para motor cd CD.md)
 * [Medio puente H](Medio puente H.md)
+* [Tiristores](Tiristores.md)
 
 --------------------------------------
