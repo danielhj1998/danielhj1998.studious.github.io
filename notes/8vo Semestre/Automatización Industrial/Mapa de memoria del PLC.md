@@ -51,4 +51,17 @@ Se pueden realizar comparaciones por medio del bloque de *comparison contact*. A
 | `DX`  | Para datos de 32 bit         |
 | `FX`  | Para datos de punto flotante |
 
+# Movimiento de datos `MOV`
+La instrucción `MOV`, asociada al mismo bloque de instrucción. Copia datos a un registro. Estos registros pueden ser formados como una unión de marcas internas de la siguiente forma:
 
+| Nombre  | Descripción                                                      |
+| -       | -                                                                |
+| `K1M10` | 1 Nibble a partir de la marca `M10`, es decir: `M10,M11,M12,M13` |
+| `K2M10` | 2 Nibble a partir de la marca `M10`, es decir: `M10 - M17`       |
+| `K3M10` | 3 Nibble a partir de la marca `M10`, es decir: `M10 - M21`       |
+
+Así se puede hacer referencia a registros compuestos por varias marcas internas.
+
+Usando un bloque `MOV`, se puede guardar una seria de datos en un registro para su utilización posterior.
+
+Existe las distintas variantes de `MOV` tienen que ver con el tipo de dato, pero también con la forma de activación. Existe la versión `MOVP` que trabaja con flancos. Esto sirve para contadores, señales de reloj, etc. También existe un elemento de línea que hace que se detecten sólo los flancos de subida o bajada. Al usar estos, es necesario utilizar las instrucciones con `P` al final.
