@@ -14,5 +14,6 @@ title: Control de Máquinas Eléctricas
 * [Driver y brake para motor cd CD](Driver y brake para motor cd CD.md)
 * [Medio puente H](Medio puente H.md)
 * [Tiristores](Tiristores.md)
+* [Puente trifásico](Puente trifásico.md)
 
 --------------------------------------
