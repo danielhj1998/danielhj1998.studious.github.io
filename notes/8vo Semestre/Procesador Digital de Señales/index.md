@@ -9,6 +9,6 @@ layout: index
 * [Depuración con gdb](Depuración con gdb.md)
 * [Llamadas al sistema en Linux](Llamadas al sistema en Linux.md)
 * [Periféricos del BCM2837](Periféricos del BCM2837.md)
-* [Filtro FIR](Filtro FIR.md)
+* [Filtros digitales](Filtros digitales.md)
 
 ---------------------------------------
