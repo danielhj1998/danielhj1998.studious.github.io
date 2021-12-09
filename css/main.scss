@@ -28,6 +28,11 @@ html, body {
     height: 90%;
 }
 
+::selection {
+    color: $clear;
+    background: $dark;
+}
+
 body {
     /* General styles */
     margin: 0;
