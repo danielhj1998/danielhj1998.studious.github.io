@@ -15,6 +15,8 @@ title: Diseño Avanzado de Elementos de Máquina
 * [Falla por fatiga](Falla por fatiga.md)
 * [Estimación del límite de fatiga](Estimación del límite de fatiga.md)
 * [Factores de concentración de esfuerzo en fatiga](Factores de concentración de esfuerzo en fatiga.md)
+* [Esfuerzo fluctuante de fatiga](Esfuerzo fluctuante de fatiga.md)
+* [Esfuerzo variante de fatiga](Esfuerzo variante de fatiga.md)
 * [Formulario](Formulario.md)
 
 ------------------------------------
