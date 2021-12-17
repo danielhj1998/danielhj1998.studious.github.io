@@ -21,7 +21,7 @@ Todos estos tipos de filtros pueden ser implementados de forma **analógica** o 
 En los filtros digitales existen 2 tipos, los filtros de respuesta finita al impulso *FIR* y los filtros de respuesta infinita al impulso *IIR*.
 
 # Funcionamiento de un filtro digital
-Se parte de la respuesta discreta al impulso, por medio de la suma de convolución:
+Se parte de la [respuesta discreta al impulso](https://www.youtube.com/watch?v=x1nQtbzP6V8), por medio de la suma de convolución:
 
 $$
 y[n] = \sum^\infty_{k=0} b[k]x[n-k]
