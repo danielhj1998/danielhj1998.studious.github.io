@@ -15,5 +15,6 @@ title: Control de Máquinas Eléctricas
 * [Medio puente H](Medio puente H.md)
 * [Tiristores](Tiristores.md)
 * [Puente trifásico](Puente trifásico.md)
+* [Control de velocidad para motor a pasos](Control de velocidad para motor a pasos.md)
 
 --------------------------------------
