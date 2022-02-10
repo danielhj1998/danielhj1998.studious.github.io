@@ -57,3 +57,16 @@ El protocolo dónde se estipula el proyecto a desarrollar, debe tener las siguie
 * Objetivo (¿qué quiero hacer?)
 * Problema detectado (necesidad)
 * Justificación (¿a quién se sirve?)
+
+# Etapas
+* Diseño del protocolo (metodología)
+* Desarrollo del proyecto (Trabajo Terminal 1 y 2)
+* Informe final (presentación de prototipo, examen, presentación y corrección del escrito)
+
+# Búsqueda de material
+* Rastreo de trabajos parecidos al que se quiere realizar (estado del arte)
+* Establecer la innovación de la idea
+* Pulsar dificultades ya enfrentadas por otros
+* Generar nuevas ideas
+* Rastreo de información que justifique su posible impacto
+* Búsqueda de los principios teóricos que permiten su funcionamiento (Marco Teórico)
