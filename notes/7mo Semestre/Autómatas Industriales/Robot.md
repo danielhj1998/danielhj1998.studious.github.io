@@ -9,10 +9,11 @@ Es un manipulador multifuncional reprogramable diseñado para mover materiales, 
 * Reprogramabilidad (diferencia con un mecanismo).
 * Ventajas: Costos de tareas menores, mayor presición y productividad, flexibilidad comparada con máquinas especializadas.
 
-## Robots manupuladores:
+## Robots manipuladores:
 Los robots manipuladores se componen de `eslabones` conectadas por `juntas` para formar una `cadena cinemática`.
 
 Las juntas se clasifican como `revolutas` (R) (rotativas) o `prismáticas` (P) (lineales).
+
 ![98faf15af70a15b1237b5d7d1e97e12e.png](../../img/5a7b0c8430f549f1bd491ba5a96f47e7.png)
 
 Cada junta representa la conexión entre dos eslabones.
