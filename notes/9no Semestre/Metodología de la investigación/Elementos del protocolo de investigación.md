@@ -87,3 +87,17 @@ Tienen las siguientes características:
 > Cómo y con qué si ya se conoce
 
 > Es importante tener cuidado con los objetivos porque **no se pueden cambiar después**
+
+## Justificación
+* **Exposición de razones** $\Rightarrow$ para qué y por qué?
+* **Criterios**
+    * **Innovación**: Diferenciador (**Análisis del estado del arte**)
+    * **Conveniencia**: ¿Para qué sirve?
+    * **Relevancia social**:
+        * Trascendencia para la sociedad
+        * ¿Quiénes se benefician? ¿Cómo?
+    * **Implicaciones prácticas**:
+        * ¿Resuelve un problema real?
+        * ¿Tiene implicaciones prácticas?
+    * **Valor teórico**: ¿Se llenará algún vacío de conocimiento?
+    * **Utilidad metodológica**: ¿Es un nuevo instrumento para analizar/recolectar datos?
