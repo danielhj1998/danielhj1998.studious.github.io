@@ -110,6 +110,7 @@ blockquote {
 ul {
     list-style-position: outside;
     margin-left: 1em;
+    font-size: 100% !important;
 }
 
 // Default layout
@@ -159,6 +160,32 @@ ul.note-dir-menu {
 h1.note-title {
     font-size: $font-size-body * 2.5;
     text-align: center;
+}
+
+.toc {
+    z-index: 10;
+    position: sticky;
+    top: 2em;
+    font-size: 70%;
+    height: 0px;
+
+    > ul {
+        padding-left: 0;
+        transform: translateX(calc(-100% - 2em)) translateY(4em);
+    }
+    ul {
+        list-style: none;
+        display: inline-block;
+        width: calc(-4em - 400px + 50vw);
+        margin: 0;
+        padding-left: 1.4rem;
+    }
+    a:before {
+        display: none;
+    }
+    li {
+        margin-bottom: 0.3em;
+    }
 }
 
 // small screens

@@ -15,5 +15,8 @@ layout: default
     </ul>
 
     <h1 class="note-title">{{page.name | remove: ".md"}}</h1>
+    <div class="toc">
+    {% include toc.html html=content %}
+    </div>
     {{content}}
 </div>
