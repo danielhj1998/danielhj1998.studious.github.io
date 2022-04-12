@@ -188,6 +188,9 @@ h1.note-title {
     a {
         margin-bottom: 0.5em;
     }
+    .isActive {
+        font-weight: 600; 
+    }
     a:before {
         display: none;
     }
