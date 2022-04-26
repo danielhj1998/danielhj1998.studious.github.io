@@ -146,7 +146,7 @@ Un desbordamiento del timer ocurre en un evento de conteo cuando el contador ya 
 
 Los registros `TCNT` se pueden escribir, por lo que se puede modificar el conteo de los timers para hacer conteos exactos. Entonces si se quisiera la interrupción a sólo dos conteos, lo único que hay que hacer es poner el valor en `TCNT` a una unidad menos que su máxima capacidad (eg. 256 - 2 = 254 para un timer de 8 bit).
 
-## Programación en C de interrupciones por desbordamiento
+### Programación en C de interrupciones por desbordamiento
 Para utilizar las interrupciones por desbordamiento de los timers del ATmega328P en lenguaje `C`, se puede seguir este procedimiento:
 
 1. Importar la librería `avr/interrupt.c`
