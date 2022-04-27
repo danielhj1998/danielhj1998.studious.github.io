@@ -137,3 +137,14 @@ Los modos de operación se definen con los bits `WGMx2` del registro `TCCRxB` en
 El modo Clear Timer on Compare match  o CTC por sus síglas en inglés, permite reiniciar el contador al alcanzar el valor en `OCRxA`. Aunque esto puede hacerse de forma *manual* por medio de la interrupción por comparación, se gastan muchos más ciclos de máquina. Utilizar el modo CTC es mucho más rápido pues es en hardware.
 
 Esto sirve para poder variar la frecuencia de las interrupciones. Además, esto permite generar una señal de onda cuadrada de frecuencia variable como se ve en la [figura 14-5 del datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=79). Para esto, se puede configurar el microcontrolador para que cambie el nivel lógico en el pin automáticamente al ocurrir el match, tanto para el pin `OCxA` como el `OCxB`, siempre y cuando estos pines estén configurados como salidas. Esto se hace mediante los pines `COMxA1:0` y `COMxB1:0` del registro `TCCRxA` con cualquiera de las configuraciones de la [tabla 14-2 del datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=84).
+
+Generando una forma de onda cuadrada de frecuencia variable, de forma tal que hace un toggle en cada match. Para calcular la frecuencia de dicha onda, se ocupa la siguiente fórmula:
+
+$$
+f_{OCn} = \frac{f_{clk I/O}}{2N(1+OCRn)}
+$$
+
+Donde:
+$N$ es la preescala
+$OCRn$ es el valor en `OCRxA`/`OCRxB`
+
