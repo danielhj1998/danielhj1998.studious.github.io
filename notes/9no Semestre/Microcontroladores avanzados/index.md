@@ -7,3 +7,4 @@ title: Microcontroladores avanzados
 * [Desarrollo de AVR Amtel328P de Arduino en WSL](Desarrollo de AVR Amtel328P de Arduino en WSL.md)
 * [Programación del ATmega328P en C](Programación del ATmega328P en C.md)
 * [Interrupciones](Interrupciones.md)
+* [Timers](Timers.md)
