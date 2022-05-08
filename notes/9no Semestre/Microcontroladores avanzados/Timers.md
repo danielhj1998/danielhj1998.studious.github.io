@@ -148,3 +148,7 @@ Donde:
 $N$ es la preescala
 $OCRn$ es el valor en `OCRxA`/`OCRxB`
 
+### Modo PWM
+El ATmega328P tiene dos modos de PWM, el de **fase correcta** y **PWM rápido**. La diferencia es que el de fase correcta sube hasta el valor máximo del contador y luego decrementa, mientras que el segundo se desborda. Esto hace que uno sea el doble de rápido que el otro.
+
+> Debido a la velocidad a las que pueden variar los dominios magnéticos de un material, tienen un límite en la frecuencia que pueden manejar. Por lo mismo, los motores tienen ese límite y hay que tenerlo en cuenta al elegir el PWM.
