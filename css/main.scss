@@ -41,7 +41,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: $dark;
-    text-align: justify;
 }
 
 a {
@@ -176,13 +175,13 @@ h1.note-title {
     ul {
         list-style: none;
         display: inline-block;
-        width: calc(-6em - 400px + 50vw);
+        width: calc(-13em - 400px + 50vw);
         margin: 0;
         padding-left: 1.6rem;
     }
     > ul {
         padding-left: 0;
-        transform: translateX(calc(-100% - 3.4em)) translateY(4em);
+        transform: translateX(calc(-100% - 10.4em)) translateY(4em);
     }
     a {
         margin-bottom: 0.5em;
