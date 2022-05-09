@@ -2,6 +2,16 @@
 ---
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;700&display=swap');
 
+/* Constants */
+$font-size-body: 18px;
+
+/* Colors */
+$dark: #36393b;
+$clear: white;
+$accent: #e26f83;
+$code-bg: #f4ecf0;
+
+
 @import 'code.css';
 code {
     background-color: $code-bg;
@@ -18,15 +28,6 @@ code {
 }
 
 @charset "utf-8";
-
-/* Constants */
-$font-size-body: 18px;
-
-/* Colors */
-$dark: #36393b;
-$clear: white;
-$accent: #e26f83;
-$code-bg: #f4ecf0;
 
 html, body {
     height: 90%;
