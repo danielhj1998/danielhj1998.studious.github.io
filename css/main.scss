@@ -3,11 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;700&display=swap');
 
 @import 'code.css';
-pre code {
-    background-color: #F8F8F8;
+code {
+    background-color: #f4e2f0;
     font-family: 'Fira Code', monospace;
-    white-space: pre;
-    overflow-x: auto;
+    border: none;
+    border-radius: 3px;
+    padding: .05em .4em;
+    margin: 0;
+    font-size: 90%;
+    pre & {
+        white-space: pre;
+        overflow-x: auto;
+    }
 }
 
 @charset "utf-8";
@@ -19,6 +26,7 @@ $font-size-body: 18px;
 $dark: #36393b;
 $clear: white;
 $accent: #e26f83;
+$code-bg: #f4ecf0;
 
 html, body {
     height: 90%;
@@ -62,7 +70,20 @@ a {
     &:hover{
         color: $clear;
         &:before{
-            height: 25.2px;
+            height: 100%;
+        }
+    }
+    & code {
+        color: $accent;
+        &:before{
+            content: "";
+            position: absolute;
+            background: $clear;
+            width: calc(100% + 4px);
+            height: 100%;
+            bottom: 0;
+            left: -2px;
+            z-index: -1;
         }
     }
 }
