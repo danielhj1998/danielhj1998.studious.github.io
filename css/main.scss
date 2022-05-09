@@ -133,6 +133,9 @@ ul, ol {
     margin-left: 1em;
     font-size: 100% !important;
 }
+ul {
+    list-style: disc;
+}
 
 // Default layout
 div.go-home {
@@ -170,6 +173,17 @@ div.page-content {
             color: $accent;
         }
     }
+    ul:not(.note-dir-menu) {
+        list-style: none;
+        & li::before {
+            content: "\2022";
+            color: $accent;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    }
 }
 
 // notes Layout
@@ -182,14 +196,14 @@ ul.note-dir-menu {
             font-family: 'Inter', sans-serif;
             padding: 0 10px;
             color: $dark;
-            border-left: 1px solid transparentize($dark, 1);
-            border-right: 1px solid transparentize($dark, 1);
         }
         a:hover {
-            border-left: 1px solid $dark;
-            border-right: 1px solid $dark;
+            color: $accent;
         }
         a:before { content: none; }
+        &:after {
+            content: "⮞";
+        }
     }
     border-bottom: 1px solid $dark;
     padding-bottom: 2px;
