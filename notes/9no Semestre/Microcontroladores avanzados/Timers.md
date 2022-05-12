@@ -152,3 +152,15 @@ $OCRn$ es el valor en `OCRxA`/`OCRxB`
 El ATmega328P tiene dos modos de PWM, el de **fase correcta** y **PWM rápido**. La diferencia es que el de fase correcta sube hasta el valor máximo del contador y luego decrementa, mientras que el segundo se desborda. Esto hace que uno sea el doble de rápido que el otro.
 
 > Debido a la velocidad a las que pueden variar los dominios magnéticos de un material, tienen un límite en la frecuencia que pueden manejar. Por lo mismo, los motores tienen ese límite y hay que tenerlo en cuenta al elegir el PWM.
+
+El modo PWM funciona haciendo que el contador cuente en subida y bajada constantemente, switcheando al cruzar `TCNTx` con el valor del pin `OCxA`/`OCxB`. Es decir, se modula el duty cicle con el valor de `OCxA`/`OCxB`. Cuando es `0` se mantiene una señal baja en la salida, cuando es `255` se tiene un duty cicle de 100\% y la salida es alta constante.
+
+La frecuencia del PWM puede cambiar si se selecciona `WGM2:0 = 5` a diferencia de `WGM2:0 = 1`, porque hace que el valor máximo de conteo es el almacenado en `OCxA`.
+
+La frecuencia del PWM se calcula como:
+
+$$
+f_{PWM} = \frac{f_\text{CLKI/O}}{N\times 510}
+$$
+
+En el [datasheet pág. 81](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=81), se explica más a detalle este modo de operación.
