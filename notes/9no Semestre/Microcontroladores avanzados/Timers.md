@@ -163,4 +163,4 @@ $$
 f_{PWM} = \frac{f_\text{CLKI/O}}{N\times 510}
 $$
 
-En el [datasheet pág. 81](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=81), se explica más a detalle este modo de operación.
+En el [datasheet pág. 81](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=81), se explica más a detalle este modo de operación. Es importante recalcar que el timer 1 tiene más opciones de configuración para el PWM.
