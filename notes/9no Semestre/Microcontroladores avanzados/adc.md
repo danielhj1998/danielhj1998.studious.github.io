@@ -32,7 +32,7 @@ La referencia se selecciona con los bits `REFS1:0` del registro `ADMUX`:
 | `REFS1` | `REFS0` | Tensión de referencia $V_{ref}$                             |
 | -       | -       | -                                                           |
 | `0`     | `0`     | `AREF`, $V_{ref}$ interna apagada                           |
-| `0`     | `1`     | $V_{CC}$ con capacitor externo en `AREF`                    |
+| `0`     | `1`     | $AV_{CC}$ con capacitor externo en `AREF`                   |
 | `1`     | `0`     |                                                             |
 | `1`     | `1`     | Tensión interna de $1.1\ V$ con capacitor externo en `AREF` |
 
