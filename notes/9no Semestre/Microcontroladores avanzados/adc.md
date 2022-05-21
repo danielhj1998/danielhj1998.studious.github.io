@@ -1,5 +1,6 @@
 ---
 layout: note
+title: ADC
 ---
 
 El Convertidor Analógico Digital, convierte una señal analógica (continua) en una señal digital (discreta). Para lograr esto con efectividad, realiza muestreos de la señal y según el teorema de Nyquits, que dice que debemos de muestrear la señal con una frecuencia del doble de la frecuencia de la señal.
@@ -63,9 +64,9 @@ Con `ADLAR` = `1` (izquierda):
 Esto nos puede ser útil para realizar lecturas de 8 bits, puesto que podríamos leer sólo el byte alto `ADCH`, sabiendo que perdemos los últimos 2 bit menos importantes. Se sacrifica precisión por sencillez.
 
 ## Preescalador
-El ATmega328P realiza un muestreo por cada ciclo del ADC. Este necesita una señal de reloj entre $50\ kHz$ y $200\ kHz$. Tiene un módulo que genera una frecuencia adeucada para el ADC a partir de la señal de reloj CPU y funciona sólo si dicha señal es mayor a $100 kHz$.
+El ATmega328P realiza un muestreo por cada ciclo del ADC. Este necesita una señal de reloj entre $50\ kHz$ y $200\ kHz$. Tiene un módulo preescalador que puede generar una frecuencia adecuada para el ADC a partir de la señal de reloj CPU y funciona sólo si dicha señal tiene una frecuencia mayor a $100 kHz$.
 
-El ADC cuenta con un preescalador para disminuir la frecuencia de los muestreos y se configura por medio de los bits `ADPS2:0` del registro `ADCSRA`:
+El preescalador se configura por medio de los bits `ADPS2:0` del registro `ADCSRA`, para configurar el factor de división y se habilita por medio del bit `ADEN` en `ADCSRA`, las opciones de preescalamiento son:
 
 | `ADPS2` | `ADPS1` | `ADPS0` | Factor de división |
 | -       | -       | -       | -                  |
