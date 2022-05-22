@@ -119,3 +119,11 @@ Los pasos para configurar la conversión automática por disparo son los siguien
     | `1`     | `1`     | `1`     | Captura de evento del Timer1 |
 
 2. Activar (`1`) la conversión automática por disparo con el bit `ADATE` del registro `ADCSRA`.
+3. Cuando la fuente de disparo es una interrupción, para que ocurra una interrupción al acabar la pasada, es necesario borrar la bandera de interrupción correspondiente.
+    > Aunque se levante la bandera de interrupción, no se hace la llamada a interrupción de la fuente, si no está habilitada con su respectivo bit.
+
+> Si se tiene activada la interrupción por término de conversión del ADC. Este comienza una conversión justo después de acabar la pasada, es decir como en "conversión continua".
+
+> Aunque se esté en modo de disparo automático, se pueden inicar conversiones por medio del registro `ADSC`.
+
+Más sobre esto se detalla en la [página 207 del datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=207).
