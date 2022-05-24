@@ -37,7 +37,7 @@ El pin negativo del comparador, se puede reemplazar por cualquiera de los pines 
 
 Se selecciona por medio de los bits `ACIS1:0` del registro `ACSR`.
 
-| `ACIS1` | `ACIS0` | Entrada negativa del comparador             |
+| `ACIS1` | `ACIS0` | Modo de interrupción                        |
 | :-:     | :-:     | -                                           |
 | 0       | 0       | Comparator interrupt on output toggle       |
 | 0       | 1       | Reserved                                    |
