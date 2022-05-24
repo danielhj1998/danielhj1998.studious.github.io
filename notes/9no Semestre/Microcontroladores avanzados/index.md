@@ -9,3 +9,4 @@ title: Microcontroladores avanzados
 * [Interrupciones](Interrupciones.md)
 * [Timers](Timers.md)
 * [ADC](adc.md)
+* [Comparador Analógico](comparador-analogico.md)

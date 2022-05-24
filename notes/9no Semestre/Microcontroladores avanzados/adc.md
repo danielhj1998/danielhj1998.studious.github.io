@@ -80,7 +80,7 @@ El preescalador se configura por medio de los bits `ADPS2:0` del registro `ADCSR
 | `1`     | `1`     | `1`     | 128                |
 
 # Operación
-El ADC puede funcionar por [conversión única](#conversion-unica) o [conversión automática por disparo](#conversion-automatica-por-disparo), cuando la conversión termina (`ADIF` se levanta), se puede leer el resultado en el registro `ADCH` y `ADCL`, cuyo [corrimiento cambia con `ADLAR`](#ajustar-resultado-en-adc). El resultado es:
+El ADC puede funcionar por [conversión única](#conversión-única) o [conversión automática por disparo](#conversión-automática-por-disparo), cuando la conversión termina (`ADIF` se levanta), se puede leer el resultado en el registro `ADCH` y `ADCL`, cuyo [corrimiento cambia con `ADLAR`](#ajustar-resultado-en-adc). El resultado es:
 
 $$
 \texttt{ADC} = \frac{1024\ V_{in}}{V_{ref}}
