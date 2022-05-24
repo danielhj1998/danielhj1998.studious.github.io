@@ -11,7 +11,7 @@ Se puede configurar la activación de `ACO` para disparar:
 * Una interrupción con la bandera `ACI`
     * Se debe habilitar por medio del bit `ACIE` del registro `ACSR`
 * La función de [captura del Timer1](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=96).
-* Para disparar una [conversión con el ADC](../adc.html#conversión-automática-por-disparo)
+* Para disparar una [conversión con el ADC](adc.html#conversión-automática-por-disparo)
 
 # Entrada multiplexada del comparador analógico
 El pin negativo del comparador, se puede reemplazar por cualquiera de los pines `ADC7..0`. Para esto: 
