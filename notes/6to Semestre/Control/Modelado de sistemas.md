@@ -100,7 +100,7 @@ Se puede obtener a partir de la fomra de `Euler-Lagrange`, `Variables de estado`
 
 Se aplica la transformada de Laplace y se lleva a la forma $\dfrac{Y(s)}{U(s)}$.
 
-#### Por Euler-Lagrange
+### Por Euler-Lagrange
 
 $$
 m\ddot{x}+b\dot{x}+kx=F
@@ -119,7 +119,7 @@ $$
 $$
 
 
-#### Por variables de estado
+### Por variables de estado
 
 $$
 \begin{aligned}
@@ -141,7 +141,7 @@ $$
 
 Desarrollando se llega al mismo resultado.
 
-#### Por la forma matricial
+### Por la forma matricial
 Existe una fórmula general para obtener la función de transferencia aplicando las operaciones matriciales correspondientes a partir de la siguiente forma:
 
 $$
