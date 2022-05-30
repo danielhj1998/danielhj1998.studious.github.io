@@ -1,5 +1,6 @@
 ---
 layout: index
+title: Procesador Digital de Señales
 ---
 
 * [Referente a la clase](./Referente a la clase.md)

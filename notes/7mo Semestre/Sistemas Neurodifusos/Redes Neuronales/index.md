@@ -1,5 +1,6 @@
 ---
 layout: index
+title: Redes neuronales
 ---
 
 * [Neurona artificial](./Neurona artificial.md)
