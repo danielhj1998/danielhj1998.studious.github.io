@@ -3,11 +3,11 @@ layout: index
 title: 8vo Semestre
 ---
 
-* [Automatización Industrial](../8vo Semestre/Automatización Industrial/index.md) 
-* [Control de Máquinas Eléctricas](../8vo Semestre/Control de Máquinas Eléctricas/index.md) 
-* [Diseño Avanzado de Elementos de Máquinas](../8vo Semestre/Diseño Avanzado de Elementos de Máquinas/index.md) 
-* [Procesador Digital de Señales](../8vo Semestre/Procesador Digital de Señales/index.md) 
-* [Sistemas Operativos en Tiempo Real](../8vo Semestre/Sistemas Operativos en Tiempo Real/index.md) 
-* [Tópicos Avanzados de Sensores](../8vo Semestre/Tópicos Avanzados de Sensores/index.md) 
+* [Automatización Industrial](Automatización Industrial/index.md) 
+* [Control de Máquinas Eléctricas](Control de Máquinas Eléctricas/index.md) 
+* [Diseño Avanzado de Elementos de Máquinas](Diseño Avanzado de Elementos de Máquinas/index.md) 
+* [Procesador Digital de Señales](Procesador Digital de Señales/index.md) 
+* [Sistemas Operativos en Tiempo Real](Sistemas Operativos en Tiempo Real/index.md) 
+* [Tópicos Avanzados de Sensores](Tópicos Avanzados de Sensores/index.md) 
 
 ----------------------------------------------------------
