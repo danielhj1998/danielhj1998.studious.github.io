@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Notas
 ---
 
 Tarea: Hacer una Sub VI que se comporte como la 74ls247, junto con un display de 7 segmentos en ánodo común (led no iluminados, en `0`)

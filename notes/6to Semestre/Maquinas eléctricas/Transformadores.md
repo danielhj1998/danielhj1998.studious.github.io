@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Transformadores
 ---
 
 En la figura siguiente se muestra un transformador ideal, que se compone del devanado `primario` (alimentación) y el `secundario`.

@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Industria
 ---
 
 La industria es la `actividad económica` encargada  de `transformar` los `productos extraídos` de las  naturaleza en `material elaborado`. En dicho  proceso productivo se  combinan  los  distintos  `factores de producción` y se generan `residuos`.

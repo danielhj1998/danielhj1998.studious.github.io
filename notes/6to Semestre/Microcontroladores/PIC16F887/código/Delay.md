@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Delay
 ---
 
 # Subrutinas para hacer delay

@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Packages
 ---
 
 Los paquetes son utilizados en VHDL para encapsular una serie de módulos para después utilizarlos en otros módulos  

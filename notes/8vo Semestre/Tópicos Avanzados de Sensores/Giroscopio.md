@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Giroscopio
 ---
 
 La descripción completa del movimiento de un objeto requiere conocer todas sus componentes de velocidad.

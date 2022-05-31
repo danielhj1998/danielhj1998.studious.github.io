@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Historia
 ---
 
 # Cuándo surge la urgencia de acción contra el deterioro ambiental?

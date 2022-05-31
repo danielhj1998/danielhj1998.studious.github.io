@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Timer
 ---
 
 ![80af4f7d2f7c6eecfe9d38f1ac18daee.png](../../../../img/bf487834c76643469b922ccd03d72f58.png)

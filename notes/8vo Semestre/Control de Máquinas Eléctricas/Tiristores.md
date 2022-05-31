@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Tiristores
 ---
 
 Los **tiristores** a diferencia de los *transistores*, cumplen con las siguientes características:

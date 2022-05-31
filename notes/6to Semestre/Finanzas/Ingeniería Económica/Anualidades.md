@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Anualidades
 ---
 
 Las **anualidades** son el conjunto de pagos iguales realizados en **intervalos regulares** de tiempo.

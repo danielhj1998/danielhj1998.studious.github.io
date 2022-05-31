@@ -1,5 +1,6 @@
 ---
 layout: note
+title: IVA
 ---
 
 Es el impuesto al valor agregado.

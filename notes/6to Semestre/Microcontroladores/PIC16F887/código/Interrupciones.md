@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Interrupciones
 ---
 
 Las interrupciones pausan la ejecución del programa principal, llama a una `Rutina de Servicio de Interrupción` (`ISR`). Luego continua con la ejecución del programa donde lo dejó.

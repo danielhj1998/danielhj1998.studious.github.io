@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Facturas
 ---
 
 Las facturas sirven para amparar todas las transacciones que se hacen como empresa. Las facturas falsas son un problema y la la `SHCP` de hecho tiene una campaña para detectar las empresas que generan facturas falsas.

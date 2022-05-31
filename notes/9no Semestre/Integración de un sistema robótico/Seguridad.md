@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Seguridad
 ---
 
 # Peligro y Riesgo

@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Enclavamiento
 ---
 
 La cuarta función de un relevador es la del enclavamiento. Es decir, que al presionar un interruptor, el circuito se mantenga encendido a pesar de usar de liberar el interruptor.

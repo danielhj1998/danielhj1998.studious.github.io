@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Confiabilidad
 ---
 
 Desarrollar la confiabilidad de un sistema hace que un sistema sea robusto, que el sistema pueda aguantar cargas sin dejar de realizar sus funciones. Por eso, la confiabilidad está relacionada con la **falla**.

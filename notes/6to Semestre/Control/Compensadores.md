@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Compensadores
 ---
 
 Los compensadores son usados para moldear el sistema y alcanzar los requisitos que el sistema debe cumplir.

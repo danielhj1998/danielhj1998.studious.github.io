@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Reportes
 ---
 
 Los apartados deben ser explicitos y no implicitos dentro del reporte:  

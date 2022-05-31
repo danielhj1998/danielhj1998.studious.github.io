@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Materiales
 ---
 
 # Página para ver materiales

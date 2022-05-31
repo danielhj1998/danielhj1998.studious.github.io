@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Interrupciones
 ---
 
 El ATmega328P tiene varios [vectores de interrupción](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=49). Existe una bandera de interrupciones global `I` del registro `SREG`, que habilita `1` o deshabilita `0` las interrupciones de forma global. Además de la bandera global `l`, se necesita habilitar la máscara asociada a cada interrupción para que funcione la misma. Otra forma de activar/desactivar la bandera de interrupción global, es con los métodos `cli()`/`sei()` respectivamente.

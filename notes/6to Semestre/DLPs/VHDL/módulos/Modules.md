@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Modules
 ---
 
 Los módulos VHDL se usan para encapsular bloques de hardware y trabajar de forma modular.  

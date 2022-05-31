@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Convenios
 ---
 
 # Convenio  169  de  la  OIT sobre  Pueblos  Indígenas y  Tribales  en  Países Independientes

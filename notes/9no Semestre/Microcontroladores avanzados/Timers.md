@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Timers
 ---
 
 El ATmega328P cuenta con 3 temporizadores o contadores (cuando se utiliza una fuente externa), el Timer0 y Timer 2 de 8 bit y Timer3 de 16 bit. También tienen la posibilidad de generar PWM de periodo variable.

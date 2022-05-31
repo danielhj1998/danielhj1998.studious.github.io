@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Potpurri
 ---
 
 • EL profe recomienda el ESP32 de Espressif! Es barato de una marca no tan conocida y prácticamente tiene un servidor (tiene Wi-fi y buena memoria)  

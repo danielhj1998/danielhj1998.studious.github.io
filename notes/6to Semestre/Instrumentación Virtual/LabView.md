@@ -1,5 +1,6 @@
 ---
 layout: note
+title: LabView
 ---
 
 ## Shortcut Keys

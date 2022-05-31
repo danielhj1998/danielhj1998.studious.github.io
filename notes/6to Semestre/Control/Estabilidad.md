@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Estabilidad
 ---
 
 Es una propiedad de los sistems dinámicos.

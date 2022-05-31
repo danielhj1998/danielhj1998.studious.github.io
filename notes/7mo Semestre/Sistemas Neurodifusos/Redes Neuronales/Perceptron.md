@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Perceptron
 ---
 
 El perceptron es una neurona bipolar, pero que tiene una diferente regla de entrenamiento.

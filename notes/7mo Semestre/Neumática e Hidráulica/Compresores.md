@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Compresores
 ---
 
 * **Commpresores:** Los compresores son máquinas que aumentan la presión de un volúmen de gas.

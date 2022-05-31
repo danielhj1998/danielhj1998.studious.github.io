@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Subrutinas
 ---
 
 Son fragmentos de código que se mandan llamar repetidamente.

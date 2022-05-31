@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Figuras
 ---
 
 • Deben haberse mencionado previamente en algún párrafo antes de aparecer.  
