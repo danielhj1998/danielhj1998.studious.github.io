@@ -1,6 +1,5 @@
 ---
 layout: note
-title: Medio puente H
 ---
 
 El medio puente H sirve para tener ambos driver y break en un sólo circuito y se implementa de la siguiente forma:
