@@ -6,10 +6,10 @@ title: Problemática ambiental y actividad industrial
 
 ----------------------------------------------------------
 
-* [Introducción](./Introducción.md)
-* [Impacto ambiental](./Impacto ambiental.md)
-* [Contaminación](./Contaminación.md)
-* [Industria](./Industria.md)
-* [Historia](./Historia.md)
-* [Actividades riesgosas](./Actividades riesgosas.md)
-* [Legislación ambiental](./Legislación ambiental.md)
+* [Introducción](introduccion.md)
+* [Impacto ambiental](impacto-ambiental.md)
+* [Contaminación](contaminacion.md)
+* [Industria](industria.md)
+* [Historia](historia.md)
+* [Actividades riesgosas](actividades-riesgosas.md)
+* [Legislación ambiental](legislacion-ambiental.md)

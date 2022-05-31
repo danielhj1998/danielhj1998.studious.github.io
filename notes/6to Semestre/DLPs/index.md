@@ -9,4 +9,4 @@ title: DLPs
 
 ----------------------------------------------------------
 
-* [ISE Design Suite command line](./ISE Design Suite command line.md)
+* [ISE Design Suite command line](ise-design-suite-command-line.md)

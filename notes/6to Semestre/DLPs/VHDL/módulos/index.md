@@ -6,9 +6,9 @@ title: módulos
 
 ----------------------------------------------------------
 
-* [divisor](./divisor.md)
-* [comparador](./comparador.md)
-* [sumador](./sumador.md)
-* [Modules](./Modules.md)
-* [BIN a BCD](./BIN a BCD.md)
-* [Debouncer](./Debouncer.md)
+* [divisor](divisor.md)
+* [comparador](comparador.md)
+* [sumador](sumador.md)
+* [Modules](modules.md)
+* [BIN a BCD](bin-a-bcd.md)
+* [Debouncer](debouncer.md)

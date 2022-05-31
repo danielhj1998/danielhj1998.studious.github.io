@@ -7,7 +7,7 @@ title: Liderazgo
 
 ----------------------------------------------------------
 
-* [Notas](./Notas.md)
-* [Tipos de liderazgo](./Tipos de liderazgo.md)
-* [Ensayo 1er parcial](./Ensayo 1er parcial.md)
-* [21 Leyes irrefutables del liderazgo](./21 Leyes irrefutables del liderazgo.md)
+* [Notas](notas.md)
+* [Tipos de liderazgo](tipos-de-liderazgo.md)
+* [Ensayo 1er parcial](ensayo-1er-parcial.md)
+* [21 Leyes irrefutables del liderazgo](21-leyes-irrefutables-del-liderazgo.md)

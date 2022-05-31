@@ -6,4 +6,4 @@ title: Referente al curso
 
 ----------------------------------------------------------
 
-* [Info General](./Info General.md)
+* [Info General](info-general.md)

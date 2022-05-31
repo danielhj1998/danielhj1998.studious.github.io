@@ -7,8 +7,8 @@ title: Ingeniería Económica
 
 ----------------------------------------------------------
 
-* [Interés simple y compuesto](./Interés simple y compuesto.md)
-* [Anualidades](./Anualidades.md)
-* [Flujo de caja](./Flujo de caja.md)
-* [Tasa de descuento](./Tasa de descuento.md)
-* [Punto de equilibrio](./Punto de equilibrio.md)
+* [Interés simple y compuesto](interes-simple-y-compuesto.md)
+* [Anualidades](anualidades.md)
+* [Flujo de caja](flujo-de-caja.md)
+* [Tasa de descuento](tasa-de-descuento.md)
+* [Punto de equilibrio](punto-de-equilibrio.md)

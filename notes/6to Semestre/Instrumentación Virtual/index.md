@@ -7,6 +7,6 @@ title: Instrumentación Virtual
 
 ----------------------------------------------------------
 
-* [LabView](./LabView.md)
-* [Introducción](./Introducción.md)
-* [Notas](./Notas.md)
+* [LabView](labview.md)
+* [Introducción](introduccion.md)
+* [Notas](notas.md)

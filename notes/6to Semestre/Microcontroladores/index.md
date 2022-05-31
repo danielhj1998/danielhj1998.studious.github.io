@@ -8,11 +8,11 @@ title: Microcontroladores
 
 ----------------------------------------------------------
 
-* [Potpurri](./Potpurri.md)
-* [Máscaras de Bits](./Máscaras de Bits.md)
-* [Números base DEC,BIN y HEX](./Números base DEC,BIN y HEX.md)
-* [Operaciones Aritméticas](./Operaciones Aritméticas.md)
-* [Definiciones](./Definiciones.md)
-* [Microcontroladores](./Microcontroladores.md)
-* [Notas](./Notas.md)
-* [Conexiones de potencia](./Conexiones de potencia.md)
+* [Potpurri](potpurri.md)
+* [Máscaras de Bits](mascaras-de-bits.md)
+* [Números base DEC,BIN y HEX](numeros-base-dec-bin-y-hex.md)
+* [Operaciones Aritméticas](operaciones-aritmeticas.md)
+* [Definiciones](definiciones.md)
+* [Microcontroladores](microcontroladores.md)
+* [Notas](notas.md)
+* [Conexiones de potencia](conexiones-de-potencia.md)

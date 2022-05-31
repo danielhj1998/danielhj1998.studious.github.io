@@ -6,10 +6,10 @@ title: Neumática e Hidráulica
 
 ----------------------------------------------------------
 
-* [Información de clase](./Información de clase.md)
-* [Compresores](./Compresores.md)
-* [Introducción](./Introducción.md)
-* [Principio de pascal](./Principio de pascal.md)
-* [Componentes neumáticos](./Componentes neumáticos.md)
-* [Funciones lógicas](./Funciones lógicas.md)
-* [Válvulas](./Válvulas.md)
+* [Información de clase](informacion-de-clase.md)
+* [Compresores](compresores.md)
+* [Introducción](introduccion.md)
+* [Principio de pascal](principio-de-pascal.md)
+* [Componentes neumáticos](componentes-neumaticos.md)
+* [Funciones lógicas](funciones-logicas.md)
+* [Válvulas](valvulas.md)

@@ -3,11 +3,11 @@ layout: index
 title: Tópicos Avanzados de Sensores
 ---
 
-* [Referente a la clase](Referente a la clase.md)
-* [Sensores MEMS](Sensores MEMS.md)
-* [Microacelerómetro](Microacelerómetro.md)
-* [Giroscopio](Giroscopio.md)
-* [Diseño y simulación de un acelerómetro MEMS](Diseño y simulación de un acelerómetro MEMS.md)
-* [Sensores de presión MEMS](Sensores de presión MEMS.md)
+* [Referente a la clase](referente-a-la-clase.md)
+* [Sensores MEMS](sensores-mems.md)
+* [Microacelerómetro](microacelerometro.md)
+* [Giroscopio](giroscopio.md)
+* [Diseño y simulación de un acelerómetro MEMS](diseno-y-simulacion-de-un-acelerometro-mems.md)
+* [Sensores de presión MEMS](sensores-de-presion-mems.md)
 
 -------------------------------------

@@ -3,9 +3,9 @@ layout: index
 title: Metodología de la investigación
 ---
 
-* [Referente al curso](Referente al curso.md)
-* [Idea de proyecto](Idea de proyecto.md)
-* [Elementos del protocolo de investigación](Elementos del protocolo de investigación.md)
+* [Referente al curso](referente-al-curso.md)
+* [Idea de proyecto](idea-de-proyecto.md)
+* [Elementos del protocolo de investigación](elementos-del-protocolo-de-investigacion.md)
 
 -----------------------------------------------
 

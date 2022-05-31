@@ -3,15 +3,15 @@ layout: index
 title: Automatización Industrial
 ---
 
-* [Referente a la clase](Referente a la clase.md)
-* [Fundamentos de automatización](Fundamentos de automatización.md)
-* [Simbología Eléctrica](Simbología Eléctrica.md)
-* [Fase, neutro y tierra](Fase, neutro y tierra.md)
-* [Lógica cableada](Lógica cableada.md)
-* [Enclavamiento](Enclavamiento.md)
-* [Introducción a los PLCs](Introducción a los PLCs.md)
-* [Salidas y entradas de los PLCs](Salidas y entradas de los PLCs.md)
-* [PLC vs MCU](PLC vs MCU.md)
-* [Mapa de memoria del PLC](Mapa de memoria del PLC.md)
+* [Referente a la clase](referente-a-la-clase.md)
+* [Fundamentos de automatización](fundamentos-de-automatizacion.md)
+* [Simbología Eléctrica](simbologia-electrica.md)
+* [Fase, neutro y tierra](fase-neutro-y-tierra.md)
+* [Lógica cableada](logica-cableada.md)
+* [Enclavamiento](enclavamiento.md)
+* [Introducción a los PLCs](introduccion-a-los-plcs.md)
+* [Salidas y entradas de los PLCs](salidas-y-entradas-de-los-plcs.md)
+* [PLC vs MCU](plc-vs-mcu.md)
+* [Mapa de memoria del PLC](mapa-de-memoria-del-plc.md)
 
 -------------------------------------------

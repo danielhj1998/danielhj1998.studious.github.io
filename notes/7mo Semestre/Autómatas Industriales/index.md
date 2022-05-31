@@ -3,5 +3,5 @@ layout: index
 title: Autómatas Industriales
 ---
 
-* [Información de la clase](./Información de la clase.md)
-* [Robot](./Robot.md)
+* [Información de la clase](informacion-de-la-clase.md)
+* [Robot](robot.md)

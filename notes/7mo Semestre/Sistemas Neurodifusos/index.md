@@ -7,11 +7,11 @@ title: Sistemas Neurodifusos
 
 ----------------------------------------------------------
 
-* [Información de la clase](./Información de la clase.md)
-* [Introducción a la lógica difusa](./Introducción a la lógica difusa.md)
-* [Funciones de membresía básicas](./Funciones de membresía básicas.md)
-* [Operaciones lógicas con conjuntos difusos](./Operaciones lógicas con conjuntos difusos.md)
-* [Funciones de membresía bidimensionales](./Funciones de membresía bidimensionales.md)
-* [Normas y Co-Normas T](./Normas y Co-Normas T.md)
-* [Relaciones y composiciones](./Relaciones y composiciones.md)
-* [Razonamiento difuso](./Razonamiento difuso.md)
+* [Información de la clase](informacion-de-la-clase.md)
+* [Introducción a la lógica difusa](introduccion-a-la-logica-difusa.md)
+* [Funciones de membresía básicas](funciones-de-membresia-basicas.md)
+* [Operaciones lógicas con conjuntos difusos](operaciones-logicas-con-conjuntos-difusos.md)
+* [Funciones de membresía bidimensionales](funciones-de-membresia-bidimensionales.md)
+* [Normas y Co-Normas T](normas-y-co-normas-t.md)
+* [Relaciones y composiciones](relaciones-y-composiciones.md)
+* [Razonamiento difuso](razonamiento-difuso.md)

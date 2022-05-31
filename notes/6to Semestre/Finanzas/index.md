@@ -10,9 +10,9 @@ title: Finanzas
 
 ----------------------------------------------------------
 
-* [Potpurri](./Potpurri.md)
-* [Tabla de Ingresos y egresos](./Tabla de Ingresos y egresos.md)
-* [Facturas](./Facturas.md)
-* [Conceptos contables](./Conceptos contables.md)
-* [Notas](./Notas.md)
-* [Resumen 1er parcial](./Resumen 1er parcial.md)
+* [Potpurri](potpurri.md)
+* [Tabla de Ingresos y egresos](tabla-de-ingresos-y-egresos.md)
+* [Facturas](facturas.md)
+* [Conceptos contables](conceptos-contables.md)
+* [Notas](notas.md)
+* [Resumen 1er parcial](resumen-1er-parcial.md)

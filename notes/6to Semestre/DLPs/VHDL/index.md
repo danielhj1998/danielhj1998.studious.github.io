@@ -7,7 +7,7 @@ title: VHDL
 
 ----------------------------------------------------------
 
-* [Implementations Restrictions](./Implementations Restrictions.md)
-* [Packages](./Packages.md)
-* [maquinaEstados](./maquinaEstados.md)
-* [VHDL](./VHDL.md)
+* [Implementations Restrictions](implementations-restrictions.md)
+* [Packages](packages.md)
+* [maquinaEstados](maquinaestados.md)
+* [VHDL](vhdl.md)

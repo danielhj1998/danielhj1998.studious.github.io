@@ -6,5 +6,5 @@ title: Impuestos
 
 ----------------------------------------------------------
 
-* [impuestos](./impuestos.md)
-* [IVA](./IVA.md)
+* [impuestos](impuestos.md)
+* [IVA](iva.md)

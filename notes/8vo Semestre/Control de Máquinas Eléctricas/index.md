@@ -3,18 +3,18 @@ layout: index
 title: Control de Máquinas Eléctricas
 ---
 
-* [Referente a la clase](Referente a la clase.md)
-* [Introducción a control de máquinas eléctricas](Introducción a control de máquinas eléctricas.md)
-* [Discretización de sistemas discretos](Discretización de sistemas discretos.md)
-* [Modelos de motor de CD para control de velocidad](Modelos de motor de CD para control de velocidad.md)
-* [Control de velocidad en lazo abierto para un motor de CD](Control de velocidad en lazo abierto para un motor de CD.md)
-* [Control de velocidad en lazo cerrado para un motor de CD](Control de velocidad en lazo cerrado para un motor de CD.md)
-* [Control discreto de velocidad en lazo cerrado para un motor de CD](Control discreto de velocidad en lazo cerrado para un motor de CD.md)
-* [Control de par en lazo cerrado para motores de CD](Control de par en lazo cerrado para motores de CD.md)
-* [Driver y brake para motor cd CD](Driver y brake para motor cd CD.md)
-* [Medio puente H](Medio puente H.md)
-* [Tiristores](Tiristores.md)
-* [Puente trifásico](Puente trifásico.md)
-* [Control de velocidad para motor a pasos](Control de velocidad para motor a pasos.md)
+* [Referente a la clase](referente-a-la-clase.md)
+* [Introducción a control de máquinas eléctricas](introduccion-a-control-de-maquinas-electricas.md)
+* [Discretización de sistemas discretos](discretizacion-de-sistemas-discretos.md)
+* [Modelos de motor de CD para control de velocidad](modelos-de-motor-de-cd-para-control-de-velocidad.md)
+* [Control de velocidad en lazo abierto para un motor de CD](control-de-velocidad-en-lazo-abierto-para-un-motor-de-cd.md)
+* [Control de velocidad en lazo cerrado para un motor de CD](control-de-velocidad-en-lazo-cerrado-para-un-motor-de-cd.md)
+* [Control discreto de velocidad en lazo cerrado para un motor de CD](control-discreto-de-velocidad-en-lazo-cerrado-para-un-motor-de-cd.md)
+* [Control de par en lazo cerrado para motores de CD](control-de-par-en-lazo-cerrado-para-motores-de-cd.md)
+* [Driver y brake para motor cd CD](driver-y-brake-para-motor-cd-cd.md)
+* [Medio puente H](medio-puente-h.md)
+* [Tiristores](tiristores.md)
+* [Puente trifásico](puente-trifasico.md)
+* [Control de velocidad para motor a pasos](control-de-velocidad-para-motor-a-pasos.md)
 
 --------------------------------------

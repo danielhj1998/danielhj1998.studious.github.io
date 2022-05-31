@@ -7,8 +7,8 @@ title: PIC16F887
 
 ----------------------------------------------------------
 
-* [Ensambladores PIC](./Ensambladores PIC.md)
-* [PIC16F887](./PIC16F887.md)
-* [Set de Instrucciones](./Set de Instrucciones.md)
-* [Organización de la memoria](./Organización de la memoria.md)
-* [Ciclo de máquina](./Ciclo de máquina.md)
+* [Ensambladores PIC](ensambladores-pic.md)
+* [PIC16F887](pic16f887.md)
+* [Set de Instrucciones](set-de-instrucciones.md)
+* [Organización de la memoria](organizacion-de-la-memoria.md)
+* [Ciclo de máquina](ciclo-de-maquina.md)

@@ -9,5 +9,5 @@ title: Ambiental
 
 ----------------------------------------------------------
 
-* [Notas](./Notas.md)
-* [Convenios](./Convenios.md)
+* [Notas](notas.md)
+* [Convenios](convenios.md)

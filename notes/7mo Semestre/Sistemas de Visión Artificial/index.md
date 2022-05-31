@@ -6,8 +6,8 @@ title: Sistemas de Visión Artificial
 
 ----------------------------------------------------------
 
-* [Información de la clase](./Información de la clase.md)
-* [Introducción](./Introducción.md)
-* [Funciones de membresía](./Funciones de membresía.md)
-* [Visión estereoscópica](./Visión estereoscópica.md)
-* [Momentos invariantes de Hu](./Momentos invariantes de Hu.md)
+* [Información de la clase](informacion-de-la-clase.md)
+* [Introducción](introduccion.md)
+* [Funciones de membresía](funciones-de-membresia.md)
+* [Visión estereoscópica](vision-estereoscopica.md)
+* [Momentos invariantes de Hu](momentos-invariantes-de-hu.md)

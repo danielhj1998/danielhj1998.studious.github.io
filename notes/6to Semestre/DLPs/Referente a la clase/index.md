@@ -6,4 +6,4 @@ title: Referente a la clase
 
 ----------------------------------------------------------
 
-* [Info general](./Info general.md)
+* [Info general](info-general.md)
