@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Divisor
 ---
 
 El divisor de señal se usa para dividir la señal de reloj y obtener frecuencias más bajas.  

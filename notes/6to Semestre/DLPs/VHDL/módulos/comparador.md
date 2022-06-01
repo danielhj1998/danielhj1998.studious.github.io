@@ -1,5 +1,6 @@
 ---
 layout: note
+title: Comparador
 ---
 
 Comparador de 8 bits  
