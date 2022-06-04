@@ -11,4 +11,4 @@ title: Metodología de la investigación
 
 ## Lecturas
 
-* [Cómo escribir artículos científicos fácilmente](lecturas/Cómo escribir artículos científicos fácilmente.md)
+* [Cómo escribir artículos científicos fácilmente](lecturas/como-escribir-articulos-cientificos-facilmente.md)
