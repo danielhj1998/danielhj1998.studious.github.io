@@ -69,7 +69,7 @@ Esto se debe hacer para cáda integración de módulos.
 4. Se valida la integración del software
 5. Se procede al siguiente conjunto de módulos de hardware
 
-Al acabar, se finaliza la integración y validación del sistema, o sea que queda listo :smiley:
+Al acabar, se finaliza la integración y validación del sistema, o sea que queda listo 😄
 
 ![todo el hardware integrado -> todo el software integrado](../../img/integracion3.png)
 ## Software
