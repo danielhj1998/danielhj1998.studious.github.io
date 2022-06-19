@@ -332,7 +332,7 @@ A - Bk = TFT^{-1}\qquad ,T:n\times n \text{ es invertible}
 $$
 
 Se construye $F$ para que tenga los mismos valores propios de $(A-Bk)$, como una matriz diagonal por bloques para que sea más fácil. Con bloques de Jordan para valores repetidos deseados (en la diagonal con 0s abajo y 1s arriba).
-#### Ejemplo
+## Ejemplo
 ![f9bcf0d37e806510df54ab2ee38b6f10.png](../../img/90d414a0b46a435095cfd39ac12fc180.png)
 
 Despejando
