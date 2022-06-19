@@ -10,6 +10,7 @@ $dark: #36393b;
 $clear: white;
 $accent: #e26f83;
 $code-bg: #f4ecf0;
+$highlight: transparentize($accent, 0.4);
 
 
 @import 'code.css';
@@ -137,16 +138,52 @@ ul {
     list-style: disc;
 }
 
+#search-form {
+  display: flex;
+  border: solid 1px $dark;
+  border-radius: 5px;
+  font-size: $font-size-body;
+  margin: 0;
+  justify-content: space-between;
+
+  input {
+      padding: 10px;
+      color: $dark;
+      margin: 0;
+
+      &[type=text] {
+          border: none;
+          height: revert;
+
+          &::placeholder {
+              color: transparentize($dark, 0.4);
+          }
+      }
+
+      &[type=submit] {
+          border: none;
+          height: revert;
+          font-size: $font-size-body;
+          line-height: revert;
+      }
+  }
+}
+
+
 // Default layout
-div.go-home {
-  margin: 10px 0 0 10px;
+div.top-header {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   svg {
     display: inline-block;
     width: $font-size-body * 4;
     height: $font-size-body * 4;
     vertical-align: middle;
   }
-  a {
+  #go-home {
       &:before {
           display: none;
       }
@@ -250,6 +287,39 @@ h1.note-title {
     }
 }
 
+// Search layout
+#search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    
+    h1 {
+        margin-top: 1em;
+        align-self: center;
+    }
+
+    form {
+        width: 530px;
+    }
+}
+
+#search-results {
+    a {
+        &:before {
+            display: none;
+        }
+        &:hover {
+            color: $accent;
+        }
+    }
+}
+
+.search-match-highlight {
+    background-color: $highlight;
+    border-radius: 2px;
+}
+
 // small screens
 @media (max-width: 800px) {
     div.page-content {
@@ -261,5 +331,13 @@ h1.note-title {
 
     .toc {
         display: none;
+    }
+}
+
+@media (max-width: 580px) {
+    #search-bar {
+        form {
+            width: 100%;
+        }
     }
 }

@@ -1,0 +1,30 @@
+---
+layout: plain
+---
+
+<div id="search-bar">
+  <h1>Buscar en <a href="{{ site.baseurl | append: '/' }}">notas</a></h1>
+  {% include search-widget.html id="search-form" placeholder="lyapunov, atmega*, etc."%}
+</div>
+
+<ul id="search-results"></ul>
+
+<script>
+  window.store = [
+    {% for page in site.pages %}
+      {% if page.layout == "note" %}
+        {
+          "id": "{{ page.url | slugify: "latin" }}",
+          "title": "{{ page.title | xml_escape }}",
+          "content": {{ page.content | markdownify | strip_html | strip_newlines | jsonify }},
+            "url": "{{ site.baseurl }}/{{ page.url | xml_escape }}"
+        }{% unless forloop.last == true %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+  ];
+</script>
+
+<script src="{{ site.baseurl }}/js/lunr.js"></script>
+<!--<script src="{{ site.baseurl }}/js/lunr.es.js"></script>-->
+<!--<script src="{{ site.baseurl }}/js/lunr.stemmer.support.js"></script>-->
+<script src="{{ site.baseurl }}/js/search.js"></script>
