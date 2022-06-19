@@ -6,12 +6,12 @@ title: Estabilidad de Lyapunov
 * Primer método (Método indirecto): **Requiere** de la solución explícita del sistema dinámico.
 * Segundo método (Método directo): **No requiere** de la solución explícita del sistema dinámico. Se basa en proponer **funciones definidas positivas**.
 
-## Función definida positiva (DP)
+# Función definida positiva (DP)
 Se dice que una función escalar $V(x)$ es definida positiva en una región $\Omega$ si
 1. $V(x) > 0$ para todo $x \neq 0$
 2. $V(0) = 0$
 
-#### Ejercicios: demostrar si las funciones son DP o no.
+## Ejercicios: demostrar si las funciones son DP o no.
 1. $V(x_1,x_2) = (x_1 + x_2)^2$
 si $x_1 = -x_2$ , $x_2 \neq 0$:
 
@@ -30,7 +30,7 @@ si $x_1 = -x_2$ , $x_2 \neq 0$:
 4. $V(x_1,x_2) = |x_1| + |x_2|$ $\checkmark$
     Sí es porque la única forma de que sea 0, es que $x_1$ y $x_2$ sean cero, para los demás casos seríá positiva.
 
-## Matriz definida positiva
+# Matriz definida positiva
 
 $$
 P > 0\quad,\quad P:n\times n
@@ -38,7 +38,7 @@ $$
 
 Una matriz $P = P^{T}$, es definida positiva si todos sus valores propios son positivos.
 
-## Forma cuadrática
+# Forma cuadrática
 Sea $P > 0$ , $P = P^{T}$ , entonces
 
 $$
@@ -51,14 +51,14 @@ V(x) = x_1^2 + x_2^2 = [x_1\ \ x_2]\begin{bmatrix}
 \end{bmatrix} = x^{T} I x > 0
 $$
 
-## Desigualdad de Rayleigh
+# Desigualdad de Rayleigh
 
 $$
 0 < \lambda_{min}(P)||x||^2 \leq x^{T}Px \leq \lambda_{max}(P) ||x||^2
 $$
 
 
-#### Ejercicios:
+## Ejercicios:
 1. Determinar si la función es DP:
     1. $V(x_1,x_2,x_3) = x_1^2 + 6x_2^2 + x_3^2 + 4 x_1 x_2 - 8 x_2 x_3 - 2 x_1 x_3$
         
@@ -191,7 +191,7 @@ $$
     
     
     
-## Teorema (Segundo método de Lyapunov)
+# Teorema (Segundo método de Lyapunov)
 Sea el sistema definido por,
 
 $$
@@ -265,7 +265,7 @@ Por lo general se selecciona $Q = I$.
 P = lyap(A',Q)
 ```
 
-#### Ejercicios
+## Ejercicios
 
 1. Sea el sistema:
 
@@ -286,7 +286,7 @@ P = lyap(A',Q)
     eig(P)
     ```
     
-    ##### Resultado
+    ### Resultado
     
     $$
     P = \begin{bmatrix}
@@ -323,7 +323,7 @@ P = lyap(A',Q)
     eig(P)
     ```
     
-    ##### Resultado
+    ### Resultado
     
     $$
     P = \begin{bmatrix}
