@@ -21,7 +21,7 @@
 title: Studious
 email: danielhg52@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This are my school (mechatronic engineering) notes. I study at UPIITA - IPN in Mexico.
+  This are my university (mechatronic engineering) notes. I study at UPIITA - IPN in Mexico.
 baseurl: "/studious"
 url: "https://danielhj1998.github.io"
 permalink: /:categories/:slug
